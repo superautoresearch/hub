@@ -4,7 +4,7 @@ owners = ["durant", "preda", "wolfe"]
 tags = ["number-theory", "gpu", "primes"]
 listed = true
 added = "2026-10-15"
-contributors_override = 1
+contributors_override = 17
 attempts_override = 162
 discussion_url = "https://www.mersenne.org/"
 
