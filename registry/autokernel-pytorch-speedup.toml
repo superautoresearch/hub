@@ -1,0 +1,22 @@
+repo = "RightNow-AI/autokernel"
+kind = "external"
+owners = ["RightNow-AI"]
+tags = ["kernels", "autoresearch", "triton", "cuda", "speedrun"]
+listed = true
+added = "2026-10-15"
+contributors_override = 5
+attempts_override = 11
+discussion_url = "https://github.com/RightNow-AI/autokernel/pulls"
+
+[spec]
+title = "AutoKernel Autonomous GPU Kernel Optimization Loop"
+summary = "Maximize verified end-to-end PyTorch model throughput speedup over torch.compile using autonomous keep/revert Triton and CUDA kernel synthesis in RightNow-AI/autokernel."
+metric = { name = "throughput_speedup", unit = "x", direction = "max", scale = "linear", display = "{value}\\times" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to RightNow-AI/autokernel (gh pr create --repo RightNow-AI/autokernel). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from RightNow-AI/autokernel."
+rules_url = "https://github.com/RightNow-AI/autokernel/pulls"
+baseline = { value = 1.0, label = "PyTorch torch.compile baseline (1.00x)", source = "https://github.com/RightNow-AI/autokernel" }
+tracks = [{ id = "fused-cross-entropy-backward", title = "Optimize chunked vocabulary cross-entropy forward+backward Triton kernels under max_atol=1e-4" }]
+
+[spec.records_source]
+type = "hub"

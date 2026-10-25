@@ -1,0 +1,22 @@
+repo = "PluralisResearch/ProtocolNanoGPT"
+kind = "external"
+owners = ["PluralisResearch"]
+tags = ["speedrun", "distributed", "compression", "kernels", "llm"]
+listed = true
+added = "2026-10-15"
+contributors_override = 5
+attempts_override = 25
+discussion_url = "https://github.com/PluralisResearch/ProtocolNanoGPT/pulls"
+
+[spec]
+title = "Protocol NanoGPT Low-Bandwidth WAN Pipeline Speedrun (200 Mb/s · 50ms)"
+summary = "Minimize wall-clock training time (seconds) to train NanoGPT (203M) to <=3.276 validation loss across an 8-stage pipeline connected by 200 Mb/s WAN links with 50ms latency."
+metric = { name = "wall_clock_seconds", unit = "s", direction = "min", scale = "log", display = "{value}\\text{ s}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to PluralisResearch/ProtocolNanoGPT (gh pr create --repo PluralisResearch/ProtocolNanoGPT). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from PluralisResearch/ProtocolNanoGPT."
+rules_url = "https://github.com/PluralisResearch/ProtocolNanoGPT/pulls"
+baseline = { value = 293889.0, label = "Vanilla NanoGPT 8-stage WAN pipeline (81h 38m)", source = "https://github.com/PluralisResearch/ProtocolNanoGPT" }
+tracks = [{ id = "sub-50-bytes-per-token-wan", title = "Compress inter-stage activation and gradient transport below 45 B/token with zero-bubble WAN schedule overlap" }]
+
+[spec.records_source]
+type = "hub"

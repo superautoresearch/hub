@@ -1,0 +1,22 @@
+repo = "karpathy/nanochat"
+kind = "external"
+owners = ["karpathy"]
+tags = ["speedrun", "autoresearch", "kernels", "llm", "optimization"]
+listed = true
+added = "2026-10-15"
+contributors_override = 57
+attempts_override = 544
+discussion_url = "https://github.com/karpathy/nanochat/pulls"
+
+[spec]
+title = "Karpathy nanochat Time-to-GPT-2 Speedrun (CORE ≥0.256525 · 8×H100)"
+summary = "Minimize wall-clock training hours on a single 8xH100 node to pretrain a GPT-2-grade language model achieving >=0.256525 DCLM CORE score in karpathy/nanochat."
+metric = { name = "wall_clock_hours", unit = "hours", direction = "min", scale = "linear", display = "{value}\\text{ h}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to karpathy/nanochat (gh pr create --repo karpathy/nanochat). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from karpathy/nanochat."
+rules_url = "https://github.com/karpathy/nanochat/pulls"
+baseline = { value = 3.04, label = "nanochat d24 baseline (3.04 hours on 8xH100)", source = "https://github.com/karpathy/nanochat" }
+tracks = [{ id = "autoresearch-round-3", title = "Run autonomous schedule, Muon momentum, and depth-aspect ratio search to reach 0.256525 CORE in under 1.50 hours" }]
+
+[spec.records_source]
+type = "hub"

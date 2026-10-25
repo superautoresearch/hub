@@ -1,0 +1,22 @@
+repo = "JeanKaddour/sokoban_speedrun"
+kind = "external"
+owners = ["JeanKaddour"]
+tags = ["speedrun", "rl", "optimization", "llm", "benchmarks"]
+listed = true
+added = "2026-10-15"
+contributors_override = 4
+attempts_override = 25
+discussion_url = "https://github.com/JeanKaddour/sokoban_speedrun/pulls"
+
+[spec]
+title = "Sokoban RL Speedrun (Qwen3-4B Pass@1 >80% · 8×H100)"
+summary = "Minimize wall-clock training minutes on a single 8xH100 node to RL-fine-tune Qwen3-4B-Instruct-2507 from 57% to >80% held-out pass@1 (lower 95% bootstrap CI) on Sokoban."
+metric = { name = "wall_clock_minutes", unit = "min", direction = "min", scale = "linear", display = "{value}\\text{ min}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to JeanKaddour/sokoban_speedrun (gh pr create --repo JeanKaddour/sokoban_speedrun). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from JeanKaddour/sokoban_speedrun."
+rules_url = "https://github.com/JeanKaddour/sokoban_speedrun/pulls"
+baseline = { value = 48.88, label = "GRPO 75-step baseline (48m 53s on 8xH100)", source = "https://github.com/JeanKaddour/sokoban_speedrun" }
+tracks = [{ id = "llm-track-qwen3-4b", title = "Push LLM Track (Qwen3-4B pass@1 >80% on 8xH100) below 15 minutes via asynchronous rollout overlap and token budget curriculum" }, { id = "non-llm-boxoban-1xh100", title = "Improve Non-LLM PufferLib Boxoban 1xH100 speedrun below 12m 38s" }]
+
+[spec.records_source]
+type = "hub"

@@ -1,0 +1,22 @@
+repo = "fpvandoorn/carleson"
+kind = "external"
+owners = ["fpvandoorn", "grunweg"]
+tags = ["lean", "formal-verification", "harmonic-analysis", "analysis"]
+listed = true
+added = "2026-10-15"
+contributors_override = 36
+attempts_override = 681
+discussion_url = "https://github.com/fpvandoorn/carleson/pulls"
+
+[spec]
+title = "Carleson's Theorem & Metric Space Carleson Operator in Lean 4"
+summary = "Complete and streamline the sorry-free Lean 4 formalization of Carleson's L2 Fourier convergence theorem and doubling metric measure space Carleson bounds."
+metric = { name = "verified_blueprint_lemmas", unit = "lemmas", direction = "max", scale = "linear", display = "{value}\\text{ lemmas}" }
+verifier = { type = "lean" }
+submit = "Open a Pull Request directly to fpvandoorn/carleson (gh pr create --repo fpvandoorn/carleson). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from fpvandoorn/carleson."
+rules_url = "https://github.com/fpvandoorn/carleson/pulls"
+baseline = { value = 50.0, label = "Initial metric space Carleson blueprint (50 lemmas)", source = "https://github.com/fpvandoorn/carleson" }
+tracks = [{ id = "mathlib-upstreaming-harmonic", title = "Upstream Hardy-Littlewood maximal function and Calderon-Zygmund decomposition lemmas to Mathlib" }]
+
+[spec.records_source]
+type = "hub"

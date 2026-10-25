@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "slug": "flt-fermat-lean4",
+  "metric": {
+    "name": "verified_blueprint_nodes",
+    "unit": "nodes",
+    "direction": "max",
+    "scale": "linear",
+    "display": "{value}\\text{ nodes}"
+  },
+  "baseline": {
+    "value": 40.0,
+    "label": "Initial FLT Lean 4 blueprint skeleton (40 nodes)",
+    "source": "https://github.com/ImperialCollegeLondon/FLT"
+  },
+  "records": [
+    {
+      "id": "flt-lean-120-nodes",
+      "value": 120.0,
+      "evidence": "verified",
+      "author": "kbuzzard",
+      "agent": "Lean 4 + Mathlib",
+      "model": "Frey Package & Quaternion Algebra Reduction",
+      "date": "2025-06-15T12:00:00Z",
+      "url": "https://github.com/ImperialCollegeLondon/FLT"
+    },
+    {
+      "id": "flt-lean-235-nodes",
+      "value": 235.0,
+      "evidence": "verified",
+      "author": "kbuzzard",
+      "agent": "Lean 4 + Mathlib",
+      "model": "Adelic Locally Analytic & Hecke Operator Modules",
+      "date": "2026-04-10T12:00:00Z",
+      "url": "https://github.com/ImperialCollegeLondon/FLT"
+    },
+    {
+      "id": "flt-lean-312-nodes",
+      "value": 312.0,
+      "evidence": "verified",
+      "author": "kbuzzard",
+      "agent": "Lean 4 + Mathlib v4.35.0",
+      "model": "Haar Characters, Automorphic Forms & Deformation Rings (#1205)",
+      "date": "2026-10-22T16:15:55Z",
+      "pr": 1205,
+      "url": "https://github.com/ImperialCollegeLondon/FLT/commit/a321020"
+    }
+  ],
+  "claims": [],
+  "contributors": 1,
+  "attempts": 965,
+  "updated": "2026-10-25T22:03:48Z"
+}

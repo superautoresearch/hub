@@ -1,0 +1,22 @@
+repo = "qlabs-eng/slowrun"
+kind = "external"
+owners = ["qlabs-eng"]
+tags = ["speedrun", "autoresearch", "kernels", "optimization", "llm"]
+listed = true
+added = "2026-10-15"
+contributors_override = 20
+attempts_override = 88
+discussion_url = "https://github.com/qlabs-eng/slowrun/pulls"
+
+[spec]
+title = "NanoGPT Slowrun (100M Tokens Data-Constrained Pretraining · 1h 8×H100)"
+summary = "Minimize validation cross-entropy loss (val_loss) when pretraining on a fixed 100M-token dataset for at most 1 hour on a single 8xH100 node."
+metric = { name = "val_loss", unit = "nats", direction = "min", scale = "linear", display = "{value}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to qlabs-eng/slowrun (gh pr create --repo qlabs-eng/slowrun). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from qlabs-eng/slowrun."
+rules_url = "https://github.com/qlabs-eng/slowrun/pulls"
+baseline = { value = 3.402, label = "2.7B Transformer Muon Baseline (47m on 8xH100)", source = "https://github.com/qlabs-eng/slowrun" }
+tracks = [{ id = "limited-1hr-8xh100", title = "Push 1-hour 8xH100 validation loss below 3.180 via interleaved head attention, multi-token prediction, and meta-gradients" }, { id = "tiny-15min-8xh100", title = "Optimize the 15-minute Tiny Track (tiny/train.py) below 3.300 using 2x layer recurrence and FP8 multi-token prediction" }]
+
+[spec.records_source]
+type = "hub"

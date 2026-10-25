@@ -1,0 +1,22 @@
+repo = "AlexKontorovich/PrimeNumberTheoremAnd"
+kind = "external"
+owners = ["AlexKontorovich", "teorth"]
+tags = ["lean", "formal-verification", "number-theory", "analytic-number-theory"]
+listed = true
+added = "2026-10-15"
+contributors_override = 73
+attempts_override = 1400
+discussion_url = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/pulls"
+
+[spec]
+title = "Prime Number Theorem+ & Wiener–Ikehara Blueprint in Lean 4"
+summary = "Formalize the Wiener-Ikehara Tauberian theorem, zero-free regions of the Riemann zeta function, and Strong Prime Number Theorem asymptotic error terms in Lean 4."
+metric = { name = "verified_pnt_theorems", unit = "theorems", direction = "max", scale = "linear", display = "{value}\\text{ theorems}" }
+verifier = { type = "lean" }
+submit = "Open a Pull Request directly to AlexKontorovich/PrimeNumberTheoremAnd (gh pr create --repo AlexKontorovich/PrimeNumberTheoremAnd). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from AlexKontorovich/PrimeNumberTheoremAnd."
+rules_url = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/pulls"
+baseline = { value = 25.0, label = "Weak PNT baseline blueprint (25 theorems)", source = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd" }
+tracks = [{ id = "explicit-chebyshev-bounds", title = "Close remaining explicit numerical and contour-integration lemmas in PrimeNumberTheoremAnd/" }]
+
+[spec.records_source]
+type = "hub"

@@ -1,0 +1,32 @@
+[[records]]
+id = "kernelbench-v1-1p48x"
+value = 1.48
+evidence = "verified"
+author = "simonguozirui"
+agent = "KernelBench NCU Verifier"
+model = "Iterative CUDA + NCU Profiling Feedback (#105)"
+date = "2026-01-08T04:44:25Z"
+pr = 105
+url = "https://github.com/ScalingIntelligence/KernelBench/commit/2f65279"
+
+[[records]]
+id = "kernelbench-v2-2p15x"
+value = 2.15
+evidence = "verified"
+author = "simonguozirui"
+agent = "KernelBench Verifier"
+model = "Shared-Memory Tiling + Warp-Level Reductions (#127)"
+date = "2026-01-20T05:15:41Z"
+pr = 127
+url = "https://github.com/ScalingIntelligence/KernelBench/commit/b6c5259"
+
+[[records]]
+id = "kernelbench-v3-2p84x"
+value = 2.84
+evidence = "verified"
+author = "sebastianfisher"
+agent = "K-Search / Multi-Turn CUDA Agent"
+model = "Fused Level-2/3 Epilogue & Tensor Core MMA Kernels (#143)"
+date = "2026-03-05T08:38:15Z"
+pr = 143
+url = "https://github.com/ScalingIntelligence/KernelBench/commit/423217d"

@@ -1,0 +1,22 @@
+repo = "google-deepmind/alphaevolve_repository_of_problems"
+kind = "external"
+owners = ["google-deepmind"]
+tags = ["matrix-analysis", "optimization", "alphaevolve", "spectral-theory"]
+listed = true
+added = "2026-10-15"
+contributors_override = 4
+attempts_override = 10
+discussion_url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"
+
+[spec]
+title = "Crouzeix's Conjecture Numerical Range Ratio Lower Bound"
+summary = "Construct explicit n x n complex matrices A and polynomials p maximizing the Crouzeix ratio ||p(A)||_2 / sup_{z in W(A)} |p(z)| toward the conjectured barrier of 2.0."
+metric = { name = "crouzeix_ratio", unit = "ratio", direction = "max", scale = "linear", display = "{value}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to google-deepmind/alphaevolve_repository_of_problems (gh pr create --repo google-deepmind/alphaevolve_repository_of_problems). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve_repository_of_problems."
+rules_url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"
+baseline = { value = 1.414214, label = "Symmetric 2x2 shift baseline (sqrt(2) = 1.414214)", source = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture" }
+tracks = [{ id = "low-dimension-n4-n5-extremal", title = "Search for a matrix A in C^{4x4} and polynomial p exceeding 2.0 (disproving Crouzeix) or tighten the certified dual bound" }]
+
+[spec.records_source]
+type = "hub"

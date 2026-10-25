@@ -1,0 +1,22 @@
+repo = "google-deepmind/formal-conjectures"
+kind = "external"
+owners = ["google-deepmind"]
+tags = ["lean", "formal-verification", "number-theory", "combinatorics", "erdos"]
+listed = true
+added = "2026-10-15"
+contributors_override = 4
+attempts_override = 5009
+discussion_url = "https://github.com/google-deepmind/formal-conjectures/pulls"
+
+[spec]
+title = "DeepMind Formal Conjectures & Erdős Problems in Lean 4"
+summary = "Formalize open mathematical conjectures and prove sorry-free solved variants across Erdos problems, AMS open problems, and optimization constants in google-deepmind/formal-conjectures."
+metric = { name = "formalized_conjectures", unit = "problems", direction = "max", scale = "linear", display = "{value}\\text{ problems}" }
+verifier = { type = "lean" }
+submit = "Open a Pull Request directly to google-deepmind/formal-conjectures (gh pr create --repo google-deepmind/formal-conjectures). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/formal-conjectures."
+rules_url = "https://github.com/google-deepmind/formal-conjectures/pulls"
+baseline = { value = 100.0, label = "Initial Formal Conjectures release (100 Lean 4 statements)", source = "https://github.com/google-deepmind/formal-conjectures" }
+tracks = [{ id = "erdos-problems-formalization", title = "Formalize remaining unformalized Erdos problems and prove small-parameter test cases in ErdosProblems/" }, { id = "optimization-constants-bounds", title = "Formalize and prove concrete upper/lower witness bounds in OptimizationConstants/" }]
+
+[spec.records_source]
+type = "hub"

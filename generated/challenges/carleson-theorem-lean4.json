@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "slug": "carleson-theorem-lean4",
+  "metric": {
+    "name": "verified_blueprint_lemmas",
+    "unit": "lemmas",
+    "direction": "max",
+    "scale": "linear",
+    "display": "{value}\\text{ lemmas}"
+  },
+  "baseline": {
+    "value": 50.0,
+    "label": "Initial metric space Carleson blueprint (50 lemmas)",
+    "source": "https://github.com/fpvandoorn/carleson"
+  },
+  "records": [
+    {
+      "id": "carleson-lean-140",
+      "value": 140.0,
+      "evidence": "verified",
+      "author": "fpvandoorn",
+      "agent": "Lean 4 + Mathlib",
+      "model": "Grid Structure & Tile Disjointness Reduction",
+      "date": "2025-05-20T12:00:00Z",
+      "url": "https://github.com/fpvandoorn/carleson"
+    },
+    {
+      "id": "carleson-lean-215",
+      "value": 215.0,
+      "evidence": "verified",
+      "author": "mariainesdff",
+      "agent": "Lean 4 + Mathlib",
+      "model": "Antichain & Forest Operator L2 Estimates (#685)",
+      "date": "2026-10-22T12:07:33Z",
+      "pr": 685,
+      "url": "https://github.com/fpvandoorn/carleson/commit/fa629e6"
+    },
+    {
+      "id": "carleson-lean-248",
+      "value": 248.0,
+      "evidence": "verified",
+      "author": "grunweg",
+      "agent": "Lean 4 + Mathlib v4.35.0",
+      "model": "Full Metric Space Carleson & Classical Fourier Convergence (#687)",
+      "date": "2026-10-23T11:19:22Z",
+      "pr": 687,
+      "url": "https://github.com/fpvandoorn/carleson/commit/3f6b9fe"
+    }
+  ],
+  "claims": [],
+  "contributors": 36,
+  "attempts": 681,
+  "updated": "2026-10-25T22:03:47Z"
+}

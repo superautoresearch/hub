@@ -1,0 +1,50 @@
+[[records]]
+id = "lora-wr-01-365s"
+value = 365.0
+evidence = "verified"
+author = "Saivineeth147"
+agent = "Modal L40S Verifier"
+model = "Sequence Packing + Completion-Only Loss Masking"
+date = "2026-07-18T14:00:00Z"
+url = "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/001-saivineeth147.md"
+
+[[records]]
+id = "lora-wr-02-113s"
+value = 113.0
+evidence = "verified"
+author = "stared"
+agent = "Modal L40S Verifier"
+model = "3k Examples + 2x Integrated-LR Updates (512-Token Packs)"
+date = "2026-07-20T12:00:00Z"
+url = "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/002-pmigdal.md"
+
+[[records]]
+id = "lora-wr-03-104s"
+value = 104.0
+evidence = "verified"
+author = "stared"
+agent = "Modal L40S Verifier"
+model = "Shortest-4k Pruning + Chunked Completion-Only CE"
+date = "2026-07-20T18:00:00Z"
+url = "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/003-pmigdal.md"
+
+[[records]]
+id = "lora-wr-04-44s"
+value = 44.0
+evidence = "verified"
+author = "slippylolo"
+agent = "Modal L40S Verifier"
+model = "0.75-Epoch 6-Target BF16 LoRA + Fused Base+LoRA-A GEMMs"
+date = "2026-07-25T12:00:00Z"
+url = "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/004-slippylolo.md"
+
+[[records]]
+id = "lora-wr-05-21p6s"
+value = 21.6
+evidence = "verified"
+author = "slippylolo"
+agent = "Modal L40S Verifier"
+model = "Direct Safetensors Load + Cached BF16 Frozen-Prefix Tail"
+date = "2026-08-03T12:00:00Z"
+pr = 14
+url = "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/005-slippylolo.md"

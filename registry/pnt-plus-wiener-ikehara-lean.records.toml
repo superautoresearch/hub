@@ -1,0 +1,31 @@
+[[records]]
+id = "pntplus-weak-pnt-85"
+value = 85.0
+evidence = "verified"
+author = "AlexKontorovich"
+agent = "Lean 4 + Mathlib"
+model = "Wiener-Ikehara Tauberian Theorem & Weak PNT"
+date = "2025-04-12T12:00:00Z"
+url = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+
+[[records]]
+id = "pntplus-medium-pnt-152"
+value = 152.0
+evidence = "verified"
+author = "teorth"
+agent = "Lean 4 + Mathlib"
+model = "Medium PNT & Explicit Mellin Transform Contours (#1770)"
+date = "2026-09-29T14:30:20Z"
+pr = 1770
+url = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/commit/2fceff9"
+
+[[records]]
+id = "pntplus-strong-pnt-194"
+value = 194.0
+evidence = "verified"
+author = "ajirving"
+agent = "Lean 4 + Mathlib v4.35.0"
+model = "Classical Zero-Free Region & Strong PNT Error Term (#1798)"
+date = "2026-10-20T02:09:59Z"
+pr = 1798
+url = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/commit/127b50e"

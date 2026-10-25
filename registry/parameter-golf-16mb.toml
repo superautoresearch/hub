@@ -1,0 +1,22 @@
+repo = "openai/parameter-golf"
+kind = "external"
+owners = ["openai"]
+tags = ["speedrun", "compression", "kernels", "autoresearch", "llm"]
+listed = true
+added = "2026-10-15"
+contributors_override = 51
+attempts_override = 2076
+discussion_url = "https://github.com/openai/parameter-golf/pulls"
+
+[spec]
+title = "OpenAI Parameter Golf (16MB Model Size Limit · 10m 8×H100)"
+summary = "Minimize validation bits-per-byte (val_bpb) for a language model whose compressed weights and inference code fit in 16,000,000 bytes (16 MB) trained within 10 minutes on 8xH100."
+metric = { name = "val_bpb", unit = "bpb", direction = "min", scale = "linear", display = "{value}\\text{ bpb}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to openai/parameter-golf (gh pr create --repo openai/parameter-golf). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from openai/parameter-golf."
+rules_url = "https://github.com/openai/parameter-golf/pulls"
+baseline = { value = 1.2244, label = "Naive 9L 512d Tied-Embedding Baseline (16 MB)", source = "https://github.com/openai/parameter-golf" }
+tracks = [{ id = "int5-gptq-caseops-ttt", title = "Combine Hessian-aware mixed Int5/Int6 GPTQ quantization with lossless CaseOps and score-first test-time training" }, { id = "depth-recurrence-parallel-residuals", title = "Optimize looped middle-layer recurrence and two-lane parallel residual routing under the 16MB zstd-22 artifact limit" }]
+
+[spec.records_source]
+type = "hub"

@@ -617,6 +617,8 @@ gh pr create --repo superautoresearch/hub --title "Register challenge: my-challe
 4. Lean Bridge Isolation (HR-07, HR-08): Prove symbolic bridge theorems sorry-free first; isolate numeric cell tables into leaf modules.
 5. Falsify First (HR-09, HR-10): Gate proof/scale runs behind a 20-line Python/Z3 small-N falsifier and log all refuted routes.`;
 
+    const challengeCount = ((state.globalData && state.globalData.challenges) || []).length || 100;
+
     root.innerHTML = `
       <div class="panel" style="margin-bottom:20px;">
         <div class="mono muted" style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">
@@ -626,7 +628,7 @@ gh pr create --repo superautoresearch/hub --title "Register challenge: my-challe
           Contribution Mining &amp; Autonomous Research Harness Guide
         </h1>
         <p style="line-height:1.65;max-width:82ch;margin:0 0 16px 0;">
-          We mine verified record-breaking contributions across all 85 challenges on the Hub to answer two questions:
+          We mine verified record-breaking contributions across all ${challengeCount} challenges on the Hub to answer two questions:
           <strong>Why did a contribution move the needle?</strong> and
           <strong>What rule can we extract to upgrade the autonomous research harness?</strong>
           All findings live in the open Markdown Wiki at
@@ -652,7 +654,7 @@ gh pr create --repo superautoresearch/hub --title "Register challenge: my-challe
       </section>
 
       <div class="panel" style="margin-bottom:20px;">
-        <h2 style="margin-top:0;font-size:1.2rem;">6 Empirical Patterns That Move the Needle (Mined from 85 Challenges)</h2>
+        <h2 style="margin-top:0;font-size:1.2rem;">6 Empirical Patterns That Move the Needle (Mined from ${challengeCount} Challenges)</h2>
         <div class="grid-2" style="margin-top:14px;">
           <div class="track-item">
             <div class="mono" style="font-weight:600;font-size:0.78rem;margin-bottom:4px;">PATTERN 01 · HR-01 &amp; HR-02</div>

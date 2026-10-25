@@ -1,0 +1,19 @@
+[[records]]
+id = "crouzeix-crabb-1p9999"
+value = 1.9999
+evidence = "verified"
+author = "bmgeorgiev"
+agent = "AlphaEvolve"
+model = "Perturbed Nilpotent Jordan Block Witness"
+date = "2025-11-05T12:00:00Z"
+url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"
+
+[[records]]
+id = "crouzeix-alphaevolve-1p999992"
+value = 1.999992
+evidence = "verified"
+author = "bmgeorgiev"
+agent = "AlphaEvolve + BFGS"
+model = "High-Degree Rational Boundary Polynomial Witness"
+date = "2026-07-01T10:46:55Z"
+url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"

@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "slug": "protocol-nanogpt-wan-speedrun",
+  "metric": {
+    "name": "wall_clock_seconds",
+    "unit": "s",
+    "direction": "min",
+    "scale": "log",
+    "display": "{value}\\text{ s}"
+  },
+  "baseline": {
+    "value": 293889.0,
+    "label": "Vanilla NanoGPT 8-stage WAN pipeline (81h 38m)",
+    "source": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+  },
+  "records": [
+    {
+      "id": "protonanogpt-wr-07-181487s",
+      "value": 181487.0,
+      "evidence": "verified",
+      "author": "PluralisResearch",
+      "agent": "Protocol Learning Harness",
+      "model": "ReparamSSN Baseline (644 B/token)",
+      "date": "2026-09-18T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-06-164525s",
+      "value": 164525.0,
+      "evidence": "verified",
+      "author": "janson002",
+      "agent": "Protocol Learning Harness",
+      "model": "MAPL Anchor 64 Baseline",
+      "date": "2026-09-30T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-05-84813s",
+      "value": 84813.0,
+      "evidence": "verified",
+      "author": "random_sequence",
+      "agent": "Protocol Learning Harness",
+      "model": "SSN 8-Bit Forward + Stochastic 4-Bit Backward Coordinates",
+      "date": "2026-10-04T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-04-72443s",
+      "value": 72443.0,
+      "evidence": "verified",
+      "author": "Paul-Janson",
+      "agent": "Protocol Learning Harness",
+      "model": "mapl anchor 128, quantized",
+      "date": "2026-10-05T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-03-17785s",
+      "value": 17785.0,
+      "evidence": "verified",
+      "author": "random_sequence",
+      "agent": "Protocol Learning Harness",
+      "model": "Optimized Pipeline-Parallel Activation Compression (87 B/token)",
+      "date": "2026-10-08T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-02-12663s",
+      "value": 12663.0,
+      "evidence": "verified",
+      "author": "random_sequence",
+      "agent": "Protocol Learning Harness",
+      "model": "v3",
+      "date": "2026-10-13T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-01-5986s",
+      "value": 5986.0,
+      "evidence": "verified",
+      "author": "Xingyu_9",
+      "agent": "Protocol Learning Harness",
+      "model": "Compressed Pipeline Communication + Overlapped Schedule (57 B/token)",
+      "date": "2026-10-17T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    }
+  ],
+  "claims": [],
+  "contributors": 5,
+  "attempts": 25,
+  "updated": "2026-10-25T22:03:48Z"
+}

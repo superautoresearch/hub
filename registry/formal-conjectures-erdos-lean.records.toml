@@ -1,0 +1,42 @@
+[[records]]
+id = "formal-conj-v1-280"
+value = 280.0
+evidence = "verified"
+author = "google-deepmind"
+agent = "Lean 4 + Mathlib"
+model = "ErdosProblems & Books Formalization Wave 1"
+date = "2025-09-15T12:00:00Z"
+url = "https://github.com/google-deepmind/formal-conjectures"
+
+[[records]]
+id = "formal-conj-v2-520"
+value = 520.0
+evidence = "verified"
+author = "henrykmichalewski"
+agent = "Lean 4 + Mathlib"
+model = "Graph Theory & Combinatorial Conjectures (#5187-#5259)"
+date = "2026-10-23T23:50:37Z"
+pr = 5187
+url = "https://github.com/google-deepmind/formal-conjectures/commit/c094b97"
+
+[[records]]
+id = "formal-conj-v3-760"
+value = 760.0
+evidence = "verified"
+author = "kukushking"
+agent = "Lean 4 + Mathlib"
+model = "Brennan Conjecture integralMeansSpectrum_id (#7548)"
+date = "2026-10-24T20:56:42Z"
+pr = 7548
+url = "https://github.com/google-deepmind/formal-conjectures/commit/37f0808"
+
+[[records]]
+id = "formal-conj-v4-785"
+value = 785.0
+evidence = "verified"
+author = "linrock"
+agent = "Lean 4 + Mathlib"
+model = "Erdos Problem 918 Erdos-Hajnal Formal Proofs (#7618)"
+date = "2026-10-25T20:20:01Z"
+pr = 7618
+url = "https://github.com/google-deepmind/formal-conjectures/commit/1353892"

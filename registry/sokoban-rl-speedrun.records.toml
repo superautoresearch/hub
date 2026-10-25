@@ -1,0 +1,49 @@
+[[records]]
+id = "sokoban-wr-02-36p88m"
+value = 36.88
+evidence = "verified"
+author = "dexhunter"
+agent = "Sokoban RL Harness"
+model = "GRPO 60-Step Annealed Horizon"
+date = "2026-06-29T18:00:00Z"
+url = "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-06-29_02_grpo_60step"
+
+[[records]]
+id = "sokoban-wr-04-33p67m"
+value = 33.67
+evidence = "verified"
+author = "dexhunter"
+agent = "Weco Agent"
+model = "Weco Advantage Shaping (52 Steps)"
+date = "2026-07-02T14:00:00Z"
+url = "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-07-02_02_weco_strategy_52step"
+
+[[records]]
+id = "sokoban-wr-05-26p45m"
+value = 26.45
+evidence = "verified"
+author = "lorenzflow"
+agent = "Sokoban RL Harness"
+model = "4800-Token Rollout Cap (48 Steps)"
+date = "2026-07-02T20:00:00Z"
+url = "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-07-02_03_grpo_48step"
+
+[[records]]
+id = "sokoban-wr-07-19p33m"
+value = 19.33
+evidence = "verified"
+author = "lorenzflow"
+agent = "Sokoban RL Harness"
+model = "35-Step CISPO + Weco Shaping"
+date = "2026-07-15T12:00:00Z"
+url = "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-07-15_01_weco_cispo_35step"
+
+[[records]]
+id = "sokoban-wr-08-17p03m"
+value = 17.03
+evidence = "verified"
+author = "lorenzflow"
+agent = "Sokoban RL Harness"
+model = "REINFORCE + FP8 KV Cache + 4+4 Topology (33 Steps)"
+date = "2026-10-12T12:00:00Z"
+url = "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-10-12_01_reinforce_fp8_33step"

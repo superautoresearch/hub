@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "slug": "slowrun-100m-tokens",
+  "metric": {
+    "name": "val_loss",
+    "unit": "nats",
+    "direction": "min",
+    "scale": "linear",
+    "display": "{value}"
+  },
+  "baseline": {
+    "value": 3.402,
+    "label": "2.7B Transformer Muon Baseline (47m on 8xH100)",
+    "source": "https://github.com/qlabs-eng/slowrun"
+  },
+  "records": [
+    {
+      "id": "slowrun-wr-02-3p376",
+      "value": 3.376,
+      "evidence": "verified",
+      "author": "kvegesna",
+      "agent": "Slowrun Harness",
+      "model": "Epoch Shuffling + 2.7B Muon",
+      "date": "2026-02-27T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/106a290604abb6d8c5b0c3cc94c3b0eb6fe87dff/train.py"
+    },
+    {
+      "id": "slowrun-wr-03",
+      "value": 3.349,
+      "evidence": "verified",
+      "author": "ms337",
+      "agent": "Slowrun 100M Harness",
+      "model": "Change value embed tables to projections from x0",
+      "date": "2026-03-01T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/b261fba252920582076cf8c77dedf9251fe7f7ed/train.py"
+    },
+    {
+      "id": "slowrun-wr-04",
+      "value": 3.335,
+      "evidence": "verified",
+      "author": "akshayvegesna",
+      "agent": "Slowrun 100M Harness",
+      "model": "Use swiglu activation",
+      "date": "2026-03-01T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/22d4a24ec53633c16d643779900ac3e9d10643a3/train.py"
+    },
+    {
+      "id": "slowrun-wr-05",
+      "value": 3.314,
+      "evidence": "verified",
+      "author": "em-see-squared",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add U-Net architecture",
+      "date": "2026-03-03T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/e463653a2b07790e0694bfaa6bdd7e6ee57cef64/train.py"
+    },
+    {
+      "id": "slowrun-wr-06-3p295",
+      "value": 3.295,
+      "evidence": "verified",
+      "author": "akshayvegesna",
+      "agent": "Slowrun Harness",
+      "model": "U-Net + Per-Head Attention Gating",
+      "date": "2026-03-03T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/52e7441f862c3295c0f5695933438dac78f7fc5b/train.py"
+    },
+    {
+      "id": "slowrun-wr-07",
+      "value": 3.285,
+      "evidence": "verified",
+      "author": "shmublu",
+      "agent": "Slowrun 100M Harness",
+      "model": "Repeat layers 15-20 for last 3 epochs, reduce warmdown",
+      "date": "2026-03-11T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/7d8e580ab6a339079294562d000df3f7b1ce8c3c/train.py"
+    },
+    {
+      "id": "slowrun-wr-08",
+      "value": 3.278,
+      "evidence": "verified",
+      "author": "akshayvegesna",
+      "agent": "Slowrun 100M Harness",
+      "model": "Run layers 15-20 3 times before layers 21-29 for the last 3 epochs",
+      "date": "2026-03-11T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/64be4733075251c7da1d8b25529963520b16cdb8/train.py"
+    },
+    {
+      "id": "slowrun-wr-09",
+      "value": 3.276,
+      "evidence": "verified",
+      "author": "not-nonymous",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add exclusive self attention (XSA)",
+      "date": "2026-03-12T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/ac968a62c633d75d972afa6d86a59f89e12997b9/train.py"
+    },
+    {
+      "id": "slowrun-wr-10",
+      "value": 3.27,
+      "evidence": "verified",
+      "author": "zhiweixx",
+      "agent": "Slowrun 100M Harness",
+      "model": "LR tuning, warmdown tuning",
+      "date": "2026-03-16T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/28152d9996d9e910d4fb1b4a569fae399c546d6b/train.py"
+    },
+    {
+      "id": "slowrun-wr-11",
+      "value": 3.252,
+      "evidence": "verified",
+      "author": "ChinmayK0607",
+      "agent": "Slowrun 100M Harness",
+      "model": "EMA of weights, hyperparameter tuning",
+      "date": "2026-03-18T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/3fb4428f67e77e3bec53d4eafbb2cfd6f999b684/train.py"
+    },
+    {
+      "id": "slowrun-wr-12",
+      "value": 3.248,
+      "evidence": "verified",
+      "author": "not-nonymous",
+      "agent": "Slowrun 100M Harness",
+      "model": "Use weighted average of last 3 epoch checkpoints",
+      "date": "2026-03-23T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/20117fb36e62b65e96997268883f0b789a85e75d/train.py"
+    },
+    {
+      "id": "slowrun-wr-13-3p236",
+      "value": 3.236,
+      "evidence": "verified",
+      "author": "shmublu",
+      "agent": "Slowrun Harness",
+      "model": "Stochastic Weight Averaging + Layer 15-20 Recurrence",
+      "date": "2026-04-01T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/5f39cd82fbe58c5a0ab67af2f60a09e6356b88fe/train.py"
+    },
+    {
+      "id": "slowrun-wr-14",
+      "value": 3.23,
+      "evidence": "verified",
+      "author": "ms337",
+      "agent": "Slowrun 100M Harness",
+      "model": "Switch c_proj init from zero to normal",
+      "date": "2026-04-02T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/146042209ac9ffeff7809f721b2c95dbc6ef87d9/train.py"
+    },
+    {
+      "id": "slowrun-wr-15",
+      "value": 3.227,
+      "evidence": "verified",
+      "author": "ChinmayK0607",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add stochastic depth training",
+      "date": "2026-04-06T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/038fa4b5ddcacd0d7232564ef3ff58cc97f759dc/train.py"
+    },
+    {
+      "id": "slowrun-wr-16",
+      "value": 3.222,
+      "evidence": "verified",
+      "author": "clarkkev",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add multi-token prediction loss",
+      "date": "2026-04-09T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/549997a53e88f9e6fed9ce18af86945e31257077/train.py"
+    },
+    {
+      "id": "slowrun-wr-17",
+      "value": 3.214,
+      "evidence": "verified",
+      "author": "ms337",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add Interleaved Head Attention (IHA)",
+      "date": "2026-04-13T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/bd719090f61d88659bc21e9d7b2e69f781231e75/train.py"
+    },
+    {
+      "id": "slowrun-wr-18",
+      "value": 3.211,
+      "evidence": "verified",
+      "author": "clarkkev",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add MuonEq-R",
+      "date": "2026-04-17T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/a2ed9f4530d2dbd80b8cc0b8775659b196053277/train.py"
+    },
+    {
+      "id": "slowrun-wr-19",
+      "value": 3.204,
+      "evidence": "verified",
+      "author": "samacqua",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add document-level shuffling",
+      "date": "2026-04-24T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/a4732774888d535f681295de4ef1c66a57a3cc60/train.py"
+    },
+    {
+      "id": "slowrun-wr-20",
+      "value": 3.195,
+      "evidence": "verified",
+      "author": "shmublu",
+      "agent": "Slowrun 100M Harness",
+      "model": "Add weight decay schedule, adjust learning rate schedule",
+      "date": "2026-04-26T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/571b296eda47bdd291937d017ea49f23317088cb/train.py"
+    },
+    {
+      "id": "slowrun-wr-21-3p183",
+      "value": 3.183,
+      "evidence": "verified",
+      "author": "xingyudang",
+      "agent": "Slowrun Harness",
+      "model": "First-Order Meta-Gradient on MLP Matrices + MuonEq-R",
+      "date": "2026-09-05T12:00:00Z",
+      "url": "https://github.com/qlabs-eng/slowrun/blob/45bf3fdf229c2079f276142073838b924a333ba1/train.py"
+    }
+  ],
+  "claims": [],
+  "contributors": 20,
+  "attempts": 88,
+  "updated": "2026-10-25T22:03:48Z"
+}

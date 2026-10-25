@@ -1,0 +1,21 @@
+[[records]]
+id = "tree-logconcavity-n25"
+value = 25.0
+evidence = "verified"
+author = "ericgramos"
+agent = "PatternBoost + Julia Local Search"
+model = "Spherically Symmetric Tree Counterexample (n = 25)"
+date = "2025-10-14T03:07:54Z"
+commit = "22c70d4"
+url = "https://github.com/ericgramos/TreeUnimodalityPatternBoost/commit/22c70d4"
+
+[[records]]
+id = "tree-logconcavity-n24"
+value = 24.0
+evidence = "verified"
+author = "ssun2004"
+agent = "PatternBoost + IP Calculator"
+model = "Minimal Log-Concavity Failure Tree Witness (n = 24)"
+date = "2025-10-26T19:03:36Z"
+commit = "e21fbcf"
+url = "https://github.com/ericgramos/TreeUnimodalityPatternBoost/commit/e21fbcf"

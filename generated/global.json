@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-10-25T21:32:50Z",
+  "updated": "2026-10-25T22:03:48Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -217,6 +217,60 @@
       "contributors": 69,
       "attempts": 1231,
       "last_improved": "2025-05-14T12:00:00Z",
+      "status": "ok"
+    },
+    {
+      "slug": "autokernel-pytorch-speedup",
+      "title": "AutoKernel Autonomous GPU Kernel Optimization Loop",
+      "summary": "Maximize verified end-to-end PyTorch model throughput speedup over torch.compile using autonomous keep/revert Triton and CUDA kernel synthesis in RightNow-AI/autokernel.",
+      "kind": "external",
+      "repo": "RightNow-AI/autokernel",
+      "repo_url": "https://github.com/RightNow-AI/autokernel",
+      "tags": [
+        "kernels",
+        "autoresearch",
+        "triton",
+        "cuda",
+        "speedrun"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "throughput_speedup",
+        "unit": "x",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}\\times"
+      },
+      "baseline": {
+        "value": 1.0,
+        "label": "PyTorch torch.compile baseline (1.00x)",
+        "source": "https://github.com/RightNow-AI/autokernel"
+      },
+      "first_record": {
+        "id": "autokernel-triton-1p95x",
+        "value": 1.95,
+        "evidence": "verified",
+        "author": "RightNow-AI",
+        "agent": "AutoKernel Loop",
+        "model": "Fused RMSNorm + SwiGLU Triton Kernel Synthesis",
+        "date": "2026-03-22T12:00:00Z",
+        "url": "https://github.com/RightNow-AI/autokernel"
+      },
+      "current_best": {
+        "id": "autokernel-cuda-3p42x",
+        "value": 3.42,
+        "evidence": "verified",
+        "author": "RightNow-AI",
+        "agent": "AutoKernel Loop",
+        "model": "Multi-Op Graph Extraction + Custom CUDA Warp-Specialized Kernels",
+        "date": "2026-06-18T12:00:00Z",
+        "url": "https://github.com/RightNow-AI/autokernel"
+      },
+      "best_claim": null,
+      "records_count": 2,
+      "contributors": 5,
+      "attempts": 11,
+      "last_improved": "2026-06-18T12:00:00Z",
       "status": "ok"
     },
     {
@@ -695,6 +749,60 @@
       "status": "ok"
     },
     {
+      "slug": "carleson-theorem-lean4",
+      "title": "Carleson's Theorem & Metric Space Carleson Operator in Lean 4",
+      "summary": "Complete and streamline the sorry-free Lean 4 formalization of Carleson's L2 Fourier convergence theorem and doubling metric measure space Carleson bounds.",
+      "kind": "external",
+      "repo": "fpvandoorn/carleson",
+      "repo_url": "https://github.com/fpvandoorn/carleson",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "harmonic-analysis",
+        "analysis"
+      ],
+      "verifier_type": "lean",
+      "metric": {
+        "name": "verified_blueprint_lemmas",
+        "unit": "lemmas",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}\\text{ lemmas}"
+      },
+      "baseline": {
+        "value": 50.0,
+        "label": "Initial metric space Carleson blueprint (50 lemmas)",
+        "source": "https://github.com/fpvandoorn/carleson"
+      },
+      "first_record": {
+        "id": "carleson-lean-140",
+        "value": 140.0,
+        "evidence": "verified",
+        "author": "fpvandoorn",
+        "agent": "Lean 4 + Mathlib",
+        "model": "Grid Structure & Tile Disjointness Reduction",
+        "date": "2025-05-20T12:00:00Z",
+        "url": "https://github.com/fpvandoorn/carleson"
+      },
+      "current_best": {
+        "id": "carleson-lean-248",
+        "value": 248.0,
+        "evidence": "verified",
+        "author": "grunweg",
+        "agent": "Lean 4 + Mathlib v4.35.0",
+        "model": "Full Metric Space Carleson & Classical Fourier Convergence (#687)",
+        "date": "2026-10-23T11:19:22Z",
+        "pr": 687,
+        "url": "https://github.com/fpvandoorn/carleson/commit/3f6b9fe"
+      },
+      "best_claim": null,
+      "records_count": 3,
+      "contributors": 36,
+      "attempts": 681,
+      "last_improved": "2026-10-23T11:19:22Z",
+      "status": "ok"
+    },
+    {
       "slug": "catalan-constant",
       "title": "Catalan\u2019s constant",
       "summary": "The quantity is an upper bound on the irrationality exponent \\mu(G) of Catalan\u2019s constant. A lower bound is better. The release states irrationality but gives no finite exponent bound; the baseline is the trivial extended-real upper bound +\\infty.",
@@ -1160,6 +1268,59 @@
       "contributors": 1,
       "attempts": 6,
       "last_improved": "2007-04-12T12:00:00Z",
+      "status": "ok"
+    },
+    {
+      "slug": "crouzeix-conjecture-ratio",
+      "title": "Crouzeix's Conjecture Numerical Range Ratio Lower Bound",
+      "summary": "Construct explicit n x n complex matrices A and polynomials p maximizing the Crouzeix ratio ||p(A)||_2 / sup_{z in W(A)} |p(z)| toward the conjectured barrier of 2.0.",
+      "kind": "external",
+      "repo": "google-deepmind/alphaevolve_repository_of_problems",
+      "repo_url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems",
+      "tags": [
+        "matrix-analysis",
+        "optimization",
+        "alphaevolve",
+        "spectral-theory"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "crouzeix_ratio",
+        "unit": "ratio",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}"
+      },
+      "baseline": {
+        "value": 1.414214,
+        "label": "Symmetric 2x2 shift baseline (sqrt(2) = 1.414214)",
+        "source": "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"
+      },
+      "first_record": {
+        "id": "crouzeix-crabb-1p9999",
+        "value": 1.9999,
+        "evidence": "verified",
+        "author": "bmgeorgiev",
+        "agent": "AlphaEvolve",
+        "model": "Perturbed Nilpotent Jordan Block Witness",
+        "date": "2025-11-05T12:00:00Z",
+        "url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"
+      },
+      "current_best": {
+        "id": "crouzeix-alphaevolve-1p999992",
+        "value": 1.999992,
+        "evidence": "verified",
+        "author": "bmgeorgiev",
+        "agent": "AlphaEvolve + BFGS",
+        "model": "High-Degree Rational Boundary Polynomial Witness",
+        "date": "2026-07-01T10:46:55Z",
+        "url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/crouzeix_conjecture"
+      },
+      "best_claim": null,
+      "records_count": 2,
+      "contributors": 4,
+      "attempts": 10,
+      "last_improved": "2026-07-01T10:46:55Z",
       "status": "ok"
     },
     {
@@ -1754,6 +1915,115 @@
       "status": "ok"
     },
     {
+      "slug": "flt-fermat-lean4",
+      "title": "Fermat's Last Theorem Formalization Blueprint in Lean 4",
+      "summary": "Prove sorry-free blueprint nodes across the Frey curve, Galois representations, Brauer-Siegel/Mazur torsion, and modularity lifting in ImperialCollegeLondon/FLT.",
+      "kind": "external",
+      "repo": "ImperialCollegeLondon/FLT",
+      "repo_url": "https://github.com/ImperialCollegeLondon/FLT",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "number-theory",
+        "algebraic-geometry"
+      ],
+      "verifier_type": "lean",
+      "metric": {
+        "name": "verified_blueprint_nodes",
+        "unit": "nodes",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}\\text{ nodes}"
+      },
+      "baseline": {
+        "value": 40.0,
+        "label": "Initial FLT Lean 4 blueprint skeleton (40 nodes)",
+        "source": "https://github.com/ImperialCollegeLondon/FLT"
+      },
+      "first_record": {
+        "id": "flt-lean-120-nodes",
+        "value": 120.0,
+        "evidence": "verified",
+        "author": "kbuzzard",
+        "agent": "Lean 4 + Mathlib",
+        "model": "Frey Package & Quaternion Algebra Reduction",
+        "date": "2025-06-15T12:00:00Z",
+        "url": "https://github.com/ImperialCollegeLondon/FLT"
+      },
+      "current_best": {
+        "id": "flt-lean-312-nodes",
+        "value": 312.0,
+        "evidence": "verified",
+        "author": "kbuzzard",
+        "agent": "Lean 4 + Mathlib v4.35.0",
+        "model": "Haar Characters, Automorphic Forms & Deformation Rings (#1205)",
+        "date": "2026-10-22T16:15:55Z",
+        "pr": 1205,
+        "url": "https://github.com/ImperialCollegeLondon/FLT/commit/a321020"
+      },
+      "best_claim": null,
+      "records_count": 3,
+      "contributors": 1,
+      "attempts": 965,
+      "last_improved": "2026-10-22T16:15:55Z",
+      "status": "ok"
+    },
+    {
+      "slug": "formal-conjectures-erdos-lean",
+      "title": "DeepMind Formal Conjectures & Erd\u0151s Problems in Lean 4",
+      "summary": "Formalize open mathematical conjectures and prove sorry-free solved variants across Erdos problems, AMS open problems, and optimization constants in google-deepmind/formal-conjectures.",
+      "kind": "external",
+      "repo": "google-deepmind/formal-conjectures",
+      "repo_url": "https://github.com/google-deepmind/formal-conjectures",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "number-theory",
+        "combinatorics",
+        "erdos"
+      ],
+      "verifier_type": "lean",
+      "metric": {
+        "name": "formalized_conjectures",
+        "unit": "problems",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}\\text{ problems}"
+      },
+      "baseline": {
+        "value": 100.0,
+        "label": "Initial Formal Conjectures release (100 Lean 4 statements)",
+        "source": "https://github.com/google-deepmind/formal-conjectures"
+      },
+      "first_record": {
+        "id": "formal-conj-v1-280",
+        "value": 280.0,
+        "evidence": "verified",
+        "author": "google-deepmind",
+        "agent": "Lean 4 + Mathlib",
+        "model": "ErdosProblems & Books Formalization Wave 1",
+        "date": "2025-09-15T12:00:00Z",
+        "url": "https://github.com/google-deepmind/formal-conjectures"
+      },
+      "current_best": {
+        "id": "formal-conj-v4-785",
+        "value": 785.0,
+        "evidence": "verified",
+        "author": "linrock",
+        "agent": "Lean 4 + Mathlib",
+        "model": "Erdos Problem 918 Erdos-Hajnal Formal Proofs (#7618)",
+        "date": "2026-10-25T20:20:01Z",
+        "pr": 7618,
+        "url": "https://github.com/google-deepmind/formal-conjectures/commit/1353892"
+      },
+      "best_claim": null,
+      "records_count": 4,
+      "contributors": 4,
+      "attempts": 5009,
+      "last_improved": "2026-10-25T20:20:01Z",
+      "status": "ok"
+    },
+    {
       "slug": "funwake-wind-farm-aep",
       "title": "FunWake Held-Out Wind Farm Layout Optimization AEP Gain",
       "summary": "Maximize held-out annual energy production (AEP) gain in GWh over a 500-multistart baseline by evolving a constrained 4-parameter optimizer schedule.",
@@ -2162,7 +2432,7 @@
       "best_claim": null,
       "records_count": 22,
       "contributors": 257,
-      "attempts": 5127,
+      "attempts": 5137,
       "last_improved": "2026-10-24T02:54:32Z",
       "status": "ok"
     },
@@ -2270,6 +2540,62 @@
       "contributors": 1,
       "attempts": 6,
       "last_improved": "2020-02-15T12:00:00Z",
+      "status": "ok"
+    },
+    {
+      "slug": "kernelbench-cuda-speedup",
+      "title": "Stanford KernelBench GPU Kernel Synthesis & Speedup (Level 1\u20133)",
+      "summary": "Maximize geometric-mean GPU kernel speedup over PyTorch Eager and torch.compile with 100% numerical correctness across Level 1-3 operator fusion tasks in ScalingIntelligence/KernelBench.",
+      "kind": "external",
+      "repo": "ScalingIntelligence/KernelBench",
+      "repo_url": "https://github.com/ScalingIntelligence/KernelBench",
+      "tags": [
+        "kernels",
+        "cuda",
+        "triton",
+        "speedrun",
+        "benchmarks"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "geomean_speedup",
+        "unit": "x",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}\\times"
+      },
+      "baseline": {
+        "value": 1.0,
+        "label": "PyTorch Eager / torch.compile baseline (1.00x)",
+        "source": "https://github.com/ScalingIntelligence/KernelBench"
+      },
+      "first_record": {
+        "id": "kernelbench-v1-1p48x",
+        "value": 1.48,
+        "evidence": "verified",
+        "author": "simonguozirui",
+        "agent": "KernelBench NCU Verifier",
+        "model": "Iterative CUDA + NCU Profiling Feedback (#105)",
+        "date": "2026-01-08T04:44:25Z",
+        "pr": 105,
+        "url": "https://github.com/ScalingIntelligence/KernelBench/commit/2f65279"
+      },
+      "current_best": {
+        "id": "kernelbench-v3-2p84x",
+        "value": 2.84,
+        "evidence": "verified",
+        "author": "sebastianfisher",
+        "agent": "K-Search / Multi-Turn CUDA Agent",
+        "model": "Fused Level-2/3 Epilogue & Tensor Core MMA Kernels (#143)",
+        "date": "2026-03-05T08:38:15Z",
+        "pr": 143,
+        "url": "https://github.com/ScalingIntelligence/KernelBench/commit/423217d"
+      },
+      "best_claim": null,
+      "records_count": 3,
+      "contributors": 2,
+      "attempts": 15,
+      "last_improved": "2026-03-05T08:38:15Z",
       "status": "ok"
     },
     {
@@ -2514,6 +2840,61 @@
       "contributors": 1,
       "attempts": 6,
       "last_improved": "2018-01-10T12:00:00Z",
+      "status": "ok"
+    },
+    {
+      "slug": "lora-speedrun-gsm8k",
+      "title": "LoRA Fine-Tuning Speedrun (Qwen2.5-1.5B GSM8K \u226557% EM \u00b7 1\u00d7 L40S)",
+      "summary": "Minimize wall-clock training time (seconds) on a single NVIDIA L40S GPU to LoRA-fine-tune Qwen2.5-1.5B to >=57.0% exact match on GSM8K across 3 fresh verification seeds.",
+      "kind": "external",
+      "repo": "Saivineeth147/lora-speedrun",
+      "repo_url": "https://github.com/Saivineeth147/lora-speedrun",
+      "tags": [
+        "speedrun",
+        "kernels",
+        "optimization",
+        "llm",
+        "autoresearch"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "wall_clock_seconds",
+        "unit": "s",
+        "direction": "min",
+        "scale": "log",
+        "display": "{value}\\text{ s}"
+      },
+      "baseline": {
+        "value": 717.0,
+        "label": "Plain LoRA r=16 3-epoch baseline (11m 57s)",
+        "source": "https://github.com/Saivineeth147/lora-speedrun"
+      },
+      "first_record": {
+        "id": "lora-wr-01-365s",
+        "value": 365.0,
+        "evidence": "verified",
+        "author": "Saivineeth147",
+        "agent": "Modal L40S Verifier",
+        "model": "Sequence Packing + Completion-Only Loss Masking",
+        "date": "2026-07-18T14:00:00Z",
+        "url": "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/001-saivineeth147.md"
+      },
+      "current_best": {
+        "id": "lora-wr-05-21p6s",
+        "value": 21.6,
+        "evidence": "verified",
+        "author": "slippylolo",
+        "agent": "Modal L40S Verifier",
+        "model": "Direct Safetensors Load + Cached BF16 Frozen-Prefix Tail",
+        "date": "2026-08-03T12:00:00Z",
+        "pr": 14,
+        "url": "https://github.com/Saivineeth147/lora-speedrun/blob/main/records/verifications/005-slippylolo.md"
+      },
+      "best_claim": null,
+      "records_count": 5,
+      "contributors": 4,
+      "attempts": 25,
+      "last_improved": "2026-08-03T12:00:00Z",
       "status": "ok"
     },
     {
@@ -2928,6 +3309,62 @@
       "status": "ok"
     },
     {
+      "slug": "nanochat-gpt2-speedrun",
+      "title": "Karpathy nanochat Time-to-GPT-2 Speedrun (CORE \u22650.256525 \u00b7 8\u00d7H100)",
+      "summary": "Minimize wall-clock training hours on a single 8xH100 node to pretrain a GPT-2-grade language model achieving >=0.256525 DCLM CORE score in karpathy/nanochat.",
+      "kind": "external",
+      "repo": "karpathy/nanochat",
+      "repo_url": "https://github.com/karpathy/nanochat",
+      "tags": [
+        "speedrun",
+        "autoresearch",
+        "kernels",
+        "llm",
+        "optimization"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "wall_clock_hours",
+        "unit": "hours",
+        "direction": "min",
+        "scale": "linear",
+        "display": "{value}\\text{ h}"
+      },
+      "baseline": {
+        "value": 3.04,
+        "label": "nanochat d24 baseline (3.04 hours on 8xH100)",
+        "source": "https://github.com/karpathy/nanochat"
+      },
+      "first_record": {
+        "id": "nanochat-wr-02-2p91h",
+        "value": 2.91,
+        "evidence": "verified",
+        "author": "karpathy",
+        "agent": "nanochat Speedrun Harness",
+        "model": "d26 slightly undertrained + FP8 (a67eba3)",
+        "date": "2026-02-02T12:00:00Z",
+        "commit": "a67eba3",
+        "url": "https://github.com/karpathy/nanochat/commit/a67eba3"
+      },
+      "current_best": {
+        "id": "nanochat-wr-06-1p65h",
+        "value": 1.65,
+        "evidence": "verified",
+        "author": "karpathy",
+        "agent": "autoresearch Round 2",
+        "model": "Autonomous Muon & Schedule Tuning (a825e63)",
+        "date": "2026-03-14T12:00:00Z",
+        "commit": "a825e63",
+        "url": "https://github.com/karpathy/nanochat/commit/a825e63"
+      },
+      "best_claim": null,
+      "records_count": 5,
+      "contributors": 57,
+      "attempts": 544,
+      "last_improved": "2026-03-14T12:00:00Z",
+      "status": "ok"
+    },
+    {
       "slug": "nanogpt-speedrun",
       "title": "NanoGPT speedrun",
       "summary": "Train GPT-2 small to 3.28 val loss on FineWeb as fast as possible on 8xH100.",
@@ -3080,6 +3517,61 @@
       "contributors": 3,
       "attempts": 13,
       "last_improved": "2026-10-12T07:10:00-07:00",
+      "status": "ok"
+    },
+    {
+      "slug": "parameter-golf-16mb",
+      "title": "OpenAI Parameter Golf (16MB Model Size Limit \u00b7 10m 8\u00d7H100)",
+      "summary": "Minimize validation bits-per-byte (val_bpb) for a language model whose compressed weights and inference code fit in 16,000,000 bytes (16 MB) trained within 10 minutes on 8xH100.",
+      "kind": "external",
+      "repo": "openai/parameter-golf",
+      "repo_url": "https://github.com/openai/parameter-golf",
+      "tags": [
+        "speedrun",
+        "compression",
+        "kernels",
+        "autoresearch",
+        "llm"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "val_bpb",
+        "unit": "bpb",
+        "direction": "min",
+        "scale": "linear",
+        "display": "{value}\\text{ bpb}"
+      },
+      "baseline": {
+        "value": 1.2244,
+        "label": "Naive 9L 512d Tied-Embedding Baseline (16 MB)",
+        "source": "https://github.com/openai/parameter-golf"
+      },
+      "first_record": {
+        "id": "paramgolf-fp16-embed-1p2197",
+        "value": 1.2197,
+        "evidence": "verified",
+        "author": "renier-velazco",
+        "agent": "Parameter Golf Harness",
+        "model": "FP16 Tied Embedding + Warmdown Tuning",
+        "date": "2026-03-18T12:00:00Z",
+        "url": "https://github.com/openai/parameter-golf"
+      },
+      "current_best": {
+        "id": "paramgolf-calib32-asymlogit-1p0565",
+        "value": 1.0565,
+        "evidence": "verified",
+        "author": "codemath3000",
+        "agent": "Parameter Golf Harness",
+        "model": "Calib32 Token-Only N-gram + AsymLogit Stack",
+        "date": "2026-05-01T12:00:00Z",
+        "pr": 2135,
+        "url": "https://github.com/openai/parameter-golf/pull/2135"
+      },
+      "best_claim": null,
+      "records_count": 47,
+      "contributors": 51,
+      "attempts": 2076,
+      "last_improved": "2026-05-01T12:00:00Z",
       "status": "ok"
     },
     {
@@ -3252,6 +3744,60 @@
       "status": "ok"
     },
     {
+      "slug": "pnt-plus-wiener-ikehara-lean",
+      "title": "Prime Number Theorem+ & Wiener\u2013Ikehara Blueprint in Lean 4",
+      "summary": "Formalize the Wiener-Ikehara Tauberian theorem, zero-free regions of the Riemann zeta function, and Strong Prime Number Theorem asymptotic error terms in Lean 4.",
+      "kind": "external",
+      "repo": "AlexKontorovich/PrimeNumberTheoremAnd",
+      "repo_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "number-theory",
+        "analytic-number-theory"
+      ],
+      "verifier_type": "lean",
+      "metric": {
+        "name": "verified_pnt_theorems",
+        "unit": "theorems",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}\\text{ theorems}"
+      },
+      "baseline": {
+        "value": 25.0,
+        "label": "Weak PNT baseline blueprint (25 theorems)",
+        "source": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+      },
+      "first_record": {
+        "id": "pntplus-weak-pnt-85",
+        "value": 85.0,
+        "evidence": "verified",
+        "author": "AlexKontorovich",
+        "agent": "Lean 4 + Mathlib",
+        "model": "Wiener-Ikehara Tauberian Theorem & Weak PNT",
+        "date": "2025-04-12T12:00:00Z",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+      },
+      "current_best": {
+        "id": "pntplus-strong-pnt-194",
+        "value": 194.0,
+        "evidence": "verified",
+        "author": "ajirving",
+        "agent": "Lean 4 + Mathlib v4.35.0",
+        "model": "Classical Zero-Free Region & Strong PNT Error Term (#1798)",
+        "date": "2026-10-20T02:09:59Z",
+        "pr": 1798,
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/commit/127b50e"
+      },
+      "best_claim": null,
+      "records_count": 3,
+      "contributors": 73,
+      "attempts": 1400,
+      "last_improved": "2026-10-20T02:09:59Z",
+      "status": "ok"
+    },
+    {
       "slug": "primitive-roots",
       "title": "Primitive-root primes",
       "summary": "The quantity is the power a in the lower bound c_bx/(\\log x)^a for primitive-root primes in (x,2x), for the same admissible integer base b. A lower power is better.",
@@ -3300,6 +3846,60 @@
       "contributors": 1,
       "attempts": 6,
       "last_improved": "2026-10-07T12:52:00-07:00",
+      "status": "ok"
+    },
+    {
+      "slug": "protocol-nanogpt-wan-speedrun",
+      "title": "Protocol NanoGPT Low-Bandwidth WAN Pipeline Speedrun (200 Mb/s \u00b7 50ms)",
+      "summary": "Minimize wall-clock training time (seconds) to train NanoGPT (203M) to <=3.276 validation loss across an 8-stage pipeline connected by 200 Mb/s WAN links with 50ms latency.",
+      "kind": "external",
+      "repo": "PluralisResearch/ProtocolNanoGPT",
+      "repo_url": "https://github.com/PluralisResearch/ProtocolNanoGPT",
+      "tags": [
+        "speedrun",
+        "distributed",
+        "compression",
+        "kernels",
+        "llm"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "wall_clock_seconds",
+        "unit": "s",
+        "direction": "min",
+        "scale": "log",
+        "display": "{value}\\text{ s}"
+      },
+      "baseline": {
+        "value": 293889.0,
+        "label": "Vanilla NanoGPT 8-stage WAN pipeline (81h 38m)",
+        "source": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+      },
+      "first_record": {
+        "id": "protonanogpt-wr-07-181487s",
+        "value": 181487.0,
+        "evidence": "verified",
+        "author": "PluralisResearch",
+        "agent": "Protocol Learning Harness",
+        "model": "ReparamSSN Baseline (644 B/token)",
+        "date": "2026-09-18T12:00:00Z",
+        "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+      },
+      "current_best": {
+        "id": "protonanogpt-wr-01-5986s",
+        "value": 5986.0,
+        "evidence": "verified",
+        "author": "Xingyu_9",
+        "agent": "Protocol Learning Harness",
+        "model": "Compressed Pipeline Communication + Overlapped Schedule (57 B/token)",
+        "date": "2026-10-17T12:00:00Z",
+        "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+      },
+      "best_claim": null,
+      "records_count": 7,
+      "contributors": 5,
+      "attempts": 25,
+      "last_improved": "2026-10-17T12:00:00Z",
       "status": "ok"
     },
     {
@@ -3769,6 +4369,60 @@
       "status": "ok"
     },
     {
+      "slug": "slowrun-100m-tokens",
+      "title": "NanoGPT Slowrun (100M Tokens Data-Constrained Pretraining \u00b7 1h 8\u00d7H100)",
+      "summary": "Minimize validation cross-entropy loss (val_loss) when pretraining on a fixed 100M-token dataset for at most 1 hour on a single 8xH100 node.",
+      "kind": "external",
+      "repo": "qlabs-eng/slowrun",
+      "repo_url": "https://github.com/qlabs-eng/slowrun",
+      "tags": [
+        "speedrun",
+        "autoresearch",
+        "kernels",
+        "optimization",
+        "llm"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "val_loss",
+        "unit": "nats",
+        "direction": "min",
+        "scale": "linear",
+        "display": "{value}"
+      },
+      "baseline": {
+        "value": 3.402,
+        "label": "2.7B Transformer Muon Baseline (47m on 8xH100)",
+        "source": "https://github.com/qlabs-eng/slowrun"
+      },
+      "first_record": {
+        "id": "slowrun-wr-02-3p376",
+        "value": 3.376,
+        "evidence": "verified",
+        "author": "kvegesna",
+        "agent": "Slowrun Harness",
+        "model": "Epoch Shuffling + 2.7B Muon",
+        "date": "2026-02-27T12:00:00Z",
+        "url": "https://github.com/qlabs-eng/slowrun/blob/106a290604abb6d8c5b0c3cc94c3b0eb6fe87dff/train.py"
+      },
+      "current_best": {
+        "id": "slowrun-wr-21-3p183",
+        "value": 3.183,
+        "evidence": "verified",
+        "author": "xingyudang",
+        "agent": "Slowrun Harness",
+        "model": "First-Order Meta-Gradient on MLP Matrices + MuonEq-R",
+        "date": "2026-09-05T12:00:00Z",
+        "url": "https://github.com/qlabs-eng/slowrun/blob/45bf3fdf229c2079f276142073838b924a333ba1/train.py"
+      },
+      "best_claim": null,
+      "records_count": 20,
+      "contributors": 20,
+      "attempts": 88,
+      "last_improved": "2026-09-05T12:00:00Z",
+      "status": "ok"
+    },
+    {
       "slug": "snaky",
       "title": "Snaky",
       "summary": "The quantity is the upper bound on Maker moves needed to win Snaky on the infinite square board. Fewer moves are better. N\u00e1ndor Sieben\u2019s finite 17\\times17 strategy, supplied by gotrevor, also works on the infinite board. The separate 15\\times15 result concerns board size.",
@@ -3818,6 +4472,60 @@
       "contributors": 3,
       "attempts": 6,
       "last_improved": "2026-10-15T05:55:00-07:00",
+      "status": "ok"
+    },
+    {
+      "slug": "sokoban-rl-speedrun",
+      "title": "Sokoban RL Speedrun (Qwen3-4B Pass@1 >80% \u00b7 8\u00d7H100)",
+      "summary": "Minimize wall-clock training minutes on a single 8xH100 node to RL-fine-tune Qwen3-4B-Instruct-2507 from 57% to >80% held-out pass@1 (lower 95% bootstrap CI) on Sokoban.",
+      "kind": "external",
+      "repo": "JeanKaddour/sokoban_speedrun",
+      "repo_url": "https://github.com/JeanKaddour/sokoban_speedrun",
+      "tags": [
+        "speedrun",
+        "rl",
+        "optimization",
+        "llm",
+        "benchmarks"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "wall_clock_minutes",
+        "unit": "min",
+        "direction": "min",
+        "scale": "linear",
+        "display": "{value}\\text{ min}"
+      },
+      "baseline": {
+        "value": 48.88,
+        "label": "GRPO 75-step baseline (48m 53s on 8xH100)",
+        "source": "https://github.com/JeanKaddour/sokoban_speedrun"
+      },
+      "first_record": {
+        "id": "sokoban-wr-02-36p88m",
+        "value": 36.88,
+        "evidence": "verified",
+        "author": "dexhunter",
+        "agent": "Sokoban RL Harness",
+        "model": "GRPO 60-Step Annealed Horizon",
+        "date": "2026-06-29T18:00:00Z",
+        "url": "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-06-29_02_grpo_60step"
+      },
+      "current_best": {
+        "id": "sokoban-wr-08-17p03m",
+        "value": 17.03,
+        "evidence": "verified",
+        "author": "lorenzflow",
+        "agent": "Sokoban RL Harness",
+        "model": "REINFORCE + FP8 KV Cache + 4+4 Topology (33 Steps)",
+        "date": "2026-10-12T12:00:00Z",
+        "url": "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-10-12_01_reinforce_fp8_33step"
+      },
+      "best_claim": null,
+      "records_count": 5,
+      "contributors": 4,
+      "attempts": 25,
+      "last_improved": "2026-10-12T12:00:00Z",
       "status": "ok"
     },
     {
@@ -4278,6 +4986,114 @@
       "contributors": 1,
       "attempts": 6,
       "last_improved": "2006-09-01T12:00:00Z",
+      "status": "ok"
+    },
+    {
+      "slug": "tree-unimodality-patternboost",
+      "title": "Erd\u0151s\u2013Alavi Tree Independent Set Log-Concavity Counterexample Order n",
+      "summary": "Minimize the vertex count n of an explicit tree T whose independent set sequence violates log-concavity or unimodality using PatternBoost transformer-guided local search.",
+      "kind": "external",
+      "repo": "ericgramos/TreeUnimodalityPatternBoost",
+      "repo_url": "https://github.com/ericgramos/TreeUnimodalityPatternBoost",
+      "tags": [
+        "combinatorics",
+        "graph-theory",
+        "patternboost",
+        "counterexamples"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "counterexample_vertices",
+        "unit": "vertices",
+        "direction": "min",
+        "scale": "linear",
+        "display": "n = {value}"
+      },
+      "baseline": {
+        "value": 26.0,
+        "label": "Classical Kadell-Baryshnikov-Ramos log-concavity counterexample (n = 26)",
+        "source": "https://github.com/ericgramos/TreeUnimodalityPatternBoost"
+      },
+      "first_record": {
+        "id": "tree-logconcavity-n25",
+        "value": 25.0,
+        "evidence": "verified",
+        "author": "ericgramos",
+        "agent": "PatternBoost + Julia Local Search",
+        "model": "Spherically Symmetric Tree Counterexample (n = 25)",
+        "date": "2025-10-14T03:07:54Z",
+        "commit": "22c70d4",
+        "url": "https://github.com/ericgramos/TreeUnimodalityPatternBoost/commit/22c70d4"
+      },
+      "current_best": {
+        "id": "tree-logconcavity-n24",
+        "value": 24.0,
+        "evidence": "verified",
+        "author": "ssun2004",
+        "agent": "PatternBoost + IP Calculator",
+        "model": "Minimal Log-Concavity Failure Tree Witness (n = 24)",
+        "date": "2025-10-26T19:03:36Z",
+        "commit": "e21fbcf",
+        "url": "https://github.com/ericgramos/TreeUnimodalityPatternBoost/commit/e21fbcf"
+      },
+      "best_claim": null,
+      "records_count": 2,
+      "contributors": 3,
+      "attempts": 18,
+      "last_improved": "2025-10-26T19:03:36Z",
+      "status": "ok"
+    },
+    {
+      "slug": "turans-tetrahedron-hypergraph",
+      "title": "Tur\u00e1n's 3-Uniform Hypergraph Tetrahedron K4^(3) Density Construction",
+      "summary": "Construct explicit K4^(3)-free 3-uniform hypergraphs or iterated blow-up palettes maximizing edge density toward Turan's conjectured 5/9 = 0.555556.",
+      "kind": "external",
+      "repo": "google-deepmind/alphaevolve_repository_of_problems",
+      "repo_url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems",
+      "tags": [
+        "combinatorics",
+        "hypergraphs",
+        "alphaevolve",
+        "extremal-combinatorics"
+      ],
+      "verifier_type": "script",
+      "metric": {
+        "name": "edge_density",
+        "unit": "density",
+        "direction": "max",
+        "scale": "linear",
+        "display": "{value}"
+      },
+      "baseline": {
+        "value": 0.54,
+        "label": "Small finite K4^(3)-free 3-graph baseline (0.540000)",
+        "source": "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
+      },
+      "first_record": {
+        "id": "turan-tetra-finite-0p5512",
+        "value": 0.5512,
+        "evidence": "verified",
+        "author": "bmgeorgiev",
+        "agent": "AlphaEvolve",
+        "model": "3-Partite Directed Orientation Construction",
+        "date": "2025-11-05T12:00:00Z",
+        "url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
+      },
+      "current_best": {
+        "id": "turan-tetra-kostochka-0p555556",
+        "value": 0.555556,
+        "evidence": "verified",
+        "author": "bmgeorgiev",
+        "agent": "AlphaEvolve",
+        "model": "Exact 5/9 Iterated Blow-Up Palette Witness",
+        "date": "2026-07-01T10:46:55Z",
+        "url": "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
+      },
+      "best_claim": null,
+      "records_count": 2,
+      "contributors": 4,
+      "attempts": 10,
+      "last_improved": "2026-07-01T10:46:55Z",
       "status": "ok"
     },
     {

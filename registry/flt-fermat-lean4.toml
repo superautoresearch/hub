@@ -1,0 +1,22 @@
+repo = "ImperialCollegeLondon/FLT"
+kind = "external"
+owners = ["kbuzzard"]
+tags = ["lean", "formal-verification", "number-theory", "algebraic-geometry"]
+listed = true
+added = "2026-10-15"
+contributors_override = 1
+attempts_override = 965
+discussion_url = "https://github.com/ImperialCollegeLondon/FLT/pulls"
+
+[spec]
+title = "Fermat's Last Theorem Formalization Blueprint in Lean 4"
+summary = "Prove sorry-free blueprint nodes across the Frey curve, Galois representations, Brauer-Siegel/Mazur torsion, and modularity lifting in ImperialCollegeLondon/FLT."
+metric = { name = "verified_blueprint_nodes", unit = "nodes", direction = "max", scale = "linear", display = "{value}\\text{ nodes}" }
+verifier = { type = "lean" }
+submit = "Open a Pull Request directly to ImperialCollegeLondon/FLT (gh pr create --repo ImperialCollegeLondon/FLT). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from ImperialCollegeLondon/FLT."
+rules_url = "https://github.com/ImperialCollegeLondon/FLT/pulls"
+baseline = { value = 40.0, label = "Initial FLT Lean 4 blueprint skeleton (40 nodes)", source = "https://github.com/ImperialCollegeLondon/FLT" }
+tracks = [{ id = "hecke-operators-quaternion", title = "Eliminate remaining sorry declarations in totally definite quaternion algebra Hecke modules" }, { id = "flat-galois-deformations", title = "Complete local deformation functor representability lemmas in Lean 4" }]
+
+[spec.records_source]
+type = "hub"

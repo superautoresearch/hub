@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "slug": "nanochat-gpt2-speedrun",
+  "metric": {
+    "name": "wall_clock_hours",
+    "unit": "hours",
+    "direction": "min",
+    "scale": "linear",
+    "display": "{value}\\text{ h}"
+  },
+  "baseline": {
+    "value": 3.04,
+    "label": "nanochat d24 baseline (3.04 hours on 8xH100)",
+    "source": "https://github.com/karpathy/nanochat"
+  },
+  "records": [
+    {
+      "id": "nanochat-wr-02-2p91h",
+      "value": 2.91,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "nanochat Speedrun Harness",
+      "model": "d26 slightly undertrained + FP8 (a67eba3)",
+      "date": "2026-02-02T12:00:00Z",
+      "commit": "a67eba3",
+      "url": "https://github.com/karpathy/nanochat/commit/a67eba3"
+    },
+    {
+      "id": "nanochat-wr-03-2p76h",
+      "value": 2.76,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "nanochat Speedrun Harness",
+      "model": "1M Token Total Batch Size (2c062aa)",
+      "date": "2026-02-05T12:00:00Z",
+      "commit": "2c062aa",
+      "url": "https://github.com/karpathy/nanochat/commit/2c062aa"
+    },
+    {
+      "id": "nanochat-wr-04-2p02h",
+      "value": 2.02,
+      "evidence": "verified",
+      "author": "ddudek",
+      "agent": "nanochat Speedrun Harness",
+      "model": "NVIDIA ClimbMix Pretraining Dataset (324e69c)",
+      "date": "2026-03-04T12:00:00Z",
+      "commit": "324e69c",
+      "url": "https://github.com/karpathy/nanochat/commit/324e69c"
+    },
+    {
+      "id": "nanochat-wr-05-1p80h",
+      "value": 1.8,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "autoresearch Round 1",
+      "model": "Autonomous Hyperparameter & Horizon Tuning (6ed7d1d)",
+      "date": "2026-03-09T12:00:00Z",
+      "commit": "6ed7d1d",
+      "url": "https://github.com/karpathy/nanochat/commit/6ed7d1d"
+    },
+    {
+      "id": "nanochat-wr-06-1p65h",
+      "value": 1.65,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "autoresearch Round 2",
+      "model": "Autonomous Muon & Schedule Tuning (a825e63)",
+      "date": "2026-03-14T12:00:00Z",
+      "commit": "a825e63",
+      "url": "https://github.com/karpathy/nanochat/commit/a825e63"
+    }
+  ],
+  "claims": [],
+  "contributors": 57,
+  "attempts": 544,
+  "updated": "2026-10-25T22:03:48Z"
+}

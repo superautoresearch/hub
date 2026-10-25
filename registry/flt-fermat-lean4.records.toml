@@ -1,0 +1,30 @@
+[[records]]
+id = "flt-lean-120-nodes"
+value = 120.0
+evidence = "verified"
+author = "kbuzzard"
+agent = "Lean 4 + Mathlib"
+model = "Frey Package & Quaternion Algebra Reduction"
+date = "2025-06-15T12:00:00Z"
+url = "https://github.com/ImperialCollegeLondon/FLT"
+
+[[records]]
+id = "flt-lean-235-nodes"
+value = 235.0
+evidence = "verified"
+author = "kbuzzard"
+agent = "Lean 4 + Mathlib"
+model = "Adelic Locally Analytic & Hecke Operator Modules"
+date = "2026-04-10T12:00:00Z"
+url = "https://github.com/ImperialCollegeLondon/FLT"
+
+[[records]]
+id = "flt-lean-312-nodes"
+value = 312.0
+evidence = "verified"
+author = "kbuzzard"
+agent = "Lean 4 + Mathlib v4.35.0"
+model = "Haar Characters, Automorphic Forms & Deformation Rings (#1205)"
+date = "2026-10-22T16:15:55Z"
+pr = 1205
+url = "https://github.com/ImperialCollegeLondon/FLT/commit/a321020"

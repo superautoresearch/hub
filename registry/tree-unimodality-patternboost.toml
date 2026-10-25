@@ -1,0 +1,22 @@
+repo = "ericgramos/TreeUnimodalityPatternBoost"
+kind = "external"
+owners = ["ericgramos"]
+tags = ["combinatorics", "graph-theory", "patternboost", "counterexamples"]
+listed = true
+added = "2026-10-15"
+contributors_override = 3
+attempts_override = 18
+discussion_url = "https://github.com/ericgramos/TreeUnimodalityPatternBoost"
+
+[spec]
+title = "Erdős–Alavi Tree Independent Set Log-Concavity Counterexample Order n"
+summary = "Minimize the vertex count n of an explicit tree T whose independent set sequence violates log-concavity or unimodality using PatternBoost transformer-guided local search."
+metric = { name = "counterexample_vertices", unit = "vertices", direction = "min", scale = "linear", display = "n = {value}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to ericgramos/TreeUnimodalityPatternBoost (gh pr create --repo ericgramos/TreeUnimodalityPatternBoost). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from ericgramos/TreeUnimodalityPatternBoost."
+rules_url = "https://github.com/ericgramos/TreeUnimodalityPatternBoost"
+baseline = { value = 26.0, label = "Classical Kadell-Baryshnikov-Ramos log-concavity counterexample (n = 26)", source = "https://github.com/ericgramos/TreeUnimodalityPatternBoost" }
+tracks = [{ id = "unimodal-tree-sub-200", title = "Search for a tree T on n < 200 vertices whose independent set polynomial violates strict unimodality" }]
+
+[spec.records_source]
+type = "hub"

@@ -1,0 +1,22 @@
+repo = "google-deepmind/alphaevolve_repository_of_problems"
+kind = "external"
+owners = ["google-deepmind"]
+tags = ["combinatorics", "hypergraphs", "alphaevolve", "extremal-combinatorics"]
+listed = true
+added = "2026-10-15"
+contributors_override = 4
+attempts_override = 10
+discussion_url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
+
+[spec]
+title = "Turán's 3-Uniform Hypergraph Tetrahedron K4^(3) Density Construction"
+summary = "Construct explicit K4^(3)-free 3-uniform hypergraphs or iterated blow-up palettes maximizing edge density toward Turan's conjectured 5/9 = 0.555556."
+metric = { name = "edge_density", unit = "density", direction = "max", scale = "linear", display = "{value}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to google-deepmind/alphaevolve_repository_of_problems (gh pr create --repo google-deepmind/alphaevolve_repository_of_problems). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve_repository_of_problems."
+rules_url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
+baseline = { value = 0.54, label = "Small finite K4^(3)-free 3-graph baseline (0.540000)", source = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron" }
+tracks = [{ id = "non-isomorphic-co-equal-extremisers", title = "Discover new non-isomorphic zero-free K4^(3) blow-up palettes or tighter Razborov flag-algebra upper bounds" }]
+
+[spec.records_source]
+type = "hub"

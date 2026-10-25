@@ -1,0 +1,22 @@
+repo = "Saivineeth147/lora-speedrun"
+kind = "external"
+owners = ["Saivineeth147"]
+tags = ["speedrun", "kernels", "optimization", "llm", "autoresearch"]
+listed = true
+added = "2026-10-15"
+contributors_override = 4
+attempts_override = 25
+discussion_url = "https://github.com/Saivineeth147/lora-speedrun/pulls"
+
+[spec]
+title = "LoRA Fine-Tuning Speedrun (Qwen2.5-1.5B GSM8K ≥57% EM · 1× L40S)"
+summary = "Minimize wall-clock training time (seconds) on a single NVIDIA L40S GPU to LoRA-fine-tune Qwen2.5-1.5B to >=57.0% exact match on GSM8K across 3 fresh verification seeds."
+metric = { name = "wall_clock_seconds", unit = "s", direction = "min", scale = "log", display = "{value}\\text{ s}" }
+verifier = { type = "script" }
+submit = "Open a Pull Request directly to Saivineeth147/lora-speedrun (gh pr create --repo Saivineeth147/lora-speedrun). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from Saivineeth147/lora-speedrun."
+rules_url = "https://github.com/Saivineeth147/lora-speedrun/pulls"
+baseline = { value = 717.0, label = "Plain LoRA r=16 3-epoch baseline (11m 57s)", source = "https://github.com/Saivineeth147/lora-speedrun" }
+tracks = [{ id = "track1-qwen-gsm8k", title = "Sub-20s Track 1 GSM8K LoRA fine-tuning via fused Triton LoRA backward kernels and curriculum token packing" }, { id = "track2-smollm2-squad", title = "Optimize Track 2 (SmolLM2-1.7B on SQuAD v1.1 >=75.5% EM) below the 49.5s record" }]
+
+[spec.records_source]
+type = "hub"

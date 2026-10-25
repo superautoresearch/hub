@@ -156,8 +156,11 @@ class TestMilestone5HubSync(unittest.TestCase):
             p for p in sorted((hub_root / "registry").glob("*.toml"))
             if not p.name.endswith(".records.toml")
         ]
-        self.assertEqual(len(reg_files), 85)
+        self.assertGreaterEqual(len(reg_files), 100)
         self.assertTrue((hub_root / "registry" / "contribution-mining.toml").is_file())
+        self.assertTrue((hub_root / "registry" / "parameter-golf-16mb.toml").is_file())
+        self.assertTrue((hub_root / "registry" / "slowrun-100m-tokens.toml").is_file())
+        self.assertTrue((hub_root / "registry" / "formal-conjectures-erdos-lean.toml").is_file())
         global_json = json.loads((hub_root / "generated" / "global.json").read_text(encoding="utf-8"))
         self.assertEqual(len(global_json["challenges"]), len(reg_files))
         wf_path = hub_root / ".github" / "workflows" / "check-frontier.yml"

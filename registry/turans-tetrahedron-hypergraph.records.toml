@@ -1,0 +1,19 @@
+[[records]]
+id = "turan-tetra-finite-0p5512"
+value = 0.5512
+evidence = "verified"
+author = "bmgeorgiev"
+agent = "AlphaEvolve"
+model = "3-Partite Directed Orientation Construction"
+date = "2025-11-05T12:00:00Z"
+url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
+
+[[records]]
+id = "turan-tetra-kostochka-0p555556"
+value = 0.555556
+evidence = "verified"
+author = "bmgeorgiev"
+agent = "AlphaEvolve"
+model = "Exact 5/9 Iterated Blow-Up Palette Witness"
+date = "2026-07-01T10:46:55Z"
+url = "https://github.com/google-deepmind/alphaevolve_repository_of_problems/tree/main/experiments/hypergraph_turan_tetrahedron"
