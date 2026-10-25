@@ -13,7 +13,7 @@ title = "Unit-Square Line-Stabbing Set-Cover LP Integrality Gap"
 summary = "Maximize the verified integrality gap ratio between integer line-stabbing number and fractional LP relaxation for unit squares in R^2 via PatternBoost guided search."
 metric = { name = "lp_integrality_gap", unit = "", direction = "max", scale = "linear", display = "\\text{gap} \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to rishigajjala/patternboost-multilevel or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to rishigajjala/patternboost-multilevel (gh pr create --repo rishigajjala/patternboost-multilevel). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from rishigajjala/patternboost-multilevel."
 rules_url = "https://github.com/rishigajjala/patternboost-multilevel"
 baseline = { value = 1.5, label = "Classical axis-parallel rectangle stabbing LP gap (3/2 = 1.500000)", source = "https://github.com/rishigajjala/patternboost-multilevel" }
 tracks = [{ id = "misr-clique-lp-gap", title = "Search rectangle independent-set configurations exceeding the 3/2 clique-LP integrality gap" }]

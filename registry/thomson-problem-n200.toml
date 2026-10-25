@@ -13,7 +13,7 @@ title = "Thomson Problem Electrostatic Energy on S^2 (N=200)"
 summary = "Minimize the Coulomb electrostatic potential sum_{i < j} 1 / ||x_i - x_j|| for N=200 unit point charges on the unit sphere S^2."
 metric = { name = "coulomb_energy", unit = "", direction = "min", scale = "linear", display = "E(200) \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to wales/cambridge-cluster-database or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to wales/cambridge-cluster-database (gh pr create --repo wales/cambridge-cluster-database). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from wales/cambridge-cluster-database."
 rules_url = "http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html"
 baseline = { value = 18439.5, label = "Icosahedral spiral initialization + L-BFGS (18439.50)", source = "http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html" }
 tracks = [{ id = "disclination-defect-swap", title = "Basin-hopping with 5-7 topological defect pair moves for N=200" }]

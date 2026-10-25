@@ -13,7 +13,7 @@ title = "Sphere Packing Density in 10 Dimensions"
 summary = "Maximize the sphere packing center density delta_10 (or packing fraction Delta_10) of non-overlapping congruent spheres in R^10."
 metric = { name = "packing_density", unit = "", direction = "max", scale = "linear", display = "\\Delta_{10} \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to best-packing/leech-lattice or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to best-packing/leech-lattice (gh pr create --repo best-packing/leech-lattice). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from best-packing/leech-lattice."
 rules_url = "https://arxiv.org/abs/math/0110009"
 baseline = { value = 0.092046, label = "Laminated lattice Lambda_10 packing density (0.092046, Chaundy 1946)", source = "https://arxiv.org/abs/math/0110009" }
 tracks = [{ id = "nonlattice-periodic-d10", title = "Search 64-translate periodic non-lattice packings in R^10 exceeding Best's P10c code" }]

@@ -13,7 +13,7 @@ title = "Spin-one Haldane gap"
 summary = "The quantity is the uniform periodic spin-one spectral-gap lower bound \\gamma_L at J=1, compared on the original domain of even L\\ge2304. A higher lower bound is better. The claim assumes the cited OpenAI spatial-transfer identities and certified finite inputs. The extension to every integer L\\ge24 is listed under Relevant repos."
 metric = { name = "\\gamma_L at J=1", unit = "", direction = "max", scale = "linear", display = "\\gamma_L = {value}" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to amachino/haldane-gap-refinement and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to amachino/haldane-gap-refinement (gh pr create --repo amachino/haldane-gap-refinement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from amachino/haldane-gap-refinement."
 rules_url = "https://github.com/amachino/haldane-gap-refinement#readme"
 baseline = { value = 0.003821, label = "OpenAI periodic spin-one Haldane gap log(20)/784", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Spin-one Haldane gap bound beyond 0.1515" }, { id = "lean-formalization", title = "Formalize current frontier bound for Spin-one Haldane gap in Lean 4" }]

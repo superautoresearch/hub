@@ -13,7 +13,7 @@ title = "Minimum-Point Spherical 5-Design on S^3"
 summary = "Minimize the number of quadrature nodes N on the 3-sphere S^3 <= R^4 with equal weights that exactly integrate all spherical harmonics of degree <= 5."
 metric = { name = "quadrature_nodes", unit = "points", direction = "min", scale = "linear", display = "N(3,5) \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to womersley/spherical-designs or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to womersley/spherical-designs (gh pr create --repo womersley/spherical-designs). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from womersley/spherical-designs."
 rules_url = "https://web.maths.unsw.edu.au/~rsw/Sphere/"
 baseline = { value = 24.0, label = "24-cell regular polytope vertices on S^3 (24 points)", source = "https://web.maths.unsw.edu.au/~rsw/Sphere/" }
 tracks = [{ id = "krawtchouk-interval-proof", title = "Certify existence or non-existence of 15-point spherical 5-designs on S^3" }]

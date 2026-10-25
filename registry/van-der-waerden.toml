@@ -13,7 +13,7 @@ title = "Van der Waerden numbers"
 summary = "The quantity is the coefficient c in W_r(k)>k^{ck\\lfloor\\log_2r\\rfloor}, for sufficiently large k, uniformly in r. A higher coefficient is better. Each claim assumes the upstream OpenAI transfer and states the lemmas it adds. The current region allows every fixed c<1/8; 1/8 is not an attained value."
 metric = { name = "c in W_r(k)>k^{ck\\lfloor\\log_2r\\rfloor", unit = "", direction = "max", scale = "linear", display = "c = {value}" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to DaysSky/van-der-waerden-refinement and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to DaysSky/van-der-waerden-refinement (gh pr create --repo DaysSky/van-der-waerden-refinement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from DaysSky/van-der-waerden-refinement."
 rules_url = "https://github.com/DaysSky/van-der-waerden-refinement#readme"
 baseline = { value = 1e-05, label = "OpenAI baseline c = 1/100000", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Van der Waerden numbers bound beyond 0.111111111111" }, { id = "lean-formalization", title = "Formalize current frontier bound for Van der Waerden numbers in Lean 4" }]

@@ -13,7 +13,7 @@ title = "Corner-Free Subset of F_3^6 x F_3^6"
 summary = "Maximize the size of a subset S of F_3^6 x F_3^6 containing no non-trivial corner (x,y), (x+d,y), (x,y+d) with d != 0."
 metric = { name = "corner_free_points", unit = "points", direction = "max", scale = "linear", display = "|S| \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to green-tao/corners-f3 or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to green-tao/corners-f3 (gh pr create --repo green-tao/corners-f3). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from green-tao/corners-f3."
 rules_url = "https://arxiv.org/abs/2405.04481"
 baseline = { value = 1458.0, label = "Subspace coset diagonal construction (1458 points)", source = "https://arxiv.org/abs/2405.04481" }
 tracks = [{ id = "slice-rank-upper-bound", title = "Tighten polynomial slice-rank upper bound for corner-free subsets in F_3^n" }]

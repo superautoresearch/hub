@@ -13,7 +13,7 @@ title = "Metric TSP Polynomial-Time Approximation Factor"
 summary = "Minimize the proven worst-case approximation factor alpha for the symmetric Metric Traveling Salesperson Problem relative to the Held-Karp LP relaxation."
 metric = { name = "approx_ratio", unit = "", direction = "min", scale = "linear", display = "\\alpha_{\\text{TSP}} \\le {value}" }
 verifier = { type = "manual" }
-submit = "Open a PR to karlin-klein-oghia/metric-tsp or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to karlin-klein-oghia/metric-tsp (gh pr create --repo karlin-klein-oghia/metric-tsp). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from karlin-klein-oghia/metric-tsp."
 rules_url = "https://arxiv.org/abs/2007.01409"
 baseline = { value = 1.5, label = "Christofides-Serdyukov algorithm (3/2 = 1.500000, 1976)", source = "https://arxiv.org/abs/2007.01409" }
 tracks = [{ id = "max-entropy-tree-rounding", title = "Tighten half-triangle payment analysis in max-entropy spanning tree rounding" }]

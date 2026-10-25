@@ -13,7 +13,7 @@ title = "Helfgott's Ternary Goldbach Analytical Cutoff log10(N_0)"
 summary = "Minimize the log10 threshold log10(N_0) above which every odd integer N >= N_0 is proven by major/minor arc bounds to be a sum of three primes."
 metric = { name = "log10_cutoff", unit = "", direction = "min", scale = "linear", display = "10^{{value}}" }
 verifier = { type = "lean" }
-submit = "Open a PR to helfgott/ternary-goldbach or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to helfgott/ternary-goldbach (gh pr create --repo helfgott/ternary-goldbach). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from helfgott/ternary-goldbach."
 rules_url = "https://arxiv.org/abs/1305.2897"
 baseline = { value = 1346.0, label = "Liu & Wang effective Vinogradov three-primes constant (10^1346, 2002)", source = "https://arxiv.org/abs/1305.2897" }
 tracks = [{ id = "lean4-circle-method-arcs", title = "Formalize Helfgott's explicit L-function zero-free region and minor-arc smoothing in Lean 4" }]

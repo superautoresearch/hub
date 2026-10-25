@@ -13,7 +13,7 @@ title = "Directed SSSP (Sparse Comparison-Addition)"
 summary = "Minimize the log-time exponent alpha in O(n (log n)^alpha) for deterministic directed Single-Source Shortest Paths on sparse graphs."
 metric = { name = "log exponent alpha", unit = "", direction = "min", scale = "linear", display = "O(n \\log^{{value}} n)" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to spicylemonade/c-hd-proof and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to spicylemonade/c-hd-proof (gh pr create --repo spicylemonade/c-hd-proof). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from spicylemonade/c-hd-proof."
 rules_url = "https://github.com/spicylemonade/c-hd-proof#readme"
 baseline = { value = 1.0, label = "Fredman-Tarjan Fibonacci heaps O(m + n log n) (1987)" }
 tracks = [{ id = "hierarchy-decrement-tree", title = "Tighten sparse comparison-addition heap decrease-key amortization" }]

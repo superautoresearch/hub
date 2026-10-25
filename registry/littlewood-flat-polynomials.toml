@@ -13,7 +13,7 @@ title = "Littlewood ±1 Polynomial Excursion Ratio"
 summary = "Minimize the maximum modulus excursion ratio max_{|z|=1} |P(z)| / sqrt(n+1) over degree-n polynomials with coefficients in {-1, +1}."
 metric = { name = "crest_factor", unit = "", direction = "min", scale = "linear", display = "\\|P\\|_\\infty / \\sqrt{n} \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to borwein/littlewood-polynomials or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to borwein/littlewood-polynomials (gh pr create --repo borwein/littlewood-polynomials). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from borwein/littlewood-polynomials."
 rules_url = "https://www.sfu.ca/~jjedwab/"
 baseline = { value = 1.414214, label = "Rudin-Shapiro polynomial sequence (sqrt(2) = 1.414214, 1959)", source = "https://www.sfu.ca/~jjedwab/" }
 tracks = [{ id = "barker-turyn-patching", title = "Construct explicit high-degree flat Littlewood polynomials via Golay complementary pairs" }]

@@ -13,7 +13,7 @@ title = "Keller's Cube Tiling Conjecture in Dimension 7 (G_{7,2} Clique)"
 summary = "Minimize the LRAT proof certificate size (in millions of clauses) establishing that the Keller graph G_{7,2} has no clique of size 128."
 metric = { name = "lrat_clauses_m", unit = "M clauses", direction = "min", scale = "linear", display = "{value}\\text{M clauses}" }
 verifier = { type = "lean" }
-submit = "Open a PR to brakensiek-heule/keller-d7 or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to brakensiek-heule/keller-d7 (gh pr create --repo brakensiek-heule/keller-d7). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from brakensiek-heule/keller-d7."
 rules_url = "https://arxiv.org/abs/1910.03740"
 baseline = { value = 1240.0, label = "Initial cube-and-conquer DRAT proof (~1,240M clauses, 2020)", source = "https://arxiv.org/abs/1910.03740" }
 tracks = [{ id = "automorphism-cube-pruning", title = "Factor out hyperoctahedral symmetry group B_7 before CNF generation" }]

@@ -13,7 +13,7 @@ title = "Diagonal Ramsey Number R(5,5) Lower Bound"
 summary = "Maximize the number of vertices N of a graph with neither a 5-clique K_5 nor an independent set of size 5 (establishing R(5,5) > N)."
 metric = { name = "witness_vertices", unit = "vertices", direction = "max", scale = "linear", display = "R(5,5) > {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to linus-exoo/ramsey-graphs or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to linus-exoo/ramsey-graphs (gh pr create --repo linus-exoo/ramsey-graphs). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from linus-exoo/ramsey-graphs."
 rules_url = "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1"
 baseline = { value = 37.0, label = "Kalbfleisch circulant 2-coloring on 37 vertices (1965)", source = "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1" }
 tracks = [{ id = "43-vertex-extension-search", title = "Exhaustive 1-vertex extension + edge-flip neighborhood search from the 656 known (5,5,42)-graphs" }]

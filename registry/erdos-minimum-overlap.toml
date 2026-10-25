@@ -13,7 +13,7 @@ title = "Erdős Minimum Overlap Problem (#36)"
 summary = "Minimize the maximum overlap constant M for measurable step functions h: [0,2] -> [0,1] with integral 1."
 metric = { name = "overlap_constant_M", unit = "", direction = "min", scale = "linear", display = "M \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results."
 rules_url = "https://www.erdosproblems.com/36"
 baseline = { value = 0.4, label = "Scherk & Moser elementary upper bound (0.400000, 1955)", source = "https://www.erdosproblems.com/36" }
 tracks = [{ id = "nonuniform-knot-refinement", title = "Adaptive knot subdivision near boundary discontinuities of h(x)" }, { id = "lp-duality-lower-bound", title = "Tighten Fourier/LP dual lower bound toward 0.379005" }]

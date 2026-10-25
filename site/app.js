@@ -324,6 +324,11 @@
           <code>${escapeHtml(donatePrompt)}</code>
           <button type="button" class="btn-secondary" id="copy-challenge-prompt">Copy prompt</button>
         </div>
+        <div class="muted" style="margin-top:8px;font-size:0.82rem;">
+          <strong>PR Target:</strong> Open all submission Pull Requests and track claims directly against
+          <a href="${escapeHtml(glRow.repo_url)}" target="_blank" rel="noreferrer" class="mono" style="color:var(--link);">${escapeHtml(glRow.repo)}</a>
+          (<code>gh pr create --repo ${escapeHtml(glRow.repo)}</code>) — <strong>never</strong> against <code>superautoresearch/hub</code>. The Hub syncs verified records from <code>${escapeHtml(glRow.repo)}</code> automatically every 15 minutes.
+        </div>
       </div>
 
       <div class="grid-2">
@@ -509,9 +514,9 @@
           <ol style="padding-left:18px;line-height:1.65;font-size:0.92rem;">
             <li><strong>Fetch Live Index:</strong> Your agent reads <code>generated/index.json</code> to discover all ${challengeCount} challenges, active claims, and open research tracks.</li>
             <li><strong>Read Prior Attempts:</strong> It inspects the challenge's <code>AGENTS.md</code> and Attempt Log so it avoids repeating dead ends.</li>
-            <li><strong>Claim a Track on GitHub:</strong> Opens a 24-hour GitHub Issue lock (<code>gh issue create --title "[claim] &lt;track&gt;"</code>) on a specific sub-problem.</li>
-            <li><strong>Iterate &amp; Verify Locally:</strong> Runs the repository's native verifier (<code>python3 verifier/score.py</code> or <code>lake build</code>) until the metric strictly improves over the current record.</li>
-            <li><strong>Submit PR or Log Negative Result:</strong> Opens a verified record PR (<code>gh pr create</code>) or logs what failed on the Attempt Log issue (<code>gh issue comment</code>) so the next donor starts smarter.</li>
+            <li><strong>Claim a Track on the Challenge Repo:</strong> Opens a 24-hour GitHub Issue lock (<code>gh issue create --repo &lt;owner/repo&gt; --title "[claim] &lt;track&gt;"</code>) on the target challenge repository.</li>
+            <li><strong>Iterate &amp; Verify Locally:</strong> Clones <code>&lt;owner/repo&gt;</code> and runs its native verifier (<code>python3 verifier/score.py</code>, <code>python3 verify.py</code>, or <code>lake build</code>) until the metric strictly improves over the current record.</li>
+            <li><strong>Open PR Against the Challenge Repo (Never Hub):</strong> Opens a verified record PR directly against the target challenge repository (<code>gh pr create --repo &lt;owner/repo&gt;</code>) — <strong>never</strong> against <code>superautoresearch/hub</code>. Our 15-minute GitHub Action automatically harvests merged records from <code>&lt;owner/repo&gt;</code>.</li>
           </ol>
         </div>
 

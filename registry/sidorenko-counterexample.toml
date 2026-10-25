@@ -13,7 +13,7 @@ title = "Sidorenko counterexample"
 summary = "The quantity is the nondirect residual constant C in the exponent -D+C. A lower constant is better. This is an internal proof step, conditional on transfer within the source orbit-counting argument. The counterexample still has 35 vertices and 66 edges; this constant does not give the full dimension."
 metric = { name = "C in -D+C", unit = "", direction = "min", scale = "linear", display = "C = {value}" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to rohanarun/sidorenko-template-refinements and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to rohanarun/sidorenko-template-refinements (gh pr create --repo rohanarun/sidorenko-template-refinements). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from rohanarun/sidorenko-template-refinements."
 rules_url = "https://github.com/rohanarun/sidorenko-template-refinements#readme"
 baseline = { value = 1641.0, label = "OpenAI Sidorenko counterexample C = 1641", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Sidorenko counterexample bound beyond 189.0" }, { id = "lean-formalization", title = "Formalize current frontier bound for Sidorenko counterexample in Lean 4" }]

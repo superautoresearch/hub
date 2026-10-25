@@ -13,7 +13,7 @@ title = "Conway's Thrackle Edge-to-Vertex Ratio Bound"
 summary = "Minimize the proven asymptotic upper bound C on m/n for any thrackle (a drawing of a graph of n vertices and m edges where every pair of edges meets exactly once)."
 metric = { name = "edge_vertex_ratio", unit = "", direction = "min", scale = "linear", display = "m/n \\le {value}" }
 verifier = { type = "manual" }
-submit = "Open a PR to fulek-pach/thrackle-bound or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to fulek-pach/thrackle-bound (gh pr create --repo fulek-pach/thrackle-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from fulek-pach/thrackle-bound."
 rules_url = "https://arxiv.org/abs/1008.2159"
 baseline = { value = 2.0, label = "Lovász, Pach & Szegedy thrackle bound (m <= 2n - 3, 1997)", source = "https://arxiv.org/abs/1008.2159" }
 tracks = [{ id = "discharging-even-faces", title = "Automated discharging rule search in planarized thrackle arrangements" }]

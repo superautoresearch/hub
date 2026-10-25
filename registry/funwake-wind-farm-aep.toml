@@ -13,7 +13,7 @@ title = "FunWake Held-Out Wind Farm Layout Optimization AEP Gain"
 summary = "Maximize held-out annual energy production (AEP) gain in GWh over a 500-multistart baseline by evolving a constrained 4-parameter optimizer schedule."
 metric = { name = "aep_gain_gwh", unit = "GWh", direction = "max", scale = "linear", display = "+{value}\\text{ GWh}" }
 verifier = { type = "script" }
-submit = "Open a PR to kilojoules/funwake or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to kilojoules/funwake (gh pr create --repo kilojoules/funwake). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from kilojoules/funwake."
 rules_url = "https://github.com/kilojoules/funwake"
 baseline = { value = 0.0, label = "500-multistart gradient optimizer baseline (+0.0 GWh)", source = "https://github.com/kilojoules/funwake" }
 tracks = [{ id = "cosine-restart-envelope", title = "Search 4-parameter non-monotonic step-size schedules under wake-interference gradients" }]

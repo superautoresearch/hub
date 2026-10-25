@@ -13,7 +13,7 @@ title = "Goemans–Williamson Max-Cut SDP Integrality Gap"
 summary = "Minimize the upper bound on the Max-Cut SDP integrality ratio CUT(G) / SDP(G) by constructing a high-dimensional graph instance."
 metric = { name = "integrality_ratio", unit = "", direction = "min", scale = "linear", display = "\\alpha_{\\text{GW}} \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to feige-schechtman/maxcut-sdp-gap or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to feige-schechtman/maxcut-sdp-gap (gh pr create --repo feige-schechtman/maxcut-sdp-gap). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from feige-schechtman/maxcut-sdp-gap."
 rules_url = "https://dl.acm.org/doi/10.1145/227683.227684"
 baseline = { value = 0.878567, label = "Goemans & Williamson random hyperplane rounding (1995)", source = "https://dl.acm.org/doi/10.1145/227683.227684" }
 tracks = [{ id = "spherical-graph-discretization", title = "Construct explicit finite vertex graph on S^d achieving gap below 0.878560" }]

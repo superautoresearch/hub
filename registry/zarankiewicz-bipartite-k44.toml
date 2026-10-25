@@ -13,7 +13,7 @@ title = "Zarankiewicz Problem z(31, 31; 4, 4) (K_{4,4}-Free Bipartite Edges)"
 summary = "Maximize the number of edges in a 31x31 bipartite graph containing no complete 4x4 bipartite subgraph K_{4,4}."
 metric = { name = "bipartite_edges", unit = "edges", direction = "max", scale = "linear", display = "z(31;4) \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to tan-zarankiewicz/zarankiewicz-sat or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to tan-zarankiewicz/zarankiewicz-sat (gh pr create --repo tan-zarankiewicz/zarankiewicz-sat). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from tan-zarankiewicz/zarankiewicz-sat."
 rules_url = "https://www.combinatorics.org/"
 baseline = { value = 300.0, label = "Projective plane sub-incidence construction (300 edges)", source = "https://www.combinatorics.org/" }
 tracks = [{ id = "lex-leader-symmetry-sat", title = "Apply SMS / lex-leader symmetry breaking to certify optimality of z(31, 31; 4, 4)" }]

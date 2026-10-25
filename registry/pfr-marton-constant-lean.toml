@@ -13,7 +13,7 @@ title = "Polynomial Freiman–Ruzsa (Marton's Conjecture) Exponent"
 summary = "Minimize the formally verified polynomial doubling exponent C in Lean 4 such that |A + A| <= K|A| implies A is covered by at most 2 * K^C cosets."
 metric = { name = "exponent_C", unit = "", direction = "min", scale = "linear", display = "K^{{value}}" }
 verifier = { type = "lean" }
-submit = "Open a PR to teorth/pfr or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to teorth/pfr (gh pr create --repo teorth/pfr). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from teorth/pfr."
 rules_url = "https://github.com/teorth/pfr"
 baseline = { value = 12.0, label = "Gowers-Green-Manners-Tao initial PFR proof (C = 12, Nov 2023)", source = "https://arxiv.org/abs/2311.05762" }
 tracks = [{ id = "ruzsa-distance-entropy", title = "Formalize Jyun-Jie Liao's improved entropic Ruzsa triangle constant in Lean 4" }]

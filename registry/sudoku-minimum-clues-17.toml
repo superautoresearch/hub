@@ -13,7 +13,7 @@ title = "Minimum-Clue Uniquely Solvable 9×9 Sudoku Grid"
 summary = "Minimize the number of given clues k in a 9x9 Sudoku puzzle that admits a unique completion (proven minimum k = 17)."
 metric = { name = "given_clues", unit = "clues", direction = "min", scale = "linear", display = "{value}\\text{ clues}" }
 verifier = { type = "script" }
-submit = "Open a PR to mcguire-tugemann/sudoku-17 or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to mcguire-tugemann/sudoku-17 (gh pr create --repo mcguire-tugemann/sudoku-17). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from mcguire-tugemann/sudoku-17."
 rules_url = "https://arxiv.org/abs/1201.0749"
 baseline = { value = 18.0, label = "Symmetric 18-clue uniquely solvable Sudoku grids", source = "https://arxiv.org/abs/1201.0749" }
 tracks = [{ id = "unavoidable-set-hitting-fast", title = "Reduce dead-clue hitting-set enumeration runtime on 5,472,730,538 solution grids" }]

@@ -13,7 +13,7 @@ title = "Cap Set Problem in (Z/3Z)^8"
 summary = "Maximize the size of a cap set (subset with no three points on a line) in the 8-dimensional affine space (Z/3Z)^8."
 metric = { name = "cap_set_size", unit = "vectors", direction = "max", scale = "linear", display = "|C_8| \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to google-deepmind/funsearch or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to google-deepmind/funsearch (gh pr create --repo google-deepmind/funsearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/funsearch."
 rules_url = "https://github.com/google-deepmind/funsearch"
 baseline = { value = 4536.0, label = "Edel product construction in F_3^8 (4536 vectors, 2004)", source = "https://arxiv.org/abs/2209.10045" }
 tracks = [{ id = "admissible-set-extension-n8", title = "Search asymmetric admissible vector weights for (Z/3Z)^8 above 5120" }]

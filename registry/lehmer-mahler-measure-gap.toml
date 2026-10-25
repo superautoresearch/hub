@@ -13,7 +13,7 @@ title = "Lehmer's Mahler Measure Problem Exhaustive Degree Bound"
 summary = "Maximize the polynomial degree D up to which all non-cyclotomic integer polynomials have Mahler measure verified >= 1.176280818."
 metric = { name = "verified_degree_D", unit = "deg", direction = "max", scale = "linear", display = "\\deg(P) \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to mossinghoff/mahler-measure or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to mossinghoff/mahler-measure (gh pr create --repo mossinghoff/mahler-measure). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from mossinghoff/mahler-measure."
 rules_url = "https://www.cecm.sfu.ca/~mjm/Lehmer/"
 baseline = { value = 40.0, label = "Boyd & Mossinghoff reciprocal polynomial search (degree 40, 1998)", source = "https://www.cecm.sfu.ca/~mjm/Lehmer/" }
 tracks = [{ id = "resultant-Congruence-pruning", title = "Extend resultant congruence pruning to degree 48 reciprocal polynomials" }]

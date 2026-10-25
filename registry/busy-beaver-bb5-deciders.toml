@@ -13,7 +13,7 @@ title = "Busy Beaver BB(5) Undecided Holdout Machines"
 summary = "Minimize the number of undecided 5-state 2-symbol Turing machines in the formal verification of S(5) = 47,176,870."
 metric = { name = "undecided_machines", unit = "machines", direction = "min", scale = "linear", display = "{value}\\text{ holdouts}" }
 verifier = { type = "lean" }
-submit = "Open a PR to bbchallenge/bbchallenge or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to bbchallenge/bbchallenge (gh pr create --repo bbchallenge/bbchallenge). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from bbchallenge/bbchallenge."
 rules_url = "https://bbchallenge.org/"
 baseline = { value = 88664064.0, label = "bbchallenge starter seed corpus (88,664,064 machines)", source = "https://bbchallenge.org/" }
 tracks = [{ id = "bb6-cryptids-lean", title = "Port Coq/Rocq closed-tape language deciders to Lean 4 for 6-state holdouts" }]

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-10-25T21:15:22Z",
+  "updated": "2026-10-25T21:32:50Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -34,7 +34,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to proof-factory/3sum-bound and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to proof-factory/3sum-bound (gh pr create --repo proof-factory/3sum-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from proof-factory/3sum-bound.",
       "rules_url": "https://github.com/proof-factory/3sum-bound#readme",
       "tracks": [
         {
@@ -91,7 +91,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to romik/ambidextrous-sofa or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to romik/ambidextrous-sofa (gh pr create --repo romik/ambidextrous-sofa). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from romik/ambidextrous-sofa.",
       "rules_url": "https://arxiv.org/abs/1606.08111",
       "tracks": [
         {
@@ -142,7 +142,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to fringewidth/apsp-bound and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to fringewidth/apsp-bound (gh pr create --repo fringewidth/apsp-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from fringewidth/apsp-bound.",
       "rules_url": "https://github.com/fringewidth/apsp-bound#readme",
       "tracks": [
         {
@@ -201,7 +201,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to teorth/equational_theories or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to teorth/equational_theories (gh pr create --repo teorth/equational_theories). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from teorth/equational_theories.",
       "rules_url": "https://github.com/google-deepmind/alphaevolve-results",
       "tracks": [
         {
@@ -251,7 +251,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to Anchen0823/average-sensitivity-lean and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to Anchen0823/average-sensitivity-lean (gh pr create --repo Anchen0823/average-sensitivity-lean). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from Anchen0823/average-sensitivity-lean.",
       "rules_url": "https://github.com/Anchen0823/average-sensitivity-lean#readme",
       "tracks": [
         {
@@ -311,7 +311,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to pal-vertesi/i3322-bell or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to pal-vertesi/i3322-bell (gh pr create --repo pal-vertesi/i3322-bell). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from pal-vertesi/i3322-bell.",
       "rules_url": "https://arxiv.org/abs/1006.3032",
       "tracks": [
         {
@@ -360,7 +360,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to canghaimeng/openai-math-improvement and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to canghaimeng/openai-math-improvement (gh pr create --repo canghaimeng/openai-math-improvement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from canghaimeng/openai-math-improvement.",
       "rules_url": "https://github.com/canghaimeng/openai-math-improvement#readme",
       "tracks": [
         {
@@ -419,7 +419,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to karloff-zwick/max3sat-sdp or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to karloff-zwick/max3sat-sdp (gh pr create --repo karloff-zwick/max3sat-sdp). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from karloff-zwick/max3sat-sdp.",
       "rules_url": "https://epubs.siam.org/doi/10.1137/S0097539797321481",
       "tracks": [
         {
@@ -470,7 +470,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to huang/sensitivity-conjecture or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to huang/sensitivity-conjecture (gh pr create --repo huang/sensitivity-conjecture). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from huang/sensitivity-conjecture.",
       "rules_url": "https://arxiv.org/abs/1907.00847",
       "tracks": [
         {
@@ -521,7 +521,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to bbchallenge/bbchallenge or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to bbchallenge/bbchallenge (gh pr create --repo bbchallenge/bbchallenge). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from bbchallenge/bbchallenge.",
       "rules_url": "https://bbchallenge.org/",
       "tracks": [
         {
@@ -571,7 +571,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to exoo-jajcay/cage-graphs or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to exoo-jajcay/cage-graphs (gh pr create --repo exoo-jajcay/cage-graphs). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from exoo-jajcay/cage-graphs.",
       "rules_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS16",
       "tracks": [
         {
@@ -679,7 +679,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/funsearch or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/funsearch (gh pr create --repo google-deepmind/funsearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/funsearch.",
       "rules_url": "https://github.com/google-deepmind/funsearch",
       "tracks": [
         {
@@ -728,7 +728,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to slitsey/catalan-irrationality-measure and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to slitsey/catalan-irrationality-measure (gh pr create --repo slitsey/catalan-irrationality-measure). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from slitsey/catalan-irrationality-measure.",
       "rules_url": "https://github.com/slitsey/catalan-irrationality-measure#readme",
       "tracks": [
         {
@@ -786,7 +786,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to KellerJordan/cifar10-airbench or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to KellerJordan/cifar10-airbench (gh pr create --repo KellerJordan/cifar10-airbench). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from KellerJordan/cifar10-airbench.",
       "rules_url": "https://github.com/KellerJordan/cifar10-airbench/issues",
       "tracks": [
         {
@@ -844,7 +844,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results.",
       "rules_url": "https://github.com/google-deepmind/alphaevolve-results",
       "tracks": [
         {
@@ -901,7 +901,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to barina/collatz-verification or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to barina/collatz-verification (gh pr create --repo barina/collatz-verification). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from barina/collatz-verification.",
       "rules_url": "https://pcbarina.fit.vutbr.cz/",
       "tracks": [
         {
@@ -950,7 +950,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to EcoDataLab/contingency-tables and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to EcoDataLab/contingency-tables (gh pr create --repo EcoDataLab/contingency-tables). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from EcoDataLab/contingency-tables.",
       "rules_url": "https://github.com/EcoDataLab/contingency-tables#readme",
       "tracks": [
         {
@@ -1009,7 +1009,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to superautoresearch/research-guide or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to superautoresearch/research-guide (gh pr create --repo superautoresearch/research-guide). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from superautoresearch/research-guide.",
       "rules_url": "https://github.com/superautoresearch/research-guide",
       "tracks": [
         {
@@ -1083,7 +1083,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a PR to fulek-pach/thrackle-bound or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to fulek-pach/thrackle-bound (gh pr create --repo fulek-pach/thrackle-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from fulek-pach/thrackle-bound.",
       "rules_url": "https://arxiv.org/abs/1008.2159",
       "tracks": [
         {
@@ -1133,7 +1133,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to green-tao/corners-f3 or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to green-tao/corners-f3 (gh pr create --repo green-tao/corners-f3). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from green-tao/corners-f3.",
       "rules_url": "https://arxiv.org/abs/2405.04481",
       "tracks": [
         {
@@ -1183,7 +1183,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to aichholzer/rectilinear-crossing or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to aichholzer/rectilinear-crossing (gh pr create --repo aichholzer/rectilinear-crossing). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from aichholzer/rectilinear-crossing.",
       "rules_url": "http://www.ist.tugraz.at/staff/aichholzer/research/rp/triangulations/crossing/",
       "tracks": [
         {
@@ -1233,7 +1233,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to no-way-labs/minimum-state-product or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to no-way-labs/minimum-state-product (gh pr create --repo no-way-labs/minimum-state-product). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from no-way-labs/minimum-state-product.",
       "rules_url": "https://github.com/no-way-labs/minimum-state-product",
       "tracks": [
         {
@@ -1281,7 +1281,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to spicylemonade/c-hd-proof and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to spicylemonade/c-hd-proof (gh pr create --repo spicylemonade/c-hd-proof). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from spicylemonade/c-hd-proof.",
       "rules_url": "https://github.com/spicylemonade/c-hd-proof#readme",
       "tracks": [
         {
@@ -1331,7 +1331,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to ricolalemon/endless-exam or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to ricolalemon/endless-exam (gh pr create --repo ricolalemon/endless-exam). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from ricolalemon/endless-exam.",
       "rules_url": "https://github.com/ricolalemon/endless-exam",
       "tracks": [
         {
@@ -1381,7 +1381,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to teorth/equational_theories or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to teorth/equational_theories (gh pr create --repo teorth/equational_theories). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from teorth/equational_theories.",
       "rules_url": "https://github.com/teorth/equational_theories",
       "tracks": [
         {
@@ -1431,7 +1431,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to xiaoliaoOvO/erdos-302-smooth-blocks or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to xiaoliaoOvO/erdos-302-smooth-blocks (gh pr create --repo xiaoliaoOvO/erdos-302-smooth-blocks). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from xiaoliaoOvO/erdos-302-smooth-blocks.",
       "rules_url": "https://github.com/xiaoliaoOvO/erdos-302-smooth-blocks",
       "tracks": [
         {
@@ -1482,7 +1482,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to konev-lisitsa/erdos-discrepancy or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to konev-lisitsa/erdos-discrepancy (gh pr create --repo konev-lisitsa/erdos-discrepancy). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from konev-lisitsa/erdos-discrepancy.",
       "rules_url": "https://arxiv.org/abs/1402.2184",
       "tracks": [
         {
@@ -1532,7 +1532,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results.",
       "rules_url": "https://www.erdosproblems.com/36",
       "tracks": [
         {
@@ -1591,7 +1591,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to EvolvingPrograms/erdos-simonovits-degeneracy or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to EvolvingPrograms/erdos-simonovits-degeneracy (gh pr create --repo EvolvingPrograms/erdos-simonovits-degeneracy). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from EvolvingPrograms/erdos-simonovits-degeneracy.",
       "rules_url": "https://github.com/EvolvingPrograms/erdos-simonovits-degeneracy",
       "tracks": [
         {
@@ -1643,7 +1643,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to szekeres-peters/happy-ending or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to szekeres-peters/happy-ending (gh pr create --repo szekeres-peters/happy-ending). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from szekeres-peters/happy-ending.",
       "rules_url": "https://www.erdosproblems.com/107",
       "tracks": [
         {
@@ -1693,7 +1693,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to shea256/fourier-transform-below-nlogn and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to shea256/fourier-transform-below-nlogn (gh pr create --repo shea256/fourier-transform-below-nlogn). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shea256/fourier-transform-below-nlogn.",
       "rules_url": "https://github.com/shea256/fourier-transform-below-nlogn#readme",
       "tracks": [
         {
@@ -1811,7 +1811,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to kilojoules/funwake or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to kilojoules/funwake (gh pr create --repo kilojoules/funwake). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from kilojoules/funwake.",
       "rules_url": "https://github.com/kilojoules/funwake",
       "tracks": [
         {
@@ -1862,7 +1862,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to helfgott/ternary-goldbach or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to helfgott/ternary-goldbach (gh pr create --repo helfgott/ternary-goldbach). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from helfgott/ternary-goldbach.",
       "rules_url": "https://arxiv.org/abs/1305.2897",
       "tracks": [
         {
@@ -1911,7 +1911,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to distributed-net/ogr-28 or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to distributed-net/ogr-28 (gh pr create --repo distributed-net/ogr-28). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from distributed-net/ogr-28.",
       "rules_url": "https://www.distributed.net/OGR",
       "tracks": [
         {
@@ -1963,7 +1963,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to conway-hardin-sloane/grassmannian-packings or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to conway-hardin-sloane/grassmannian-packings (gh pr create --repo conway-hardin-sloane/grassmannian-packings). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from conway-hardin-sloane/grassmannian-packings.",
       "rules_url": "http://neilsloane.com/packings/",
       "tracks": [
         {
@@ -2015,7 +2015,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to ustas-parts/unit-distance-5chromatic or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to ustas-parts/unit-distance-5chromatic (gh pr create --repo ustas-parts/unit-distance-5chromatic). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from ustas-parts/unit-distance-5chromatic.",
       "rules_url": "https://arxiv.org/abs/1804.02385",
       "tracks": [
         {
@@ -2063,7 +2063,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to amachino/haldane-gap-refinement and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to amachino/haldane-gap-refinement (gh pr create --repo amachino/haldane-gap-refinement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from amachino/haldane-gap-refinement.",
       "rules_url": "https://github.com/amachino/haldane-gap-refinement#readme",
       "tracks": [
         {
@@ -2120,7 +2120,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to littleBro/heilbronn-triangle-bounds and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to littleBro/heilbronn-triangle-bounds (gh pr create --repo littleBro/heilbronn-triangle-bounds). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from littleBro/heilbronn-triangle-bounds.",
       "rules_url": "https://github.com/littleBro/heilbronn-triangle-bounds#readme",
       "tracks": [
         {
@@ -2178,7 +2178,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to CrocSwap/integer-mult-bounds and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to CrocSwap/integer-mult-bounds (gh pr create --repo CrocSwap/integer-mult-bounds). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from CrocSwap/integer-mult-bounds.",
       "rules_url": "https://github.com/CrocSwap/integer-mult-bounds#readme",
       "tracks": [
         {
@@ -2237,7 +2237,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to karpathy/autoresearch or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to karpathy/autoresearch (gh pr create --repo karpathy/autoresearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from karpathy/autoresearch.",
       "rules_url": "https://github.com/karpathy/autoresearch",
       "tracks": [
         {
@@ -2298,7 +2298,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to brakensiek-heule/keller-d7 or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to brakensiek-heule/keller-d7 (gh pr create --repo brakensiek-heule/keller-d7). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from brakensiek-heule/keller-d7.",
       "rules_url": "https://arxiv.org/abs/1910.03740",
       "tracks": [
         {
@@ -2348,7 +2348,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results.",
       "rules_url": "https://github.com/google-deepmind/alphaevolve-results",
       "tracks": [
         {
@@ -2407,7 +2407,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to baez-gibbs/lebesgue-universal-cover or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to baez-gibbs/lebesgue-universal-cover (gh pr create --repo baez-gibbs/lebesgue-universal-cover). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from baez-gibbs/lebesgue-universal-cover.",
       "rules_url": "https://arxiv.org/abs/1502.01257",
       "tracks": [
         {
@@ -2464,7 +2464,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to borwein/littlewood-polynomials or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to borwein/littlewood-polynomials (gh pr create --repo borwein/littlewood-polynomials). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from borwein/littlewood-polynomials.",
       "rules_url": "https://www.sfu.ca/~jjedwab/",
       "tracks": [
         {
@@ -2514,7 +2514,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to tao-lonely-runner/lonely-runner or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to tao-lonely-runner/lonely-runner (gh pr create --repo tao-lonely-runner/lonely-runner). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from tao-lonely-runner/lonely-runner.",
       "rules_url": "https://arxiv.org/abs/1701.02048",
       "tracks": [
         {
@@ -2564,7 +2564,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results.",
       "rules_url": "https://github.com/google-deepmind/alphaevolve-results",
       "tracks": [
         {
@@ -2621,7 +2621,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to openai/math and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to openai/math (gh pr create --repo openai/math). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from openai/math.",
       "rules_url": "https://github.com/openai/math#readme",
       "tracks": [
         {
@@ -2679,7 +2679,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to shea256/matroid-prophet-inequality and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to shea256/matroid-prophet-inequality (gh pr create --repo shea256/matroid-prophet-inequality). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shea256/matroid-prophet-inequality.",
       "rules_url": "https://github.com/shea256/matroid-prophet-inequality#readme",
       "tracks": [
         {
@@ -2738,7 +2738,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to feige-schechtman/maxcut-sdp-gap or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to feige-schechtman/maxcut-sdp-gap (gh pr create --repo feige-schechtman/maxcut-sdp-gap). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from feige-schechtman/maxcut-sdp-gap.",
       "rules_url": "https://dl.acm.org/doi/10.1145/227683.227684",
       "tracks": [
         {
@@ -2789,7 +2789,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to preda/gpuowl or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to preda/gpuowl (gh pr create --repo preda/gpuowl). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from preda/gpuowl.",
       "rules_url": "https://www.mersenne.org/",
       "tracks": [
         {
@@ -2841,7 +2841,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a PR to karlin-klein-oghia/metric-tsp or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to karlin-klein-oghia/metric-tsp (gh pr create --repo karlin-klein-oghia/metric-tsp). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from karlin-klein-oghia/metric-tsp.",
       "rules_url": "https://arxiv.org/abs/2007.01409",
       "tracks": [
         {
@@ -2892,7 +2892,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to wang-worm/moser-worm-cover or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to wang-worm/moser-worm-cover (gh pr create --repo wang-worm/moser-worm-cover). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from wang-worm/moser-worm-cover.",
       "rules_url": "https://en.wikipedia.org/wiki/Moser%27s_worm_problem",
       "tracks": [
         {
@@ -2943,7 +2943,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to baek-sofa/moving-sofa or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to baek-sofa/moving-sofa (gh pr create --repo baek-sofa/moving-sofa). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from baek-sofa/moving-sofa.",
       "rules_url": "https://arxiv.org/abs/2411.19826",
       "tracks": [
         {
@@ -2991,7 +2991,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a PR to KellerJordan/modded-nanogpt following the README record rules.",
+      "submit": "Open a Pull Request directly to KellerJordan/modded-nanogpt (gh pr create --repo KellerJordan/modded-nanogpt). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from KellerJordan/modded-nanogpt.",
       "rules_url": "https://github.com/KellerJordan/modded-nanogpt#readme",
       "tracks": [
         {
@@ -3050,7 +3050,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/funsearch or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/funsearch (gh pr create --repo google-deepmind/funsearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/funsearch.",
       "rules_url": "https://github.com/google-deepmind/funsearch",
       "tracks": [
         {
@@ -3100,7 +3100,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to shea256/ordered-binary-matrix-removal and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to shea256/ordered-binary-matrix-removal (gh pr create --repo shea256/ordered-binary-matrix-removal). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shea256/ordered-binary-matrix-removal.",
       "rules_url": "https://github.com/shea256/ordered-binary-matrix-removal#readme",
       "tracks": [
         {
@@ -3158,7 +3158,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to rishigajjala/patternboost-multilevel or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to rishigajjala/patternboost-multilevel (gh pr create --repo rishigajjala/patternboost-multilevel). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from rishigajjala/patternboost-multilevel.",
       "rules_url": "https://github.com/rishigajjala/patternboost-multilevel",
       "tracks": [
         {
@@ -3209,7 +3209,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to teorth/pfr or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to teorth/pfr (gh pr create --repo teorth/pfr). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from teorth/pfr.",
       "rules_url": "https://github.com/teorth/pfr",
       "tracks": [
         {
@@ -3260,7 +3260,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to lsmeng/pnt-table15-evidence or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to lsmeng/pnt-table15-evidence (gh pr create --repo lsmeng/pnt-table15-evidence). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from lsmeng/pnt-table15-evidence.",
       "rules_url": "https://github.com/lsmeng/pnt-table15-evidence",
       "tracks": [
         {
@@ -3308,7 +3308,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to Rogerhu12/openai-math-extensions and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to Rogerhu12/openai-math-extensions (gh pr create --repo Rogerhu12/openai-math-extensions). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from Rogerhu12/openai-math-extensions.",
       "rules_url": "https://github.com/Rogerhu12/openai-math-extensions#readme",
       "tracks": [
         {
@@ -3368,7 +3368,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to heule-kullmann-marek/pythagorean-triples or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to heule-kullmann-marek/pythagorean-triples (gh pr create --repo heule-kullmann-marek/pythagorean-triples). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from heule-kullmann-marek/pythagorean-triples.",
       "rules_url": "https://arxiv.org/abs/1605.00723",
       "tracks": [
         {
@@ -3418,7 +3418,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to GTimG/QuasiRiemannTracker and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to GTimG/QuasiRiemannTracker (gh pr create --repo GTimG/QuasiRiemannTracker). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from GTimG/QuasiRiemannTracker.",
       "rules_url": "https://github.com/GTimG/QuasiRiemannTracker#readme",
       "tracks": [
         {
@@ -3477,7 +3477,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to linus-exoo/ramsey-graphs or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to linus-exoo/ramsey-graphs (gh pr create --repo linus-exoo/ramsey-graphs). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from linus-exoo/ramsey-graphs.",
       "rules_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1",
       "tracks": [
         {
@@ -3527,7 +3527,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to google-deepmind/funsearch or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to google-deepmind/funsearch (gh pr create --repo google-deepmind/funsearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/funsearch.",
       "rules_url": "https://github.com/google-deepmind/funsearch",
       "tracks": [
         {
@@ -3577,7 +3577,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to heule/schur-number-five or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to heule/schur-number-five (gh pr create --repo heule/schur-number-five). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from heule/schur-number-five.",
       "rules_url": "https://arxiv.org/abs/1711.08076",
       "tracks": [
         {
@@ -3628,7 +3628,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to tejasvi/schur-siegel-smyth-trace-bounds or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to tejasvi/schur-siegel-smyth-trace-bounds (gh pr create --repo tejasvi/schur-siegel-smyth-trace-bounds). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from tejasvi/schur-siegel-smyth-trace-bounds.",
       "rules_url": "https://github.com/tejasvi/schur-siegel-smyth-trace-bounds",
       "tracks": [
         {
@@ -3685,7 +3685,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a PR to tao/sendov-conjecture or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to tao/sendov-conjecture (gh pr create --repo tao/sendov-conjecture). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from tao/sendov-conjecture.",
       "rules_url": "https://arxiv.org/abs/2007.03294",
       "tracks": [
         {
@@ -3738,7 +3738,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to appleby-flammia/sic-povm or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to appleby-flammia/sic-povm (gh pr create --repo appleby-flammia/sic-povm). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from appleby-flammia/sic-povm.",
       "rules_url": "https://arxiv.org/abs/0911.0545",
       "tracks": [
         {
@@ -3786,7 +3786,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to rohanarun/sidorenko-template-refinements and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to rohanarun/sidorenko-template-refinements (gh pr create --repo rohanarun/sidorenko-template-refinements). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from rohanarun/sidorenko-template-refinements.",
       "rules_url": "https://github.com/rohanarun/sidorenko-template-refinements#readme",
       "tracks": [
         {
@@ -3844,7 +3844,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a Pull Request to shjvandekamp/math and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to shjvandekamp/math (gh pr create --repo shjvandekamp/math). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shjvandekamp/math.",
       "rules_url": "https://github.com/shjvandekamp/math#readme",
       "tracks": [
         {
@@ -3904,7 +3904,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to bundala-zavodny/sorting-depth or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to bundala-zavodny/sorting-depth (gh pr create --repo bundala-zavodny/sorting-depth). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from bundala-zavodny/sorting-depth.",
       "rules_url": "https://arxiv.org/abs/1310.6271",
       "tracks": [
         {
@@ -3954,7 +3954,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to bertdobbelaere/SortingNetworks or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to bertdobbelaere/SortingNetworks (gh pr create --repo bertdobbelaere/SortingNetworks). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from bertdobbelaere/SortingNetworks.",
       "rules_url": "https://github.com/bertdobbelaere/SortingNetworks",
       "tracks": [
         {
@@ -4013,7 +4013,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to best-packing/leech-lattice or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to best-packing/leech-lattice (gh pr create --repo best-packing/leech-lattice). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from best-packing/leech-lattice.",
       "rules_url": "https://arxiv.org/abs/math/0110009",
       "tracks": [
         {
@@ -4063,7 +4063,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to womersley/spherical-designs or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to womersley/spherical-designs (gh pr create --repo womersley/spherical-designs). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from womersley/spherical-designs.",
       "rules_url": "https://web.maths.unsw.edu.au/~rsw/Sphere/",
       "tracks": [
         {
@@ -4113,7 +4113,7 @@
       "verifier": {
         "type": "lean"
       },
-      "submit": "Open a PR to leansolving/SqueezeBench or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to leansolving/SqueezeBench (gh pr create --repo leansolving/SqueezeBench). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from leansolving/SqueezeBench.",
       "rules_url": "https://github.com/leansolving/SqueezeBench",
       "tracks": [
         {
@@ -4162,7 +4162,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to JoshuaQFEX/subset-sum-bound and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to JoshuaQFEX/subset-sum-bound (gh pr create --repo JoshuaQFEX/subset-sum-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from JoshuaQFEX/subset-sum-bound.",
       "rules_url": "https://github.com/JoshuaQFEX/subset-sum-bound#readme",
       "tracks": [
         {
@@ -4221,7 +4221,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to mcguire-tugemann/sudoku-17 or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to mcguire-tugemann/sudoku-17 (gh pr create --repo mcguire-tugemann/sudoku-17). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from mcguire-tugemann/sudoku-17.",
       "rules_url": "https://arxiv.org/abs/1201.0749",
       "tracks": [
         {
@@ -4271,7 +4271,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to musin-tarasov/tammes-13 or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to musin-tarasov/tammes-13 (gh pr create --repo musin-tarasov/tammes-13). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from musin-tarasov/tammes-13.",
       "rules_url": "https://arxiv.org/abs/1211.2448",
       "tracks": [
         {
@@ -4322,7 +4322,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to wales/cambridge-cluster-database or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to wales/cambridge-cluster-database (gh pr create --repo wales/cambridge-cluster-database). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from wales/cambridge-cluster-database.",
       "rules_url": "http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html",
       "tracks": [
         {
@@ -4370,7 +4370,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to rohanarun/unit-distance-grid-refinement and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to rohanarun/unit-distance-grid-refinement (gh pr create --repo rohanarun/unit-distance-grid-refinement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from rohanarun/unit-distance-grid-refinement.",
       "rules_url": "https://github.com/rohanarun/unit-distance-grid-refinement#readme",
       "tracks": [
         {
@@ -4427,7 +4427,7 @@
       "verifier": {
         "type": "manual"
       },
-      "submit": "Open a Pull Request to DaysSky/van-der-waerden-refinement and register new records in superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to DaysSky/van-der-waerden-refinement (gh pr create --repo DaysSky/van-der-waerden-refinement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from DaysSky/van-der-waerden-refinement.",
       "rules_url": "https://github.com/DaysSky/van-der-waerden-refinement#readme",
       "tracks": [
         {
@@ -4485,7 +4485,7 @@
       "verifier": {
         "type": "script"
       },
-      "submit": "Open a PR to tan-zarankiewicz/zarankiewicz-sat or submit a reproducible witness to superautoresearch/hub.",
+      "submit": "Open a Pull Request directly to tan-zarankiewicz/zarankiewicz-sat (gh pr create --repo tan-zarankiewicz/zarankiewicz-sat). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from tan-zarankiewicz/zarankiewicz-sat.",
       "rules_url": "https://www.combinatorics.org/",
       "tracks": [
         {

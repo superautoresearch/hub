@@ -13,7 +13,7 @@ title = "4×4 Complex Matrix Multiplication Tensor Rank"
 summary = "Minimize the number of scalar multiplications required to multiply two 4x4 complex matrices."
 metric = { name = "scalar_multiplications", unit = "muls", direction = "min", scale = "linear", display = "\\text{rank}\\langle 4,4,4\\rangle \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results."
 rules_url = "https://github.com/google-deepmind/alphaevolve-results"
 baseline = { value = 49.0, label = "Two-level Strassen recursion 7^2 = 49 (1969)", source = "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/" }
 tracks = [{ id = "real-field-48-lift", title = "Convert the 48-multiplication complex scheme to a pure real/integer scheme" }, { id = "rank-47-search", title = "Alternating least squares + integrality rounding for rank-47 decomposition" }]

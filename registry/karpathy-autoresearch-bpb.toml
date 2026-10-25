@@ -13,7 +13,7 @@ title = "Single-GPU 5-Minute NanoChat Validation BPB (Karpathy Autoresearch)"
 summary = "Minimize validation bits-per-byte (val_bpb) achieved by an autonomous coding agent modifying train.py within a strict 5-minute single-GPU training budget."
 metric = { name = "val_bpb", unit = "bpb", direction = "min", scale = "linear", display = "{value} bpb" }
 verifier = { type = "script" }
-submit = "Open a PR to karpathy/autoresearch or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to karpathy/autoresearch (gh pr create --repo karpathy/autoresearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from karpathy/autoresearch."
 rules_url = "https://github.com/karpathy/autoresearch"
 baseline = { value = 0.9979, label = "Default 8-layer 50.3M nanochat train.py baseline (0.997900 bpb in 300s)", source = "https://github.com/karpathy/autoresearch" }
 tracks = [{ id = "muon-lr-warmup-schedule", title = "Tune Muon momentum orthogonalization steps and trapezoidal warmup for 300s wall-clock horizon" }, { id = "u-net-skip-value-embeds", title = "Add token value embeddings and U-Net residual skip weights to 8-layer nanochat" }]

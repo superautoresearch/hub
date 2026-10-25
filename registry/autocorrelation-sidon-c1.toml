@@ -13,7 +13,7 @@ title = "First Autocorrelation / Sidon Step-Function Bound (C1)"
 summary = "Minimize the upper bound on the L-infinity autoconvolution constant C1 = inf ||f * f||_infty / ||f||_1^2 for non-negative step functions."
 metric = { name = "autoconvolution_c1", unit = "", direction = "min", scale = "linear", display = "C_1 \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to teorth/equational_theories or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to teorth/equational_theories (gh pr create --repo teorth/equational_theories). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from teorth/equational_theories."
 rules_url = "https://github.com/google-deepmind/alphaevolve-results"
 baseline = { value = 1.5098, label = "Matolcsi & Vinuesa step-function upper bound (2010)", source = "https://arxiv.org/abs/0907.1379" }
 tracks = [{ id = "high-resolution-spline-step", title = "Search 4096-bin symmetric step functions via projected minimax gradient" }]

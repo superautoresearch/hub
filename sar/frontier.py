@@ -2544,7 +2544,7 @@ def _sync_curated_challenges(hub_root: Path) -> list[dict[str, Any]]:
                 "summary": cfg["summary"],
                 "metric": cfg["metric"],
                 "verifier": {"type": cfg["verifier_type"]},
-                "submit": f"Open a PR to {cfg['repo']} or submit a reproducible witness to superautoresearch/hub.",
+                "submit": f"Open a Pull Request directly to {cfg['repo']} (gh pr create --repo {cfg['repo']}). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from {cfg['repo']}.",
                 "rules_url": cfg["discussion_url"],
                 "baseline": cfg["baseline"],
                 "records_source": {"type": "hub"},

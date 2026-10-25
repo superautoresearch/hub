@@ -13,7 +13,7 @@ title = "3SUM Exponent"
 summary = "Deterministic word-RAM algorithm deciding if three integers sum to zero in O(n^alpha) time."
 metric = { name = "time exponent alpha", unit = "", direction = "min", scale = "linear", display = "O(n^{{value}})" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to proof-factory/3sum-bound and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to proof-factory/3sum-bound (gh pr create --repo proof-factory/3sum-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from proof-factory/3sum-bound."
 rules_url = "https://github.com/proof-factory/3sum-bound#readme"
 baseline = { value = 2.0, label = "Classic O(n^2) (Gajentaan & Overmars 1995)" }
 tracks = [{ id = "word-ram-band-packing", title = "Refine deterministic band decomposition and word-RAM bit-packing" }, { id = "lean-comparator-proof", title = "Formalize sub-quadratic bound in Lean 4 for proof-factory/3sum-bound" }]

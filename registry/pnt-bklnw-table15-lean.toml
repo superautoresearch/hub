@@ -13,7 +13,7 @@ title = "PrimeNumberTheoremAnd BKLNW Table 15 Unproved Chebyshev Cells"
 summary = "Minimize the number of unproved non-degenerate cells (out of 425) in Broadbent-Kadiri-Lumley-Ng-Wilk Table 15 for explicit Chebyshev |theta(x) - x| bounds in Lean 4."
 metric = { name = "open_cells", unit = "cells", direction = "min", scale = "linear", display = "{value}\\text{ open cells}" }
 verifier = { type = "lean" }
-submit = "Open a PR to lsmeng/pnt-table15-evidence or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to lsmeng/pnt-table15-evidence (gh pr create --repo lsmeng/pnt-table15-evidence). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from lsmeng/pnt-table15-evidence."
 rules_url = "https://github.com/lsmeng/pnt-table15-evidence"
 baseline = { value = 425.0, label = "All 425 non-degenerate (b, M_k) cells open in BKLNW.lean:2182", source = "https://github.com/lsmeng/pnt-table15-evidence" }
 tracks = [{ id = "discharge-table13-numerals", title = "Discharge the 72 Table 13 trusted interval numerals in Table13Trusted.lean without sorry" }]

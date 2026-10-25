@@ -13,7 +13,7 @@ title = "Ordered matrix removal"
 summary = "The quantity is the number of cells rc in a forbidden ordered binary pattern with r rows and c columns that has no polynomial removal bound. The goal is the smallest such pattern, measured in cells. Fewer cells are better. Later repair-distance constants do not change this quantity."
 metric = { name = "r c cells in an r\\times c pattern", unit = "", direction = "min", scale = "linear", display = "{value} cells" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to shea256/ordered-binary-matrix-removal and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to shea256/ordered-binary-matrix-removal (gh pr create --repo shea256/ordered-binary-matrix-removal). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shea256/ordered-binary-matrix-removal."
 rules_url = "https://github.com/shea256/ordered-binary-matrix-removal#readme"
 baseline = { value = 4356.0, label = "OpenAI 66x66 pattern (4356 cells)", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Polynomial-removal-fails-for-ordered-binary-matrices-September-25-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Ordered matrix removal bound beyond 9.0" }, { id = "lean-formalization", title = "Formalize current frontier bound for Ordered matrix removal in Lean 4" }]

@@ -13,7 +13,7 @@ title = "Dijkstra Self-Stabilizing Token Ring Minimum State Product"
 summary = "Maximize the ring size n for which the exact minimum state product M(n) of a self-stabilizing token ring is formally proved sorry-free in Lean 4."
 metric = { name = "proved_ring_size_n", unit = "nodes", direction = "max", scale = "linear", display = "n = {value}" }
 verifier = { type = "lean" }
-submit = "Open a PR to no-way-labs/minimum-state-product or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to no-way-labs/minimum-state-product (gh pr create --repo no-way-labs/minimum-state-product). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from no-way-labs/minimum-state-product."
 rules_url = "https://github.com/no-way-labs/minimum-state-product"
 baseline = { value = 3.0, label = "Classical 3-node self-stabilizing token ring state product proof (n = 3)", source = "https://github.com/no-way-labs/minimum-state-product" }
 tracks = [{ id = "sink-kernel-general-n", title = "Close the 5 open sorry declarations in LeanMn.Research for the general-n sink-kernel lower bound" }]

@@ -13,7 +13,7 @@ title = "All-Pairs Shortest Paths (APSP)"
 summary = "Deterministic directed All-Pairs Shortest Paths with polynomially bounded integer weights in O(n^alpha) time."
 metric = { name = "time exponent alpha", unit = "", direction = "min", scale = "linear", display = "O(n^{{value}})" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to fringewidth/apsp-bound and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to fringewidth/apsp-bound (gh pr create --repo fringewidth/apsp-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from fringewidth/apsp-bound."
 rules_url = "https://github.com/fringewidth/apsp-bound#readme"
 baseline = { value = 3.0, label = "Floyd-Warshall O(n^3) (1962)" }
 tracks = [{ id = "min-plus-product-reduction", title = "Tighten rectangular min-plus matrix product exponent" }, { id = "lean-formalization", title = "Lean-verify latest claimed APSP refinement" }]

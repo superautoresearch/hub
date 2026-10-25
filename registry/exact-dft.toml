@@ -13,7 +13,7 @@ title = "Fourier Transform (Exact DFT)"
 summary = "Uniform exact arithmetic Discrete Fourier Transform with log-saving exponent kappa in O(n (log n)^(1-kappa))."
 metric = { name = "log-saving kappa", unit = "", direction = "max", scale = "linear", display = "\\kappa = {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to shea256/fourier-transform-below-nlogn and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to shea256/fourier-transform-below-nlogn (gh pr create --repo shea256/fourier-transform-below-nlogn). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shea256/fourier-transform-below-nlogn."
 rules_url = "https://github.com/shea256/fourier-transform-below-nlogn#readme"
 baseline = { value = 0.0, label = "Cooley-Tukey FFT O(n log n) (kappa = 0)" }
 tracks = [{ id = "wht-lattice-packing", title = "Improve Walsh-Hadamard & E8/Leech lattice batching stage" }, { id = "five-stage-recursion", title = "Optimize multi-stage Bluestein/Rader reduction constant" }]

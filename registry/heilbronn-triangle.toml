@@ -13,7 +13,7 @@ title = "Heilbronn triangle"
 summary = "The quantity is the saving \\eta in \\Delta(n)\\ge cn^{-2+\\eta}. A higher saving is better. The baseline is \\eta=2/(45435k+16), where k=T^2+1 and T=\\binom{\\binom{163}{41}}{3}; the displayed approximation comes from the follow-up. Each claim assumes estimates from the manuscript and states them, with its proof scope."
 metric = { name = "\\eta in \\Delta(n)\\ge cn^{-2+\\eta", unit = "", direction = "max", scale = "linear", display = "\\eta = {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to littleBro/heilbronn-triangle-bounds and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to littleBro/heilbronn-triangle-bounds (gh pr create --repo littleBro/heilbronn-triangle-bounds). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from littleBro/heilbronn-triangle-bounds."
 rules_url = "https://github.com/littleBro/heilbronn-triangle-bounds#readme"
 baseline = { value = 0.0, label = "OpenAI power improvement eta > 3.18e-236", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-power-improvement-in-the-Heilbronn-triangle-lower-bound-September-25-2026/main.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Heilbronn triangle bound beyond 1.96e-08" }, { id = "lean-formalization", title = "Formalize current frontier bound for Heilbronn triangle in Lean 4" }]

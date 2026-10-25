@@ -13,7 +13,7 @@ title = "Snaky"
 summary = "The quantity is the upper bound on Maker moves needed to win Snaky on the infinite square board. Fewer moves are better. Nándor Sieben’s finite 17\\times17 strategy, supplied by gotrevor, also works on the infinite board. The separate 15\\times15 result concerns board size."
 metric = { name = "Maker moves", unit = "", direction = "min", scale = "linear", display = "{value} moves" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to shjvandekamp/math and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to shjvandekamp/math (gh pr create --repo shjvandekamp/math). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shjvandekamp/math."
 rules_url = "https://github.com/shjvandekamp/math#readme"
 baseline = { value = 21.0, label = "OpenAI Snaky in 21 Maker moves", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Snaky-in-21-Maker-moves-September-25-2026/article.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Snaky bound beyond 19.0" }, { id = "lean-formalization", title = "Formalize current frontier bound for Snaky in Lean 4" }]

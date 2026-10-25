@@ -13,7 +13,7 @@ title = "Quasi-Riemann hypothesis"
 summary = "The quantity is the zero-free half-plane threshold \\theta for Dirichlet L-functions, which include zeta. A lower threshold is better. The OpenAI paper also covers finite-order Eisenstein Hecke functions over \\mathbb{Q}(\\sqrt{-3}); claims with Lean prove the Dirichlet theorem only. The claims retain the source proof conditions."
 metric = { name = "\\theta", unit = "", direction = "min", scale = "linear", display = "\\theta \\le {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to GTimG/QuasiRiemannTracker and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to GTimG/QuasiRiemannTracker (gh pr create --repo GTimG/QuasiRiemannTracker). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from GTimG/QuasiRiemannTracker."
 rules_url = "https://github.com/GTimG/QuasiRiemannTracker#readme"
 baseline = { value = 0.875, label = "OpenAI preprint theta <= 7/8 (0.875)", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Quasi-Riemann hypothesis bound beyond 0.874772906" }, { id = "lean-formalization", title = "Formalize current frontier bound for Quasi-Riemann hypothesis in Lean 4" }]

@@ -13,7 +13,7 @@ title = "Lebesgue's Universal Covering Problem (Unit Diameter)"
 summary = "Minimize the area A of a convex planar shape that covers every planar set of diameter 1 under rigid motions."
 metric = { name = "convex_cover_area", unit = "", direction = "min", scale = "linear", display = "\\text{Area} \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to baez-gibbs/lebesgue-universal-cover or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to baez-gibbs/lebesgue-universal-cover (gh pr create --repo baez-gibbs/lebesgue-universal-cover). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from baez-gibbs/lebesgue-universal-cover."
 rules_url = "https://arxiv.org/abs/1502.01257"
 baseline = { value = 0.866025, label = "Pál regular hexagon with inscribed circle of diameter 1 (sqrt(3)/2 = 0.866025, 1920)", source = "https://arxiv.org/abs/1502.01257" }
 tracks = [{ id = "corner-truncation-angles", title = "Optimize asymmetric hex-corner circular truncations against Reuleaux polygons" }]

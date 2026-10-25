@@ -13,7 +13,7 @@ title = "No-Three-In-Line Problem on 32×32 Grid"
 summary = "Maximize the number of points placed on a 32x32 lattice grid so that no three points are collinear (theoretical ceiling 2N = 64)."
 metric = { name = "grid_points", unit = "points", direction = "max", scale = "linear", display = "P(32) \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to google-deepmind/funsearch or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to google-deepmind/funsearch (gh pr create --repo google-deepmind/funsearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/funsearch."
 rules_url = "https://github.com/google-deepmind/funsearch"
 baseline = { value = 60.0, label = "Greedy symmetry-restricted grid placement (60 points)", source = "https://github.com/google-deepmind/funsearch" }
 tracks = [{ id = "dihedral-d4-orbit-priority", title = "Evolve D4-symmetric priority scoring functions for N >= 34 grids" }]

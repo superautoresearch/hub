@@ -13,7 +13,7 @@ title = "The Endless Exam Uncapped Mathematical Construction Frontier"
 summary = "Maximize mean relative construction quality across 69 mathematical construction instances spanning 14 families (where 1.00 matches the published reference frontier)."
 metric = { name = "relative_quality", unit = "x", direction = "max", scale = "linear", display = "{value}\\times" }
 verifier = { type = "script" }
-submit = "Open a PR to ricolalemon/endless-exam or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to ricolalemon/endless-exam (gh pr create --repo ricolalemon/endless-exam). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from ricolalemon/endless-exam."
 rules_url = "https://github.com/ricolalemon/endless-exam"
 baseline = { value = 1.0, label = "Published reference frontier construction parity (1.000x)", source = "https://github.com/ricolalemon/endless-exam" }
 tracks = [{ id = "algebraic-product-graphs", title = "Synthesize algebraic graph products for large-diameter degree-bounded instances in bench-v1.0" }]

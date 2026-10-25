@@ -13,7 +13,7 @@ title = "Unit-distance final grid"
 summary = "The quantity is the number of selected edges Nj in the final algebraic-grid proof step. Fewer edges are better. The claim assumes the upstream generic-grid and private-valuation lemmas. The line cases are separate, and no better headline unit-distance exponent is claimed."
 metric = { name = "N j", unit = "", direction = "min", scale = "linear", display = "Nj = {value}" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to rohanarun/unit-distance-grid-refinement and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to rohanarun/unit-distance-grid-refinement (gh pr create --repo rohanarun/unit-distance-grid-refinement). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from rohanarun/unit-distance-grid-refinement."
 rules_url = "https://github.com/rohanarun/unit-distance-grid-refinement#readme"
 baseline = { value = 100.0, label = "OpenAI weak pinned planar distance N*j = 20*5 = 100", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-weak-pinned-planar-distance-theorem-September-23-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Unit-distance final grid bound beyond 32.0" }, { id = "lean-formalization", title = "Formalize current frontier bound for Unit-distance final grid in Lean 4" }]

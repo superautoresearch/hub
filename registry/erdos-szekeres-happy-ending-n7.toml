@@ -13,7 +13,7 @@ title = "Erdős–Szekeres Convex Heptagon Free Point Set (n=7)"
 summary = "Maximize the number of planar points in general position containing no convex 7-gon (conjectured exact value 2^(7-2) = 32)."
 metric = { name = "convex_free_points", unit = "points", direction = "max", scale = "linear", display = "ES(7) > {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to szekeres-peters/happy-ending or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to szekeres-peters/happy-ending (gh pr create --repo szekeres-peters/happy-ending). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from szekeres-peters/happy-ending."
 rules_url = "https://www.erdosproblems.com/107"
 baseline = { value = 30.0, label = "Double-cup recursive construction subset (30 points)", source = "https://anziamj.austms.org.au/ojs/index.php/ANZIAMJ/article/view/35" }
 tracks = [{ id = "triple-orientation-sat-33", title = "Certify unsatisfiability of 33-point signotope axioms with no convex 7-gon" }]

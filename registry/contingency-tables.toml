@@ -13,7 +13,7 @@ title = "Contingency-table sampling"
 summary = "The quantity is the ideal auxiliary-chain inverse-gap upper bound A d^p, where d=10+(m+1)(n+1)\\ge10. Lower p is better, with A also tracked. This is an internal bound, not the complete algorithm runtime."
 metric = { name = "A d^p", unit = "", direction = "min", scale = "linear", display = "O(d^{{value}})" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to EcoDataLab/contingency-tables and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to EcoDataLab/contingency-tables (gh pr create --repo EcoDataLab/contingency-tables). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from EcoDataLab/contingency-tables."
 rules_url = "https://github.com/EcoDataLab/contingency-tables#readme"
 baseline = { value = 126.0, label = "OpenAI baseline 98,560 d^126 (degree 126)", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Contingency-table sampling bound beyond 17.0" }, { id = "lean-formalization", title = "Formalize current frontier bound for Contingency-table sampling in Lean 4" }]

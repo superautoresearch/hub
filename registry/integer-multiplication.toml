@@ -13,7 +13,7 @@ title = "Integer Multiplication"
 summary = "Multitape Turing machine integer multiplication below O(n log n), maximizing log-saving kappa in O(n (log n)^(1-kappa))."
 metric = { name = "log-saving kappa", unit = "", direction = "max", scale = "linear", display = "\\kappa = {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to CrocSwap/integer-mult-bounds and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to CrocSwap/integer-mult-bounds (gh pr create --repo CrocSwap/integer-mult-bounds). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from CrocSwap/integer-mult-bounds."
 rules_url = "https://github.com/CrocSwap/integer-mult-bounds#readme"
 baseline = { value = 0.0, label = "Harvey-van der Hoeven O(n log n) (kappa = 0)" }
 tracks = [{ id = "gaussian-resampling-schedule", title = "Optimize multi-radix modular resampling schedule" }, { id = "prove2me-lean-certificate", title = "Formalize claimed CrocSwap PR bound in Lean" }]

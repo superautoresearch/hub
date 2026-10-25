@@ -13,7 +13,7 @@ title = "Subset Sum (Randomized Word RAM)"
 summary = "Minimize the exponential time exponent alpha in O(2^(alpha n)) for exact Subset Sum in the randomized Word RAM model."
 metric = { name = "exponent alpha", unit = "", direction = "min", scale = "linear", display = "O(2^{{value}n})" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to JoshuaQFEX/subset-sum-bound and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to JoshuaQFEX/subset-sum-bound (gh pr create --repo JoshuaQFEX/subset-sum-bound). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from JoshuaQFEX/subset-sum-bound."
 rules_url = "https://github.com/JoshuaQFEX/subset-sum-bound#readme"
 baseline = { value = 0.5, label = "Horowitz-Sahni meet-in-the-middle O(2^(0.5n)) (1974)" }
 tracks = [{ id = "representation-method-filter", title = "Optimize asymmetric representation filtering entropy" }, { id = "word-ram-bucket-hash", title = "Reduce sub-exponential collision overhead in 3-way split" }]

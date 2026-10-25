@@ -13,7 +13,7 @@ title = "Catalan’s constant"
 summary = "The quantity is an upper bound on the irrationality exponent \\mu(G) of Catalan’s constant. A lower bound is better. The release states irrationality but gives no finite exponent bound; the baseline is the trivial extended-real upper bound +\\infty."
 metric = { name = "\\mu(G)", unit = "", direction = "min", scale = "linear", display = "\\mu(G) \\le {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to slitsey/catalan-irrationality-measure and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to slitsey/catalan-irrationality-measure (gh pr create --repo slitsey/catalan-irrationality-measure). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from slitsey/catalan-irrationality-measure."
 rules_url = "https://github.com/slitsey/catalan-irrationality-measure#readme"
 baseline = { value = 740.0, label = "Initial effective irrationality measure mu(G) <= 740", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Catalans-constant-is-irrational-September-24-2026/paper.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Catalan’s constant bound beyond 590.0" }, { id = "lean-formalization", title = "Formalize current frontier bound for Catalan’s constant in Lean 4" }]

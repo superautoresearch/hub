@@ -13,7 +13,7 @@ title = "Sendov's Conjecture Verified Degree Threshold N_0"
 summary = "Minimize the degree threshold N_0 such that Sendov's conjecture is unconditionally verified for all polynomials of degree n >= N_0."
 metric = { name = "degree_threshold_N0", unit = "", direction = "min", scale = "linear", display = "N_0 \\le {value}" }
 verifier = { type = "manual" }
-submit = "Open a PR to tao/sendov-conjecture or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to tao/sendov-conjecture (gh pr create --repo tao/sendov-conjecture). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from tao/sendov-conjecture."
 rules_url = "https://arxiv.org/abs/2007.03294"
 baseline = { value = 1000000.0, label = "Effective compactness extraction from Tao's asymptotic proof (10^6, 2020)", source = "https://arxiv.org/abs/2007.03294" }
 tracks = [{ id = "grace-walsh-szego-radii", title = "Replace non-constructive compactness lemmas with explicit logarithmic potential bounds" }]

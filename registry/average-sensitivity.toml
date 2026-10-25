@@ -13,7 +13,7 @@ title = "Average sensitivity"
 summary = "The quantity is the universal coefficient C in \\mathrm{AS}(f)\\le Cd\\sqrt n for polynomial threshold functions of degree at most d, with 1\\le d\\le n and \\operatorname{sign}(0)=1. A lower coefficient is better."
 metric = { name = "C in \\mathrm{AS(f)\\le Cd\\sqrt n", unit = "", direction = "min", scale = "linear", display = "C = {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to Anchen0823/average-sensitivity-lean and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to Anchen0823/average-sensitivity-lean (gh pr create --repo Anchen0823/average-sensitivity-lean). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from Anchen0823/average-sensitivity-lean."
 rules_url = "https://github.com/Anchen0823/average-sensitivity-lean#readme"
 baseline = { value = 8.0, label = "OpenAI baseline AS(f) <= 8 d sqrt(n)", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Average-Sensitivity-of-Polynomial-Threshold-Functions-September-25-2026/main.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten Average sensitivity bound beyond 3.762" }, { id = "lean-formalization", title = "Formalize current frontier bound for Average sensitivity in Lean 4" }]

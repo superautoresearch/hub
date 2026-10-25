@@ -13,7 +13,7 @@ title = "Schur Number S(5) = 160 Sum-Free 5-Coloring"
 summary = "Maximize the integer N such that {1, 2, ..., N} can be partitioned into 5 sum-free sets (no monochromatic x + y = z)."
 metric = { name = "max_integer_N", unit = "", direction = "max", scale = "linear", display = "S(5) \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to heule/schur-number-five or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to heule/schur-number-five (gh pr create --repo heule/schur-number-five). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from heule/schur-number-five."
 rules_url = "https://arxiv.org/abs/1711.08076"
 baseline = { value = 156.0, label = "Symmetric template sum-free 5-partition (156)", source = "https://arxiv.org/abs/1711.08076" }
 tracks = [{ id = "schur-6-lower-bound", title = "Extend cyclic difference-set partitioning to improve the lower bound on S(6) >= 536" }]

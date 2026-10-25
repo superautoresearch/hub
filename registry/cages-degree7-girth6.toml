@@ -13,7 +13,7 @@ title = "(7, 6)-Cage Graph Minimum Order"
 summary = "Minimize the number of vertices |V| in a 7-regular undirected graph with girth exactly 6 (Moore lower bound is 86)."
 metric = { name = "vertices", unit = "vertices", direction = "min", scale = "linear", display = "n(7,6) \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to exoo-jajcay/cage-graphs or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to exoo-jajcay/cage-graphs (gh pr create --repo exoo-jajcay/cage-graphs). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from exoo-jajcay/cage-graphs."
 rules_url = "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS16"
 baseline = { value = 98.0, label = "Projective plane PG(2,7) incidence modification (98 vertices)", source = "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS16" }
 tracks = [{ id = "voltage-graph-lift-88", title = "Exhaustive Cayley/voltage-graph search for an 88-vertex (7,6)-graph" }]

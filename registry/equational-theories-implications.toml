@@ -13,7 +13,7 @@ title = "Magma Equational Theories Implication Graph"
 summary = "Minimize the number of unresolved directed implication pairs among 4,694 single-law magma equations (22,028,942 total pairs) formalized in Lean 4."
 metric = { name = "unresolved_pairs", unit = "pairs", direction = "min", scale = "linear", display = "{value}\\text{ open pairs}" }
 verifier = { type = "lean" }
-submit = "Open a PR to teorth/equational_theories or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to teorth/equational_theories (gh pr create --repo teorth/equational_theories). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from teorth/equational_theories."
 rules_url = "https://github.com/teorth/equational_theories"
 baseline = { value = 22028942.0, label = "All 4,694 x 4,693 magma implication pairs open (Tao Sept 2024)", source = "https://teorth.github.io/equational_theories/" }
 tracks = [{ id = "infinite-magma-duality", title = "Extend automated counterexample synthesis to two-law magma equational systems" }]

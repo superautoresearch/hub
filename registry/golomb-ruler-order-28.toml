@@ -13,7 +13,7 @@ title = "Optimal 28-Mark Golomb Ruler Length G(28)"
 summary = "Minimize the length L of a 28-mark Golomb ruler (28 integer marks 0 = a_1 < ... < a_28 = L with all 378 pairwise differences distinct)."
 metric = { name = "ruler_length", unit = "", direction = "min", scale = "linear", display = "G(28) \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to distributed-net/ogr-28 or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to distributed-net/ogr-28 (gh pr create --repo distributed-net/ogr-28). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from distributed-net/ogr-28."
 rules_url = "https://www.distributed.net/OGR"
 baseline = { value = 599.0, label = "Atkinson, Negro & Santoro projective construction (599, 1985)", source = "https://www.distributed.net/OGR" }
 tracks = [{ id = "ogr29-upper-bound", title = "Search for a 29-mark Golomb ruler shorter than 623" }]

@@ -13,7 +13,7 @@ title = "NanoGPT speedrun"
 summary = "Train GPT-2 small to 3.28 val loss on FineWeb as fast as possible on 8xH100."
 metric = { name = "time to 3.28 val loss", unit = "min", direction = "min", scale = "linear", display = "{value} min" }
 verifier = { type = "manual" }
-submit = "Open a PR to KellerJordan/modded-nanogpt following the README record rules."
+submit = "Open a Pull Request directly to KellerJordan/modded-nanogpt (gh pr create --repo KellerJordan/modded-nanogpt). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from KellerJordan/modded-nanogpt."
 rules_url = "https://github.com/KellerJordan/modded-nanogpt#readme"
 baseline = { value = 45.0, label = "llm.c baseline" }
 tracks = [{ id = "muon-momentum-schedule", title = "Tune Muon momentum warm-up and DistributedDataParallel overlap", notes = "Reduce communication stall on step 0-250 across 8xH100." }, { id = "flex-attention-window", title = "Fuse sliding window schedule with FlexAttention block mask" }]

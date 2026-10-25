@@ -13,7 +13,7 @@ title = "Matrix Multiplication Exponent"
 summary = "Minimize the asymptotic matrix multiplication exponent omega over complex arithmetic circuits O(n^(omega+epsilon))."
 metric = { name = "exponent omega", unit = "", direction = "min", scale = "linear", display = "\\omega \\le {value}" }
 verifier = { type = "lean" }
-submit = "Open a Pull Request to openai/math and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to openai/math (gh pr create --repo openai/math). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from openai/math."
 rules_url = "https://github.com/openai/math#readme"
 baseline = { value = 2.371177, label = "Alman et al. / AlphaEvolve (2.371177)" }
 tracks = [{ id = "laser-method-degeneration", title = "Analyze higher-power Coppersmith-Winograd tensor degenerations" }, { id = "asymmetric-hashing", title = "Refine global modulus compensation in laser method" }]

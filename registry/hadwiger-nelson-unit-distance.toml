@@ -13,7 +13,7 @@ title = "Hadwiger–Nelson 5-Chromatic Unit-Distance Graph Order"
 summary = "Minimize the number of vertices V in a planar unit-distance graph with chromatic number at least 5."
 metric = { name = "graph_vertices", unit = "vertices", direction = "min", scale = "linear", display = "|V| \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to ustas-parts/unit-distance-5chromatic or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to ustas-parts/unit-distance-5chromatic (gh pr create --repo ustas-parts/unit-distance-5chromatic). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from ustas-parts/unit-distance-5chromatic."
 rules_url = "https://arxiv.org/abs/1804.02385"
 baseline = { value = 1581.0, label = "Aubrey de Grey 5-chromatic unit-distance graph (1581 vertices, Apr 2018)", source = "https://arxiv.org/abs/1804.02385" }
 tracks = [{ id = "moser-spindle-core-trim", title = "Unsat-core minimization of Q[sqrt(3), sqrt(15)] spindle embeddings below 500 vertices" }]

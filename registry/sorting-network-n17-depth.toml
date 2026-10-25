@@ -13,7 +13,7 @@ title = "Minimum-Depth 17-Wire Sorting Network D(17)"
 summary = "Minimize the number of parallel comparator layers D(17) required to sort 17 inputs."
 metric = { name = "network_depth", unit = "layers", direction = "min", scale = "linear", display = "D(17) = {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to bundala-zavodny/sorting-depth or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to bundala-zavodny/sorting-depth (gh pr create --repo bundala-zavodny/sorting-depth). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from bundala-zavodny/sorting-depth."
 rules_url = "https://arxiv.org/abs/1310.6271"
 baseline = { value = 11.0, label = "Batcher odd-even mergesort depth (11 layers, 1968)", source = "https://arxiv.org/abs/1310.6271" }
 tracks = [{ id = "depth-size-joint-n17", title = "Find a 17-wire sorting network achieving depth 10 and size <= 60 simultaneously" }]

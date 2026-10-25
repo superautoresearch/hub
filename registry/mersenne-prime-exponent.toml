@@ -13,7 +13,7 @@ title = "Largest Verified Mersenne Prime Exponent p (2^p - 1)"
 summary = "Maximize the prime exponent p (in millions) for which 2^p - 1 is a certified Mersenne prime via Lucas-Lehmer and Gerbicz-checked PRP."
 metric = { name = "prime_exponent_millions", unit = "M", direction = "max", scale = "linear", display = "p = {value}\\text{M}" }
 verifier = { type = "script" }
-submit = "Open a PR to preda/gpuowl or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to preda/gpuowl (gh pr create --repo preda/gpuowl). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from preda/gpuowl."
 rules_url = "https://www.mersenne.org/"
 baseline = { value = 82.589933, label = "M51 (2^82,589,933 - 1, Laroche / GIMPS 2018)", source = "https://www.mersenne.org/" }
 tracks = [{ id = "ntt-fp64-irred-weight", title = "Optimize irrational-base discrete weighted transform (IBDWT) on Hopper H100 tensor cores" }]

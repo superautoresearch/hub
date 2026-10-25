@@ -13,7 +13,7 @@ title = "Erdős #302 Harmonic Triple-Free Asymptotic Density"
 summary = "Minimize the upper bound on the asymptotic density lim sup f(N)/N of a subset of {1..N} containing no harmonic triple 1/a + 1/b = 1/c via smooth-number fractional packing certificates."
 metric = { name = "density_upper_bound", unit = "", direction = "min", scale = "linear", display = "\\limsup f(N)/N \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to xiaoliaoOvO/erdos-302-smooth-blocks or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to xiaoliaoOvO/erdos-302-smooth-blocks (gh pr create --repo xiaoliaoOvO/erdos-302-smooth-blocks). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from xiaoliaoOvO/erdos-302-smooth-blocks."
 rules_url = "https://github.com/xiaoliaoOvO/erdos-302-smooth-blocks"
 baseline = { value = 0.95, label = "Elementary disjoint harmonic triple deletion bound (0.950000)", source = "https://github.com/xiaoliaoOvO/erdos-302-smooth-blocks" }
 tracks = [{ id = "six-prime-box-13", title = "Extend exact rational LP fractional packing certificate to 6-prime box {2, 3, 5, 7, 11, 13}" }]

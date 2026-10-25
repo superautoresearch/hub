@@ -13,7 +13,7 @@ title = "Moving Sofa Problem Area (Moser #66)"
 summary = "Maximize the area A of a rigid planar shape that can maneuver around a right-angled L-shaped corridor of unit width."
 metric = { name = "sofa_area", unit = "", direction = "max", scale = "linear", display = "\\mu_{\\text{sofa}} \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to baek-sofa/moving-sofa or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to baek-sofa/moving-sofa (gh pr create --repo baek-sofa/moving-sofa). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from baek-sofa/moving-sofa."
 rules_url = "https://arxiv.org/abs/2411.19826"
 baseline = { value = 2.207416, label = "Hammersley telephone-handset sofa (pi/2 + 2/pi = 2.207416, 1968)", source = "https://arxiv.org/abs/2411.19826" }
 tracks = [{ id = "lean-baek-optimality", title = "Formalize Jineon Baek's 2024 optimality proof of Gerver's 18-curve sofa in Lean 4" }]

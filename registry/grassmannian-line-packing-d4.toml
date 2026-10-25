@@ -13,7 +13,7 @@ title = "Grassmannian Packing of 16 Lines in R^4"
 summary = "Maximize the minimum chordal distance sin(theta_min) among N=16 one-dimensional subspaces (lines through the origin) in R^4."
 metric = { name = "min_chordal_distance", unit = "", direction = "max", scale = "linear", display = "d_c(4,16) \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to conway-hardin-sloane/grassmannian-packings or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to conway-hardin-sloane/grassmannian-packings (gh pr create --repo conway-hardin-sloane/grassmannian-packings). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from conway-hardin-sloane/grassmannian-packings."
 rules_url = "http://neilsloane.com/packings/"
 baseline = { value = 0.75, label = "Orthogonal cross-polytope frame extension (0.750000)", source = "http://neilsloane.com/packings/" }
 tracks = [{ id = "stiefel-manifold-trust-region", title = "Riemannian trust-region optimization on Gr(1, R^4) for N=16..24" }]

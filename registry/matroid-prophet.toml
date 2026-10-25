@@ -13,7 +13,7 @@ title = "One-sample matroid prophet inequality"
 summary = "The quantity is the guaranteed fraction of expected offline optimum, with one sample per element of an arbitrary finite matroid and the same almighty full-seed arrival-order adversary. A higher fraction is better. Computation can take exponential time."
 metric = { name = "C in \\mathbb{E[R]\\ge C\\mathbb{E[\\mathrm{OPT]", unit = "", direction = "max", scale = "linear", display = "C \\approx {value}" }
 verifier = { type = "manual" }
-submit = "Open a Pull Request to shea256/matroid-prophet-inequality and register new records in superautoresearch/hub."
+submit = "Open a Pull Request directly to shea256/matroid-prophet-inequality (gh pr create --repo shea256/matroid-prophet-inequality). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from shea256/matroid-prophet-inequality."
 rules_url = "https://github.com/shea256/matroid-prophet-inequality#readme"
 baseline = { value = 1e-12, label = "OpenAI baseline 2^-310", source = "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/One-Sample-Suffices-for-Matroid-Prophet-Inequalities-against-an-Almighty-Adversary-September-23-2026/final.pdf" }
 tracks = [{ id = "bound-tightening", title = "Tighten One-sample matroid prophet inequality bound beyond 5.107488914317048e-10" }, { id = "lean-formalization", title = "Formalize current frontier bound for One-sample matroid prophet inequality in Lean 4" }]

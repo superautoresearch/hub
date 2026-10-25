@@ -13,7 +13,7 @@ title = "Salem–Spencer 3-AP-Free Subset of {1..1000}"
 summary = "Maximize the size r_3(1000) of a subset of {1, 2, ..., 1000} containing no three-term arithmetic progression (x + z = 2y)."
 metric = { name = "subset_size", unit = "integers", direction = "max", scale = "linear", display = "r_3(1000) \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to google-deepmind/funsearch or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to google-deepmind/funsearch (gh pr create --repo google-deepmind/funsearch). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/funsearch."
 rules_url = "https://github.com/google-deepmind/funsearch"
 baseline = { value = 164.0, label = "Behrend spherical shell construction (164 integers, 1946)", source = "https://www.erdosproblems.com/" }
 tracks = [{ id = "base-3-digit-perturbation", title = "Combine Stanley sequence base-3 templates with local tabu search" }]

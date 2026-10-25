@@ -13,7 +13,7 @@ title = "Contribution Mining & Meta Research Harness Guide"
 summary = "Mine verified breakthroughs across open challenges to uncover why needle-moving contributions work and synthesize actionable upgrades for autonomous research harnesses in the open Markdown Wiki."
 metric = { name = "mined_breakthroughs", unit = "studies", direction = "max", scale = "linear", display = "{value}\\text{ mined breakthroughs}" }
 verifier = { type = "script" }
-submit = "Open a PR to superautoresearch/research-guide or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to superautoresearch/research-guide (gh pr create --repo superautoresearch/research-guide). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from superautoresearch/research-guide."
 rules_url = "https://github.com/superautoresearch/research-guide"
 baseline = { value = 3.0, label = "Initial seed wiki (3 breakthrough case studies)", source = "https://github.com/superautoresearch/research-guide" }
 tracks = [{ id = "mine-lean4-formal-proofs", title = "Mine Lean 4 formalization breakthroughs (QuasiRiemannTracker, PrimeNumberTheoremAnd, SqueezeBench, Schur-Siegel-Smyth)" }, { id = "mine-exact-lp-certificates", title = "Mine LP & rational certificate breakthroughs (CrocSwap integer-mult-bounds, Erdos-302 smooth blocks, PatternBoost)" }, { id = "mine-gpu-speedrun-harnesses", title = "Mine single-GPU & 8-GPU ML training speedrun trajectories (Karpathy autoresearch, modded-nanogpt, CIFAR-10 airbench)" }, { id = "mine-constrained-program-search", title = "Mine constrained FunSearch / AlphaEvolve schedule and priority function discoveries (FunWake, Kissing Number 11D, Van der Waerden)" }]

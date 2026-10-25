@@ -13,7 +13,7 @@ title = "Tammes Problem for N=13 Points on the Unit Sphere"
 summary = "Maximize the minimum pairwise geodesic angle theta_13 (in degrees) among 13 points placed on the unit 2-sphere S^2."
 metric = { name = "min_angle_deg", unit = "deg", direction = "max", scale = "linear", display = "\\theta_{13} \\ge {value}^\\circ" }
 verifier = { type = "script" }
-submit = "Open a PR to musin-tarasov/tammes-13 or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to musin-tarasov/tammes-13 (gh pr create --repo musin-tarasov/tammes-13). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from musin-tarasov/tammes-13."
 rules_url = "https://arxiv.org/abs/1211.2448"
 baseline = { value = 55.6, label = "Schütte & van der Waerden initial configuration (55.6 deg, 1951)", source = "https://arxiv.org/abs/1211.2448" }
 tracks = [{ id = "tammes-15-lean-proof", title = "Formalize linear programming enumeration of irreducible contact graphs for N=13 and N=14" }]

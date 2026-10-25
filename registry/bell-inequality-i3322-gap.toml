@@ -13,7 +13,7 @@ title = "Quantum Violation of the I_3322 Bell Inequality"
 summary = "Maximize the finite-dimensional quantum violation I_3322(rho, M) above the classical local hidden variable bound of 0."
 metric = { name = "quantum_violation", unit = "", direction = "max", scale = "linear", display = "I_{3322} \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to pal-vertesi/i3322-bell or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to pal-vertesi/i3322-bell (gh pr create --repo pal-vertesi/i3322-bell). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from pal-vertesi/i3322-bell."
 rules_url = "https://arxiv.org/abs/1006.3032"
 baseline = { value = 0.25, label = "Two-qubit maximally entangled state violation (0.250000, Collins & Gisin 2004)", source = "https://arxiv.org/abs/1006.3032" }
 tracks = [{ id = "seesaw-sdp-d128", title = "Alternating SDP seesaw iteration in local Hilbert dimension d=128 toward the NPA bound 0.250939" }]

@@ -13,7 +13,7 @@ title = "Zauner's Conjecture SIC-POVM Frame Potential in d=67"
 summary = "Minimize the Weyl-Heisenberg frame potential residual sum_{j,k} |<psi | D_{j,k} | psi>|^4 - 2/(d+1) in Hilbert space dimension d=67."
 metric = { name = "frame_residual", unit = "", direction = "min", scale = "log", display = "\\text{res} \\le {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to appleby-flammia/sic-povm or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to appleby-flammia/sic-povm (gh pr create --repo appleby-flammia/sic-povm). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from appleby-flammia/sic-povm."
 rules_url = "https://arxiv.org/abs/0911.0545"
 baseline = { value = 0.0001, label = "Random Zauner subspace initialization after 500 L-BFGS steps (1e-4)", source = "https://arxiv.org/abs/0911.0545" }
 tracks = [{ id = "stark-units-ray-class", title = "Construct exact algebraic fiducial state in Q(sqrt(68*66)) via Stark units" }]

@@ -13,7 +13,7 @@ title = "Circle Packing Sum of Radii in Unit Square (N=26)"
 summary = "Maximize the sum of radii of N=26 non-overlapping circles packed inside the unit square [0,1]^2."
 metric = { name = "sum_of_radii", unit = "", direction = "max", scale = "linear", display = "\\sum r_i \\ge {value}" }
 verifier = { type = "script" }
-submit = "Open a PR to google-deepmind/alphaevolve-results or submit a reproducible witness to superautoresearch/hub."
+submit = "Open a Pull Request directly to google-deepmind/alphaevolve-results (gh pr create --repo google-deepmind/alphaevolve-results). Do not open submission PRs against superautoresearch/hub; the Hub syncs records automatically from google-deepmind/alphaevolve-results."
 rules_url = "https://github.com/google-deepmind/alphaevolve-results"
 baseline = { value = 2.6358, label = "Packomania reference benchmark (Specht 2018)", source = "http://www.packomania.com/" }
 tracks = [{ id = "basin-hopping-n26", title = "Explore asymmetric contact graphs for N=26 variable-radius disks" }, { id = "interval-arithmetic-cert", title = "Certify non-overlap constraints in arbitrary-precision interval arithmetic" }]
