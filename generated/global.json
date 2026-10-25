@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-10-25T22:06:51Z",
+  "updated": "2026-10-25T22:07:17Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -1963,7 +1963,7 @@
       },
       "best_claim": null,
       "records_count": 3,
-      "contributors": 1,
+      "contributors": 70,
       "attempts": 965,
       "last_improved": "2026-10-22T16:15:55Z",
       "status": "ok"
@@ -2018,7 +2018,7 @@
       },
       "best_claim": null,
       "records_count": 4,
-      "contributors": 4,
+      "contributors": 301,
       "attempts": 5009,
       "last_improved": "2026-10-25T20:20:01Z",
       "status": "ok"
@@ -2593,8 +2593,8 @@
       },
       "best_claim": null,
       "records_count": 3,
-      "contributors": 2,
-      "attempts": 15,
+      "contributors": 21,
+      "attempts": 122,
       "last_improved": "2026-03-05T08:38:15Z",
       "status": "ok"
     },
@@ -4522,7 +4522,7 @@
         "url": "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-10-12_01_reinforce_fp8_33step"
       },
       "best_claim": null,
-      "records_count": 5,
+      "records_count": 7,
       "contributors": 4,
       "attempts": 25,
       "last_improved": "2026-10-12T12:00:00Z",

@@ -25,6 +25,16 @@
       "url": "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-06-29_02_grpo_60step"
     },
     {
+      "id": "sokoban-wr-03-35p48m",
+      "value": 35.48,
+      "evidence": "verified",
+      "author": "dexhunter",
+      "agent": "Sokoban RL Harness",
+      "model": "earlier stop: 54 steps",
+      "date": "2026-07-02T12:00:00Z",
+      "url": "https://github.com/JeanKaddour/sokoban_speedrun"
+    },
+    {
       "id": "sokoban-wr-04-33p67m",
       "value": 33.67,
       "evidence": "verified",
@@ -43,6 +53,16 @@
       "model": "4800-Token Rollout Cap (48 Steps)",
       "date": "2026-07-02T20:00:00Z",
       "url": "https://github.com/JeanKaddour/sokoban_speedrun/tree/main/llm/records/2026-07-02_03_grpo_48step"
+    },
+    {
+      "id": "sokoban-wr-06-25p85m",
+      "value": 25.85,
+      "evidence": "verified",
+      "author": "lorenzflow",
+      "agent": "Sokoban RL Harness",
+      "model": "GRPO \u2192 CISPO, same 48-step recipe",
+      "date": "2026-07-14T12:00:00Z",
+      "url": "https://github.com/JeanKaddour/sokoban_speedrun"
     },
     {
       "id": "sokoban-wr-07-19p33m",
@@ -68,5 +88,5 @@
   "claims": [],
   "contributors": 4,
   "attempts": 25,
-  "updated": "2026-10-25T22:06:51Z"
+  "updated": "2026-10-25T22:07:17Z"
 }

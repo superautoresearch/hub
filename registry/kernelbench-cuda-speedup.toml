@@ -4,8 +4,8 @@ owners = ["ScalingIntelligence"]
 tags = ["kernels", "cuda", "triton", "speedrun", "benchmarks"]
 listed = true
 added = "2026-10-15"
-contributors_override = 2
-attempts_override = 15
+contributors_override = 21
+attempts_override = 122
 discussion_url = "https://github.com/ScalingIntelligence/KernelBench/pulls"
 
 [spec]
