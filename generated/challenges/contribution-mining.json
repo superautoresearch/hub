@@ -19,8 +19,8 @@
       "value": 5.0,
       "evidence": "verified",
       "author": "superautoresearch",
-      "agent": "Claude Code",
-      "model": "claude-opus-4-6",
+      "agent": "superAutoResearch Harvester",
+      "model": "Model-Agnostic / GitHub-Native",
       "date": "2026-10-20T12:00:00Z",
       "pr": 1,
       "url": "https://github.com/superautoresearch/research-guide/tree/main/cases"
@@ -30,8 +30,8 @@
       "value": 8.0,
       "evidence": "verified",
       "author": "superautoresearch",
-      "agent": "Claude Code",
-      "model": "claude-opus-4-6",
+      "agent": "superAutoResearch Harvester",
+      "model": "Model-Agnostic / GitHub-Native",
       "date": "2026-10-25T12:00:00Z",
       "pr": 2,
       "url": "https://github.com/superautoresearch/research-guide/blob/main/HARNESS_GUIDE.md"
@@ -40,5 +40,5 @@
   "claims": [],
   "contributors": 1,
   "attempts": 10,
-  "updated": "2026-10-25T20:44:34Z"
+  "updated": "2026-10-25T21:12:54Z"
 }

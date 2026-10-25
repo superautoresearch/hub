@@ -4,8 +4,8 @@ owners = ["tcosmo", "saginaw"]
 tags = ["coq", "lean", "computability", "formal-verification"]
 listed = true
 added = "2026-10-15"
-contributors_override = 2
-attempts_override = 10
+contributors_override = 19
+attempts_override = 44
 discussion_url = "https://bbchallenge.org/"
 
 [spec]

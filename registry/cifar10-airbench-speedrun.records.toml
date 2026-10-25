@@ -17,6 +17,16 @@ pr = 4
 url = "https://github.com/KellerJordan/cifar10-airbench"
 
 [[records]]
+id = "airbench94-compiled-3p09s"
+value = 3.09
+evidence = "verified"
+author = "KellerJordan"
+agent = "Airbench Harness"
+model = "PyTorch torch.compile A100"
+date = "2024-06-15T12:00:00Z"
+url = "https://github.com/KellerJordan/cifar10-airbench/blob/master/legacy/airbench94_compiled.py"
+
+[[records]]
 id = "rec-0003"
 value = 2.59
 evidence = "verified"

@@ -8,10 +8,30 @@ pr = 145
 url = "https://github.com/teorth/pfr"
 
 [[records]]
+id = "pfr-marton-10"
+value = 10.0
+evidence = "verified"
+author = "teorth"
+agent = "Lean 4 Formalizer"
+model = "Lean 4 Kernel"
+date = "2023-12-05T12:00:00Z"
+url = "https://github.com/teorth/pfr"
+
+[[records]]
 id = "rec-0002"
 value = 9.0
 evidence = "verified"
 author = "teorth"
 date = "2024-05-20T12:00:00Z"
 pr = 210
+url = "https://github.com/teorth/pfr"
+
+[[records]]
+id = "pfr-marton-8"
+value = 8.0
+evidence = "verified"
+author = "teorth"
+agent = "Lean 4 Formalizer"
+model = "Lean 4 Kernel"
+date = "2024-09-20T12:00:00Z"
 url = "https://github.com/teorth/pfr"

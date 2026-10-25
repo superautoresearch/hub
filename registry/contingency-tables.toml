@@ -5,7 +5,7 @@ tags = ["lean", "mcmc", "sampling"]
 listed = true
 added = "2026-10-08"
 contributors_override = 1
-attempts_override = 4
+attempts_override = 47
 discussion_url = "https://github.com/EcoDataLab/contingency-tables/issues"
 
 [spec]

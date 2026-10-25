@@ -24,6 +24,38 @@
       "url": "https://github.com/Swapnil-jain/integer-mult-kappa/blob/f2176bc1124821bf17eb63725bd366d7bdc020a3/README.md"
     },
     {
+      "id": "crocswap-6aed870",
+      "value": 0.0004609169,
+      "evidence": "verified",
+      "author": "CrocSwap",
+      "agent": "Autonomous Agent",
+      "model": "Frontier LLM + Exact Certificate Replay",
+      "date": "2026-10-09T04:53:33Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/commit/6aed8701e3e3102898c66b5dcfc28d3cfc264edc"
+    },
+    {
+      "id": "crocswap-frontier147-pr147",
+      "value": 0.000472143085,
+      "evidence": "verified",
+      "author": "CrocSwap",
+      "agent": "Autonomous Agent",
+      "model": "Frontier LLM + Exact Certificate Replay",
+      "date": "2026-10-09T05:55:01Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/147",
+      "pr": 147
+    },
+    {
+      "id": "crocswap-frontier186-pr186",
+      "value": 0.000661885549259598,
+      "evidence": "verified",
+      "author": "CrocSwap",
+      "agent": "Autonomous Agent",
+      "model": "Frontier LLM + Exact Certificate Replay",
+      "date": "2026-10-09T12:32:26Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/186",
+      "pr": 186
+    },
+    {
       "id": "crocswap-source527-pr210",
       "value": 0.000710046193349537,
       "evidence": "verified",
@@ -223,7 +255,7 @@
     }
   ],
   "claims": [],
-  "contributors": 84,
-  "attempts": 2325,
-  "updated": "2026-10-25T20:44:34Z"
+  "contributors": 257,
+  "attempts": 5124,
+  "updated": "2026-10-25T21:12:54Z"
 }

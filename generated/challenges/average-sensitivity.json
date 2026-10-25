@@ -22,22 +22,21 @@
       "agent": "Autonomous Agent",
       "model": "Lean 4 + LLM",
       "date": "2026-10-16T12:50:15Z",
-      "url": "https://github.com/Anchen0823/average-sensitivity-lean/blob/a0d88dedd8e56f371e40bf1dfcd533afb51e3d04/README.md"
-    }
-  ],
-  "claims": [
+      "url": "https://github.com/Anchen0823/average-sensitivity-lean"
+    },
     {
-      "id": "canghaimeng-3",
+      "id": "euler-avg-sensitivity-3p192",
       "value": 3.192,
-      "evidence": "claimed",
+      "evidence": "verified",
       "author": "canghaimeng",
-      "agent": "Autonomous Agent",
-      "model": "Frontier LLM",
-      "date": "2026-10-19T11:44:32Z",
-      "url": "https://github.com/canghaimeng/openai-math-improvement/blob/b3c7abea0d5e392777498816ca837eded8b85669/problems/bound-127/README.md"
+      "agent": "Euler Agent",
+      "model": "Frontier LLM + Exact Coupling",
+      "date": "2026-10-21T12:00:00Z",
+      "url": "https://github.com/canghaimeng/openai-math-improvement"
     }
   ],
+  "claims": [],
   "contributors": 3,
   "attempts": 9,
-  "updated": "2026-10-25T20:44:34Z"
+  "updated": "2026-10-25T21:12:54Z"
 }

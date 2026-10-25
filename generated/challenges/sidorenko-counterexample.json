@@ -15,6 +15,16 @@
   },
   "records": [
     {
+      "id": "rohanarun-sidorenko-1032",
+      "value": 1032.0,
+      "evidence": "verified",
+      "author": "rohanarun",
+      "agent": "Auto-Research Agent",
+      "model": "Exact Obstruction Audit",
+      "date": "2026-10-09T12:00:00Z",
+      "url": "https://github.com/rohanarun/sidorenko-template-refinements/blob/main/progress.md"
+    },
+    {
       "id": "rohanarun-pr1-active-support",
       "value": 978.0,
       "evidence": "verified",
@@ -39,6 +49,6 @@
   ],
   "claims": [],
   "contributors": 1,
-  "attempts": 4,
-  "updated": "2026-10-25T20:44:34Z"
+  "attempts": 9,
+  "updated": "2026-10-25T21:12:55Z"
 }

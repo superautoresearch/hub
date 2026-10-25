@@ -4,8 +4,8 @@ owners = ["leansolving"]
 tags = ["lean", "combinatorics", "graphs", "formal-verification"]
 listed = true
 added = "2026-10-15"
-contributors_override = 2
-attempts_override = 10
+contributors_override = 4
+attempts_override = 30
 discussion_url = "https://github.com/leansolving/SqueezeBench"
 
 [spec]

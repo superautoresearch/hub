@@ -5,7 +5,7 @@ tags = ["gpu", "ml-training", "speedrun", "pytorch"]
 listed = true
 added = "2026-10-15"
 contributors_override = 2
-attempts_override = 20
+attempts_override = 273
 discussion_url = "https://github.com/KellerJordan/cifar10-airbench/issues"
 
 [spec]

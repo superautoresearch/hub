@@ -4,7 +4,7 @@ owners = ["gotrevor", "shjvandekamp"]
 tags = ["lean", "combinatorics", "positional-games"]
 listed = true
 added = "2026-10-08"
-contributors_override = 2
+contributors_override = 3
 attempts_override = 6
 discussion_url = "https://github.com/shjvandekamp/math/issues"
 

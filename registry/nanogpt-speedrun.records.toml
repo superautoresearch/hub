@@ -1,29 +1,909 @@
 [[records]]
-id       = "keller-muon-optimizer"
-value    = 18.4
+id = "nanogpt-wr-002"
+value = 31.4
 evidence = "verified"
-author   = "KellerJordan"
-agent    = "Human"
-model    = "manual-tune"
-date     = "2026-09-24T14:20:00Z"
-url      = "https://github.com/KellerJordan/modded-nanogpt/pull/14"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-06-06T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-06-06_AdamW/f66d43d7-e449-4029-8adf-e8537bab49ea.log"
 
 [[records]]
-id       = "cesar-fp8-lm-head"
-value    = 7.8
+id = "nanogpt-wr-003"
+value = 24.9
 evidence = "verified"
-author   = "cesar"
-agent    = "Claude Code"
-model    = "claude-opus-5-5"
-date     = "2026-10-09T19:45:00Z"
-url      = "https://github.com/KellerJordan/modded-nanogpt/pull/42"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-10-04T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt"
 
 [[records]]
-id       = "lin-flex-unet-skip"
-value    = 3.04
+id = "nanogpt-wr-004"
+value = 22.3
 evidence = "verified"
-author   = "lin"
-agent    = "Claude Code"
-model    = "claude-opus-5-5"
-date     = "2026-10-22T08:12:00Z"
-url      = "https://github.com/KellerJordan/modded-nanogpt/pull/79"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-10-11T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-10-10_Muon/eb5659d0-fb6a-49e5-a311-f1f89412f726.txt"
+
+[[records]]
+id = "nanogpt-wr-005"
+value = 15.2
+evidence = "verified"
+author = "Grad62304977"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-10-14T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-10-14_ModernArch/dabaaddd-237c-4ec9-939d-6608a9ed5e27.txt"
+
+[[records]]
+id = "nanogpt-wr-006"
+value = 13.1
+evidence = "verified"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-10-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-10-17_DistributedMuon/22d24867-eb5a-4fcc-ae2c-263d0277dfd1.txt"
+
+[[records]]
+id = "nanogpt-wr-007"
+value = 12.0
+evidence = "verified"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-10-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-10-18_PyTorch25/d4bfb25f-688d-4da5-8743-33926fad4842.txt"
+
+[[records]]
+id = "nanogpt-wr-008"
+value = 10.8
+evidence = "verified"
+author = "Grad62304977"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-11-03T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-11-03_UntieEmbed/d6b50d71-f419-4d26-bb39-a60d55ae7a04.txt"
+
+[[records]]
+id = "nanogpt-wr-009"
+value = 8.2
+evidence = "verified"
+author = "Grad62304977"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-11-06T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-11-06_ShortcutsTweaks/dd7304a6-cc43-4d5e-adb8-c070111464a1.txt"
+
+[[records]]
+id = "nanogpt-wr-010"
+value = 7.8
+evidence = "verified"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-11-08T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-11-08_CastBf16/a833bed8-2fa8-4cfe-af05-58c1cc48bc30.txt"
+
+[[records]]
+id = "nanogpt-wr-011"
+value = 7.2
+evidence = "verified"
+author = "brendanh0gan"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-11-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-11-10_UNetDoubleLr/c87bb826-797b-4f37-98c7-d3a5dad2de74.txt"
+
+[[records]]
+id = "nanogpt-wr-012"
+value = 5.03
+evidence = "verified"
+author = "KoszarskyB"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-11-19T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-11-19_FlexAttention/8384493d-dba9-4991-b16b-8696953f5e6d.txt"
+
+[[records]]
+id = "nanogpt-wr-013"
+value = 4.66
+evidence = "verified"
+author = "fernbear"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-11-24T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-11-24_WindowWarmup/cf9e4571-c5fc-4323-abf3-a98d862ec6c8.txt"
+
+[[records]]
+id = "nanogpt-wr-014"
+value = 4.41
+evidence = "verified"
+author = "KoszarskyB"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-12-04T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-12-04_ValueEmbed"
+
+[[records]]
+id = "nanogpt-wr-015"
+value = 3.95
+evidence = "verified"
+author = "leloykun"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-12-08T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-12-08_UNetValueEmbedsTweaks"
+
+[[records]]
+id = "nanogpt-wr-016"
+value = 3.8
+evidence = "verified"
+author = "YouJiacheng"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-12-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-12-10_MFUTweaks"
+
+[[records]]
+id = "nanogpt-wr-017"
+value = 3.57
+evidence = "verified"
+author = "YouJiacheng"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2024-12-17T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-12-17_SparsifyEmbeds"
+
+[[records]]
+id = "nanogpt-wr-018"
+value = 3.4
+evidence = "verified"
+author = "KoszarskyB"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-01-04T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-01-04_SoftCap/31d6c427-f1f7-4d8a-91be-a67b5dcd13fd.txt"
+
+[[records]]
+id = "nanogpt-wr-019"
+value = 3.142
+evidence = "verified"
+author = "YouJiacheng"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-01-13T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-01-13_Fp8LmHead/c51969c2-d04c-40a7-bcea-c092c3c2d11a.txt"
+
+[[records]]
+id = "nanogpt-wr-020"
+value = 2.992
+evidence = "verified"
+author = "leloykun"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-01-16T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-01-16_Sub3Min/1d3bd93b-a69e-4118-aeb8-8184239d7566.txt"
+
+[[records]]
+id = "nanogpt-wr-022"
+value = 2.99
+evidence = "verified"
+author = "KonstantinWilleke"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-05-24T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-05-24_FasterReduce/23f40b75-06fb-4c3f-87a8-743524769a35.txt"
+
+[[records]]
+id = "nanogpt-wr-023"
+value = 2.979
+evidence = "verified"
+author = "ryanyang0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-05-25T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-05-25_EvenFasterReduce/6ae86d05-5cb2-4e40-a512-63246fd08e45.txt"
+
+[[records]]
+id = "nanogpt-wr-024"
+value = 2.966
+evidence = "verified"
+author = "vagrawal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-05-30T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-05-30_noallreduce/8054c239-3a18-499e-b0c8-dbd27cb4b3ab.txt"
+
+[[records]]
+id = "nanogpt-wr-021"
+value = 2.933
+evidence = "verified"
+author = "leloykun"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-01-26T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-01-26_BatchSize/c44090cc-1b99-4c95-8624-38fb4b5834f9.txt"
+
+[[records]]
+id = "nanogpt-wr-025"
+value = 2.896
+evidence = "verified"
+author = "kellerjordan0"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-07-13T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-07-13_UpgradeTorch190/692f80e0-5e64-4819-97d4-0dc83b7106b9.txt"
+
+[[records]]
+id = "nanogpt-wr-026"
+value = 2.863
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-07-13T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-07-12_BosAlign/c1fd8a38-bb9f-45c4-8af0-d37f70c993f3.txt"
+
+[[records]]
+id = "nanogpt-wr-027"
+value = 2.817
+evidence = "verified"
+author = "byronxu99"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-07-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-07-18_TritonMuon/record.txt"
+
+[[records]]
+id = "nanogpt-wr-028"
+value = 2.812
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-08-23T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-08-23_SparseAttnGate/020630eb-2191-4ba2-9ee4-4cdc94316943.txt"
+
+[[records]]
+id = "nanogpt-wr-029"
+value = 2.731
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-03T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-03_FA3/44fc1276-0510-4961-92c0-730c65e5feba.txt"
+
+[[records]]
+id = "nanogpt-wr-030"
+value = 2.717
+evidence = "verified"
+author = "EmelyanenkoK"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-05T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-05_SkipMLPBlocks/07e7ae76-b7d0-4481-b149-01e7d81b5ad4.txt"
+
+[[records]]
+id = "nanogpt-wr-031"
+value = 2.656
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-10_Yarn/0ecdb695-510b-4c3b-b030-09861a162ce8.txt"
+
+[[records]]
+id = "nanogpt-wr-032"
+value = 2.625
+evidence = "verified"
+author = "bernard24"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-11T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-11_VectSigmoidBFloat16/0d0d9882-c34f-4d82-b961-a17d5659c988.txt"
+
+[[records]]
+id = "nanogpt-wr-033"
+value = 2.565
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-15T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-15_AsyncDataLoadAttnFinalWindow/25db37c7-2bab-4ef4-ae63-d593590ef823.txt"
+
+[[records]]
+id = "nanogpt-wr-034"
+value = 2.547
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-18_Smear/18a1e5c7-947e-479d-bc3a-a57a61a98fc9.txt"
+
+[[records]]
+id = "nanogpt-wr-035"
+value = 2.527
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-21T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-21_DropAttn/01fc4a96-f2a0-47a1-8a6a-c7d10bac99fe.txt"
+
+[[records]]
+id = "nanogpt-wr-036"
+value = 2.495
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-23T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-23_MuonCustomSizing/b067b4ac-72a6-4436-a6f8-ea51c1efeef3.txt"
+
+[[records]]
+id = "nanogpt-wr-037"
+value = 2.483
+evidence = "verified"
+author = "Gusarich"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-27T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-27_BF16CE/08c0770f-17fc-44cd-971d-734a7a28a3e3.txt"
+
+[[records]]
+id = "nanogpt-wr-038"
+value = 2.476
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-29T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-29_PolarExpress/0e3f0af5-ad08-47a6-813d-0c709b50d422.txt"
+
+[[records]]
+id = "nanogpt-wr-039"
+value = 2.447
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-09-30T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-09-30_CustomBatching/40b101b1-77ea-45ea-a089-1d3a647daa22.txt"
+
+[[records]]
+id = "nanogpt-wr-040"
+value = 2.358
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-10-04T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-10-04_Backout/514e7581-fbd4-4338-a3e4-e556f9c958ce.txt"
+
+[[records]]
+id = "nanogpt-wr-041"
+value = 2.345
+evidence = "verified"
+author = "li_zichong"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-10-24T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-10-24_NorMuon/088a77ee-9b67-475a-bbb9-3e92e4698799.txt"
+
+[[records]]
+id = "nanogpt-wr-042"
+value = 2.313
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-10-27T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-10-27_FixMuonLR/14afd380-d3d9-48d7-ad23-4c13cb96754b.txt"
+
+[[records]]
+id = "nanogpt-wr-043"
+value = 2.284
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-11-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-11-10_CautiousWD/1aac0132-a891-4ed9-b358-0fd2abd1b019.txt"
+
+[[records]]
+id = "nanogpt-wr-044"
+value = 2.269
+evidence = "verified"
+author = "akash5474"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-11-16T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-10-31_AdamSyncGradientHook/0c17cdfd-772c-4906-8d11-141b370599a0.txt"
+
+[[records]]
+id = "nanogpt-wr-045"
+value = 2.248
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-11-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-11-18_RefineSkip/00f4e1e6-0044-4a08-b88a-3b7ec0624081.txt"
+
+[[records]]
+id = "nanogpt-wr-046"
+value = 2.203
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-11-29T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-11-29_BatchSizeSchedule/10e8f7c6-7175-4467-bdb0-a5de25d771a6.txt"
+
+[[records]]
+id = "nanogpt-wr-047"
+value = 2.193
+evidence = "verified"
+author = "roeeshenberg"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-10_SALambdaOnWeights/15ef5eaf-56e1-40e1-9ddf-af010027c9dd.txt"
+
+[[records]]
+id = "nanogpt-wr-048"
+value = 2.17
+evidence = "verified"
+author = "ChrisJMcCormick"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-11T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-11_NorMuonOptimsAndFixes/82edf6be-f343-475d-b93a-47c32acf4de2.txt"
+
+[[records]]
+id = "nanogpt-wr-049"
+value = 2.146
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-14T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-14_PartialKeyOffset/150d40bf-c20b-4568-aac9-26eb919e25fd.txt"
+
+[[records]]
+id = "nanogpt-wr-050"
+value = 2.128
+evidence = "verified"
+author = "roeeshenberg"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-18_CautiousWDAdam/1981d492-bc65-4ba9-a0fa-2b30fc5c3eba.txt"
+
+[[records]]
+id = "nanogpt-wr-051"
+value = 2.075
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-19T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-19_RetieLMHead/0828d309-ecfe-4442-9ee9-68fed3a4b599.txt"
+
+[[records]]
+id = "nanogpt-wr-052"
+value = 2.037
+evidence = "verified"
+author = "ChrisJMcCormick"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-21T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-21_SmoothedScalars/12-21-Smoothed-Scalars/0bc6e909-8ee8-4ae3-ac62-0070e151a808.txt"
+
+[[records]]
+id = "nanogpt-wr-053"
+value = 1.988
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-22T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-22_MultiTokenPrediction/17aaf854-f338-4d0d-9767-a5db30fd7980.txt"
+
+[[records]]
+id = "nanogpt-wr-054"
+value = 1.94
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-26T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-26_LogitRescale/03e41c2d-2951-4546-a599-24cd723247fc.txt"
+
+[[records]]
+id = "nanogpt-wr-055"
+value = 1.918
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-29T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-29_VeSkipGates/2851d7dc-d6a5-4e74-8623-57031425db16.txt"
+
+[[records]]
+id = "nanogpt-wr-056"
+value = 1.894
+evidence = "verified"
+author = "ChrisJMcCormick"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2025-12-31T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2025-12-31_GatesToCompiledAdam/12-31-gates-to-adam-20stps/219a5f2f-151e-4c56-ab91-3735ae4610b8.txt"
+
+[[records]]
+id = "nanogpt-wr-057"
+value = 1.878
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-04T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-04_MixedPrecisionInterweavedOptimizer/41f606b6-1b9c-46a3-b46e-2beff1521d18.txt"
+
+[[records]]
+id = "nanogpt-wr-058"
+value = 1.82
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-07T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-07_PairedHeadAttention/2a5d5cde-db5f-4aab-a4a8-cc8e183ea671.txt"
+
+[[records]]
+id = "nanogpt-wr-059"
+value = 1.781
+evidence = "verified"
+author = "andrewbriand8"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-10_FusedLinearReLUSquare/3c47e63b-075e-4b5b-9c76-9dbe7bad9ad4.txt"
+
+[[records]]
+id = "nanogpt-wr-060"
+value = 1.765
+evidence = "verified"
+author = "soren_dunn_"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-16T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-16_FusedSoftcappedEntropy/45beba56-93e2-4995-bc5b-caff3cb2c1b5.txt"
+
+[[records]]
+id = "nanogpt-wr-061"
+value = 1.748
+evidence = "verified"
+author = "ChrisJMcCormick"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-18T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-18_UnifiedOptimizers/unified-optimizer/2fc79469-a527-4bde-8540-8426ed3352d1.txt"
+
+[[records]]
+id = "nanogpt-wr-062"
+value = 1.655
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-19T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-19_BigramHashEmbedding/40ec7bb6-14b3-46f8-90b7-bb5ed188faba.txt"
+
+[[records]]
+id = "nanogpt-wr-063"
+value = 1.65
+evidence = "verified"
+author = "photon_mz"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-26T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-26-UntieValueEmbeddings/43955d93-6914-40cb-bdf8-786ace93784f.txt"
+
+[[records]]
+id = "nanogpt-wr-064"
+value = 1.63
+evidence = "verified"
+author = "srashedll"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-30T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-30_MimeticValueOutput/runs/0f262f64-20c4-4268-9ae7-d7440c810abd.txt"
+
+[[records]]
+id = "nanogpt-wr-065"
+value = 1.613
+evidence = "verified"
+author = "varunneal"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-30T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-30_VeFused/0ba09d92-4ef1-440f-85e3-9d2766294db4.txt"
+
+[[records]]
+id = "nanogpt-wr-066"
+value = 1.595
+evidence = "verified"
+author = "KellerJordan"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-31T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt"
+
+[[records]]
+id = "nanogpt-wr-067"
+value = 1.54
+evidence = "verified"
+author = "andrewbriand8"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-31T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-24_ImprovedLMHead/record/73a071ac-522d-4ce0-a4d6-cf3955a376e4.txt"
+
+[[records]]
+id = "nanogpt-wr-068"
+value = 1.535
+evidence = "verified"
+author = "dhrvji"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-01-31T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-01-31-BigramHashH2D/112c686e-b0d6-4dc8-814a-1ad1f5d5b274.txt"
+
+[[records]]
+id = "nanogpt-wr-069"
+value = 1.528
+evidence = "verified"
+author = "EmmettBicker"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-02T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-02_KernelTuning/25afb73a-332f-4d69-b9ab-f6261497f2d8.txt"
+
+[[records]]
+id = "nanogpt-wr-070"
+value = 1.521
+evidence = "verified"
+author = "photon_mz"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-03T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-03_VeTuned/42cbebac-0599-4a89-a00e-26d1c4cad140.txt"
+
+[[records]]
+id = "nanogpt-wr-071"
+value = 1.516
+evidence = "verified"
+author = "roeeshenberg"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-06T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-06_SparseBigramGradient/02fee7bd-cd22-478b-9e8e-12e857ff3152.txt"
+
+[[records]]
+id = "nanogpt-wr-072"
+value = 1.496
+evidence = "verified"
+author = "dualverse-ai"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-10T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-10_ShortWindow/Short-Window_1_1.txt"
+
+[[records]]
+id = "nanogpt-wr-073"
+value = 1.485
+evidence = "verified"
+author = "sisovicm"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-12T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-12_ParallelResiduals/451050db-d471-49db-b19b-be824bb896d0.txt"
+
+[[records]]
+id = "nanogpt-wr-074"
+value = 1.468
+evidence = "verified"
+author = "ChrisJMcCormick"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-16T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-16_FlattenForward/pr233/2026-02-16_21-30-05_time-362_secs_F-inject-post-attn_9f12a3.txt"
+
+[[records]]
+id = "nanogpt-wr-075"
+value = 1.453
+evidence = "verified"
+author = "moof2x"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-23T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-23_CrossEntropyKernel/1e51be6b-7dd4-41ab-b95d-e57da5814776.txt"
+
+[[records]]
+id = "nanogpt-wr-076"
+value = 1.446
+evidence = "verified"
+author = "samacqua"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-02-28T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-02-28_TransposeCopyBackward/this_pr/14c9cefc-c840-493f-870e-61bb1d2b1d97.txt"
+
+[[records]]
+id = "nanogpt-wr-077"
+value = 1.435
+evidence = "verified"
+author = "classiclarryd"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-03-06T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-03-06_SimplifyHC/0ab4a843-8c3a-4fb4-9fff-8e1d39852646.txt"
+
+[[records]]
+id = "nanogpt-wr-078"
+value = 1.426
+evidence = "verified"
+author = "ChrisJMcCormick"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-03-22T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-03-22_VarlenMaxDocs/combined/2026-03-22_20-07-32_time-186_secs_06-mbeta2-max-docs_227ce8.txt"
+
+[[records]]
+id = "nanogpt-wr-079"
+value = 1.411
+evidence = "verified"
+author = "andrewbriand8"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-04-04T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-04-04_FuseCEFwdAndBwd/runs/19ad9161-37c0-4985-8dd4-6db4e27f34b4.txt"
+
+[[records]]
+id = "nanogpt-wr-080"
+value = 1.406
+evidence = "verified"
+author = "samacqua"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-04-08T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-04-08_PairedHeadMuon/logs/split_qk0-1480.txt"
+
+[[records]]
+id = "nanogpt-wr-081"
+value = 1.363
+evidence = "verified"
+author = "Lisennlp"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-04-22T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-04-22_MuddFormer/this_pr_v3"
+
+[[records]]
+id = "nanogpt-wr-082"
+value = 1.353
+evidence = "verified"
+author = "_djdumpling"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-04-29T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-04-29_XSAGatedLayers/this_pr_v1-s1410/06563169-6435-48ba-a1ad-f3e61bfcc573.txt"
+
+[[records]]
+id = "nanogpt-wr-083"
+value = 1.328
+evidence = "verified"
+author = "TrianX"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-05-20T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-05-20_BigramsSignTrick/pr299/0cf91274-eda8-49cd-9a97-9369f730f271.txt"
+
+[[records]]
+id = "nanogpt-wr-084"
+value = 1.32
+evidence = "verified"
+author = "sisovicm"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-05-21T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-05-19_FP8MLPUpProj/this_record/008bb79d-d5bc-4205-bd4e-5e4ae82e658c.txt"
+
+[[records]]
+id = "nanogpt-wr-085"
+value = 1.271
+evidence = "verified"
+author = "Lisennlp"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-05-27T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-05-27-MuddGatedAndDC"
+
+[[records]]
+id = "nanogpt-wr-086"
+value = 1.266
+evidence = "verified"
+author = "aryavohra"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-05-27T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/pull/317"
+
+[[records]]
+id = "nanogpt-wr-087"
+value = 1.256
+evidence = "verified"
+author = "cong_ml"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-06-11T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-06-11_RecursiveFromBest/this_pr/00088a48-30a3-4ebd-9768-6061011337f4.txt"
+
+[[records]]
+id = "nanogpt-wr-088"
+value = 1.243
+evidence = "verified"
+author = "jvarho"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-07-13T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-07-13_PrefixTokenPrediction/prefix-1375/1b20ccf2-cb2f-4b6b-bc8a-2d9cd146f549.txt"
+
+[[records]]
+id = "nanogpt-wr-089"
+value = 1.23
+evidence = "verified"
+author = "Mister-dev-oss"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-07-17T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-07-17_FP8DownProjection/this_pr/11cb620c-daaf-4e85-83fc-258a5eb7ba09.txt"
+
+[[records]]
+id = "nanogpt-wr-090"
+value = 1.13
+evidence = "verified"
+author = "theonlyglitch_"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-08-03T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-08-03_FP8MLPBackwardPackedQKV"
+
+[[records]]
+id = "nanogpt-wr-091"
+value = 1.126
+evidence = "verified"
+author = "jvarho"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-08-06T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-08-06-CanonicalMasking"
+
+[[records]]
+id = "nanogpt-wr-092"
+value = 0.665
+evidence = "verified"
+author = "DevenPzak"
+agent = "Speedrun Harness"
+model = "8xH100 PyTorch + Triton"
+date = "2026-08-30T12:00:00Z"
+url = "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-08-30_ANVIL2"

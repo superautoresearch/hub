@@ -5,7 +5,7 @@ tags = ["lean", "combinatorics", "matrices"]
 listed = true
 added = "2026-10-08"
 contributors_override = 3
-attempts_override = 12
+attempts_override = 13
 discussion_url = "https://github.com/shea256/ordered-binary-matrix-removal/issues"
 
 [spec]

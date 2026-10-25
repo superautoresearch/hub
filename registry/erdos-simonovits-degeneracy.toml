@@ -5,7 +5,7 @@ tags = ["combinatorics", "graphs", "erdos", "turan-numbers"]
 listed = true
 added = "2026-10-15"
 contributors_override = 2
-attempts_override = 10
+attempts_override = 31
 discussion_url = "https://github.com/EvolvingPrograms/erdos-simonovits-degeneracy"
 
 [spec]

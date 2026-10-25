@@ -323,8 +323,8 @@ def _sync_research_guide(hub_dir: Path) -> dict[str, Any]:
                     "value": count,
                     "evidence": "verified",
                     "author": "superautoresearch",
-                    "agent": "Claude Code",
-                    "model": "claude-opus-4-6",
+                    "agent": "superAutoResearch Harvester",
+                    "model": "Model-Agnostic / GitHub-Native",
                     "date": now_iso,
                     "url": "https://github.com/superautoresearch/research-guide/tree/main/cases",
                 }
@@ -2478,8 +2478,8 @@ CURATED_FRONTIER_CHALLENGES: list[dict[str, Any]] = [
                 "value": 5.0,
                 "evidence": "verified",
                 "author": "superautoresearch",
-                "agent": "Claude Code",
-                "model": "claude-opus-4-6",
+                "agent": "superAutoResearch Harvester",
+                "model": "Model-Agnostic / GitHub-Native",
                 "date": "2026-10-20T12:00:00Z",
                 "pr": 1,
                 "url": "https://github.com/superautoresearch/research-guide/tree/main/cases",
@@ -2489,8 +2489,8 @@ CURATED_FRONTIER_CHALLENGES: list[dict[str, Any]] = [
                 "value": 8.0,
                 "evidence": "verified",
                 "author": "superautoresearch",
-                "agent": "Claude Code",
-                "model": "claude-opus-4-6",
+                "agent": "superAutoResearch Harvester",
+                "model": "Model-Agnostic / GitHub-Native",
                 "date": "2026-10-25T12:00:00Z",
                 "pr": 2,
                 "url": "https://github.com/superautoresearch/research-guide/blob/main/HARNESS_GUIDE.md",
@@ -2518,6 +2518,17 @@ def _sync_curated_challenges(hub_root: Path) -> list[dict[str, Any]]:
         claims = cfg.get("claims", [])
         authors = {r["author"] for r in records} | {c["author"] for c in claims}
 
+        toml_path = reg_dir / f"{slug}.toml"
+        prev_contribs = 0
+        prev_attempts = 0
+        if toml_path.is_file():
+            try:
+                prev_entry = loads(toml_path.read_text(encoding="utf-8"))
+                prev_contribs = int(prev_entry.get("contributors_override", 0) or 0)
+                prev_attempts = int(prev_entry.get("attempts_override", 0) or 0)
+            except Exception:
+                pass
+
         entry_dict: dict[str, Any] = {
             "repo": cfg["repo"],
             "kind": "external",
@@ -2525,8 +2536,8 @@ def _sync_curated_challenges(hub_root: Path) -> list[dict[str, Any]]:
             "tags": cfg["tags"],
             "listed": True,
             "added": "2026-10-15",
-            "contributors_override": max(len(authors), 1),
-            "attempts_override": max((len(records) + len(claims)) * 5, 6),
+            "contributors_override": max(prev_contribs, len(authors), 1),
+            "attempts_override": max(prev_attempts, (len(records) + len(claims)) * 5, 6),
             "discussion_url": cfg["discussion_url"],
             "spec": {
                 "title": cfg["title"],
@@ -2540,17 +2551,19 @@ def _sync_curated_challenges(hub_root: Path) -> list[dict[str, Any]]:
                 "tracks": cfg["tracks"],
             },
         }
-        (reg_dir / f"{slug}.toml").write_text(dumps(entry_dict), encoding="utf-8")
+        toml_path.write_text(dumps(entry_dict), encoding="utf-8")
 
-        records_payload: dict[str, Any] = {}
-        if records:
-            records_payload["records"] = records
-        if claims:
-            records_payload["claims"] = claims
-        (reg_dir / f"{slug}.records.toml").write_text(
-            dumps(records_payload) if records_payload else "# No records yet\n",
-            encoding="utf-8",
-        )
+        rec_path = reg_dir / f"{slug}.records.toml"
+        if not rec_path.is_file():
+            records_payload: dict[str, Any] = {}
+            if records:
+                records_payload["records"] = records
+            if claims:
+                records_payload["claims"] = claims
+            rec_path.write_text(
+                dumps(records_payload) if records_payload else "# No records yet\n",
+                encoding="utf-8",
+            )
 
         results.append(
             {
@@ -2570,6 +2583,8 @@ def _sync_curated_challenges(hub_root: Path) -> list[dict[str, Any]]:
 
 def check_all_frontiers(hub_dir: Path | None = None) -> dict[str, Any]:
     """Fetch upstream frontier data directly from GitHub repositories, update registry & generated/, and return report."""
+    from sar.history_sync import sync_all_record_histories
+
     root = (hub_dir or get_hub_root()).resolve()
     checked: list[dict[str, Any]] = []
 
@@ -2595,40 +2610,36 @@ def check_all_frontiers(hub_dir: Path | None = None) -> dict[str, Any]:
         except Exception as exc:
             checked.append({"slug": sync_fn.__name__, "status": "error", "error": str(exc)})
 
-    # Replace or append live-synced entries
-    seen_live: set[str] = set()
-    for idx, item in enumerate(checked):
-        s = item.get("slug")
-        if s in live_by_slug:
-            checked[idx] = live_by_slug[s]
-            seen_live.add(s)
-    for s, rep in live_by_slug.items():
-        if s not in seen_live:
-            checked.append(rep)
+    # 3. Sync full record histories and PR/commit attempt counts across all challenges
+    try:
+        sync_all_record_histories(hub_dir=root, sync_github_activity=True)
+    except Exception:
+        pass
 
-    # 3. Run full hub sync across all listed registry/*.toml entries
+    # 4. Run full hub sync across all listed registry/*.toml entries
     sync_out = sync_hub(hub_dir=root)
     global_rows = sync_out["global"]["challenges"]
 
-    synced_slugs = {c["slug"] for c in checked}
+    checked = []
     for row in global_rows:
-        if row["slug"] not in synced_slugs:
-            checked.append(
-                {
-                    "slug": row["slug"],
-                    "title": row["title"],
-                    "source": row["repo"],
-                    "verified_records": row["records_count"],
-                    "open_claims": 1 if row.get("best_claim") else 0,
-                    "frontier_best": (
-                        row["current_best"]["value"]
-                        if row.get("current_best")
-                        else row["baseline"]["value"]
-                    ),
-                    "best_claim": row["best_claim"]["value"] if row.get("best_claim") else None,
-                    "status": row["status"],
-                }
-            )
+        checked.append(
+            {
+                "slug": row["slug"],
+                "title": row["title"],
+                "source": row["repo"],
+                "verified_records": row["records_count"],
+                "open_claims": 1 if row.get("best_claim") else 0,
+                "frontier_best": (
+                    row["current_best"]["value"]
+                    if row.get("current_best")
+                    else row["baseline"]["value"]
+                ),
+                "best_claim": row["best_claim"]["value"] if row.get("best_claim") else None,
+                "attempts": row.get("attempts", 0),
+                "contributors": row.get("contributors", 0),
+                "status": row["status"],
+            }
+        )
 
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     report = {

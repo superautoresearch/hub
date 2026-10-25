@@ -5,7 +5,7 @@ tags = ["lean", "number-theory", "primes", "formal-verification"]
 listed = true
 added = "2026-10-15"
 contributors_override = 1
-attempts_override = 15
+attempts_override = 21
 discussion_url = "https://github.com/lsmeng/pnt-table15-evidence"
 
 [spec]

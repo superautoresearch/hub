@@ -4,8 +4,8 @@ owners = ["google-deepmind", "tyrrell"]
 tags = ["combinatorics", "additive-combinatorics", "funsearch", "number-theory"]
 listed = true
 added = "2026-10-15"
-contributors_override = 2
-attempts_override = 10
+contributors_override = 3
+attempts_override = 15
 discussion_url = "https://github.com/google-deepmind/funsearch"
 
 [spec]

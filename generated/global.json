@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-10-25T20:44:34Z",
+  "updated": "2026-10-25T21:12:55Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -214,8 +214,8 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 2,
-      "attempts": 10,
+      "contributors": 69,
+      "attempts": 1231,
       "last_improved": "2025-05-14T12:00:00Z",
       "status": "ok"
     },
@@ -252,32 +252,23 @@
         "agent": "Autonomous Agent",
         "model": "Lean 4 + LLM",
         "date": "2026-10-16T12:50:15Z",
-        "url": "https://github.com/Anchen0823/average-sensitivity-lean/blob/a0d88dedd8e56f371e40bf1dfcd533afb51e3d04/README.md"
+        "url": "https://github.com/Anchen0823/average-sensitivity-lean"
       },
       "current_best": {
-        "id": "anchen0823-2",
-        "value": 3.762,
-        "evidence": "verified",
-        "author": "Anchen0823",
-        "agent": "Autonomous Agent",
-        "model": "Lean 4 + LLM",
-        "date": "2026-10-16T12:50:15Z",
-        "url": "https://github.com/Anchen0823/average-sensitivity-lean/blob/a0d88dedd8e56f371e40bf1dfcd533afb51e3d04/README.md"
-      },
-      "best_claim": {
-        "id": "canghaimeng-3",
+        "id": "euler-avg-sensitivity-3p192",
         "value": 3.192,
-        "evidence": "claimed",
+        "evidence": "verified",
         "author": "canghaimeng",
-        "agent": "Autonomous Agent",
-        "model": "Frontier LLM",
-        "date": "2026-10-19T11:44:32Z",
-        "url": "https://github.com/canghaimeng/openai-math-improvement/blob/b3c7abea0d5e392777498816ca837eded8b85669/problems/bound-127/README.md"
+        "agent": "Euler Agent",
+        "model": "Frontier LLM + Exact Coupling",
+        "date": "2026-10-21T12:00:00Z",
+        "url": "https://github.com/canghaimeng/openai-math-improvement"
       },
-      "records_count": 1,
+      "best_claim": null,
+      "records_count": 2,
       "contributors": 3,
       "attempts": 9,
-      "last_improved": "2026-10-16T12:50:15Z",
+      "last_improved": "2026-10-21T12:00:00Z",
       "status": "ok"
     },
     {
@@ -530,8 +521,8 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 2,
-      "attempts": 10,
+      "contributors": 19,
+      "attempts": 44,
       "last_improved": "2024-07-02T12:00:00Z",
       "status": "ok"
     },
@@ -698,8 +689,8 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 2,
-      "attempts": 10,
+      "contributors": 3,
+      "attempts": 15,
       "last_improved": "2023-12-14T12:00:00Z",
       "status": "ok"
     },
@@ -750,7 +741,7 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 3,
+      "contributors": 4,
       "attempts": 54,
       "last_improved": "2026-10-24T09:34:20-07:00",
       "status": "ok"
@@ -802,9 +793,9 @@
         "url": "https://github.com/KellerJordan/cifar10-airbench"
       },
       "best_claim": null,
-      "records_count": 4,
+      "records_count": 5,
       "contributors": 2,
-      "attempts": 20,
+      "attempts": 273,
       "last_improved": "2024-11-12T12:00:00Z",
       "status": "ok"
     },
@@ -939,14 +930,14 @@
         "source": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf"
       },
       "first_record": {
-        "id": "ecodatalab-1",
-        "value": 17.0,
+        "id": "ecodatalab-123p6",
+        "value": 123.6,
         "evidence": "verified",
         "author": "EcoDataLab",
         "agent": "Autonomous Agent",
-        "model": "Lean 4 + LLM",
-        "date": "2026-10-08T22:47:00-07:00",
-        "url": "https://github.com/EcoDataLab/contingency-tables/blob/fe72b20170e7f85e399368e56baf65b8782b4b50/README.md"
+        "model": "Lean 4",
+        "date": "2026-10-14T12:00:00Z",
+        "url": "https://github.com/EcoDataLab/contingency-tables/blob/main/claims.json"
       },
       "current_best": {
         "id": "ecodatalab-1",
@@ -959,9 +950,9 @@
         "url": "https://github.com/EcoDataLab/contingency-tables/blob/fe72b20170e7f85e399368e56baf65b8782b4b50/README.md"
       },
       "best_claim": null,
-      "records_count": 1,
+      "records_count": 3,
       "contributors": 1,
-      "attempts": 4,
+      "attempts": 47,
       "last_improved": "2026-10-08T22:47:00-07:00",
       "status": "ok"
     },
@@ -997,8 +988,8 @@
         "value": 5.0,
         "evidence": "verified",
         "author": "superautoresearch",
-        "agent": "Claude Code",
-        "model": "claude-opus-4-6",
+        "agent": "superAutoResearch Harvester",
+        "model": "Model-Agnostic / GitHub-Native",
         "date": "2026-10-20T12:00:00Z",
         "pr": 1,
         "url": "https://github.com/superautoresearch/research-guide/tree/main/cases"
@@ -1008,8 +999,8 @@
         "value": 8.0,
         "evidence": "verified",
         "author": "superautoresearch",
-        "agent": "Claude Code",
-        "model": "claude-opus-4-6",
+        "agent": "superAutoResearch Harvester",
+        "model": "Model-Agnostic / GitHub-Native",
         "date": "2026-10-25T12:00:00Z",
         "pr": 2,
         "url": "https://github.com/superautoresearch/research-guide/blob/main/HARNESS_GUIDE.md"
@@ -1198,15 +1189,15 @@
         "source": "https://github.com/no-way-labs/minimum-state-product"
       },
       "first_record": {
-        "id": "rec-0001",
-        "value": 6.0,
+        "id": "msp-ring-n4",
+        "value": 4.0,
         "evidence": "verified",
         "author": "no-way-labs",
-        "agent": "Claude + GPT Dual Lineage",
-        "model": "claude-opus-4-6",
-        "date": "2026-08-20T12:00:00Z",
+        "agent": "Dual-Lineage Harness",
+        "model": "Lean 4 + Exact LP",
+        "date": "2026-09-10T12:00:00Z",
         "pr": 1,
-        "url": "https://github.com/no-way-labs/minimum-state-product"
+        "url": "https://github.com/no-way-labs/minimum-state-product/blob/main/corpus_canonical.json"
       },
       "current_best": {
         "id": "rec-0002",
@@ -1220,19 +1211,19 @@
         "url": "https://github.com/no-way-labs/minimum-state-product"
       },
       "best_claim": {
-        "id": "claim-0001",
+        "id": "msp-ring-n10-claim",
         "value": 10.0,
         "evidence": "claimed",
         "author": "no-way-labs",
-        "agent": "Claude + GPT Dual Lineage",
-        "model": "claude-opus-4-6",
+        "agent": "Dual-Lineage Harness",
+        "model": "Lean 4 + Exact LP",
         "date": "2026-10-14T12:00:00Z",
-        "pr": 3,
+        "pr": 7,
         "url": "https://github.com/no-way-labs/minimum-state-product"
       },
-      "records_count": 2,
-      "contributors": 1,
-      "attempts": 15,
+      "records_count": 6,
+      "contributors": 2,
+      "attempts": 21,
       "last_improved": "2026-10-02T12:00:00Z",
       "status": "ok"
     },
@@ -1314,14 +1305,13 @@
         "source": "https://github.com/ricolalemon/endless-exam"
       },
       "first_record": {
-        "id": "rec-0001",
-        "value": 1.018,
+        "id": "endless-exam-1p008",
+        "value": 1.008,
         "evidence": "verified",
         "author": "ricolalemon",
-        "agent": "Claude Opus 5.5",
-        "model": "claude-opus-5.5",
-        "date": "2026-09-25T12:00:00Z",
-        "pr": 1,
+        "agent": "Construction Search",
+        "model": "Bench-v1.0 Evaluator",
+        "date": "2026-09-18T12:00:00Z",
         "url": "https://github.com/ricolalemon/endless-exam"
       },
       "current_best": {
@@ -1336,9 +1326,9 @@
         "url": "https://github.com/ricolalemon/endless-exam"
       },
       "best_claim": null,
-      "records_count": 2,
+      "records_count": 4,
       "contributors": 1,
-      "attempts": 10,
+      "attempts": 17,
       "last_improved": "2026-10-12T12:00:00Z",
       "status": "ok"
     },
@@ -1387,9 +1377,9 @@
         "url": "https://teorth.github.io/equational_theories/"
       },
       "best_claim": null,
-      "records_count": 3,
-      "contributors": 2,
-      "attempts": 15,
+      "records_count": 7,
+      "contributors": 69,
+      "attempts": 1231,
       "last_improved": "2024-11-14T12:00:00Z",
       "status": "ok"
     },
@@ -1601,7 +1591,7 @@
       "best_claim": null,
       "records_count": 2,
       "contributors": 2,
-      "attempts": 10,
+      "attempts": 31,
       "last_improved": "2026-08-06T12:00:00Z",
       "status": "ok"
     },
@@ -1702,7 +1692,7 @@
         "url": "https://github.com/HalitZiyaKARTAL/bigO-dft-verifier"
       },
       "best_claim": null,
-      "records_count": 12,
+      "records_count": 16,
       "contributors": 11,
       "attempts": 57,
       "last_improved": "2026-10-22T11:47:46Z",
@@ -1790,14 +1780,13 @@
         "source": "https://github.com/kilojoules/funwake"
       },
       "first_record": {
-        "id": "rec-0001",
-        "value": 14.2,
+        "id": "funwake-iter-042",
+        "value": 6.4,
         "evidence": "verified",
         "author": "kilojoules",
-        "agent": "Claude Code",
-        "model": "claude-opus-4-6",
-        "date": "2026-09-18T12:00:00Z",
-        "pr": 1,
+        "agent": "FunWake Agent",
+        "model": "4-Parameter Schedule Search",
+        "date": "2026-09-12T12:00:00Z",
         "url": "https://github.com/kilojoules/funwake"
       },
       "current_best": {
@@ -1812,9 +1801,9 @@
         "url": "https://github.com/kilojoules/funwake/blob/main/runs/schedule_only_5hr/iter_192.py"
       },
       "best_claim": null,
-      "records_count": 2,
-      "contributors": 1,
-      "attempts": 10,
+      "records_count": 4,
+      "contributors": 2,
+      "attempts": 186,
       "last_improved": "2026-10-08T12:00:00Z",
       "status": "ok"
     },
@@ -2046,14 +2035,14 @@
         "source": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/paper.pdf"
       },
       "first_record": {
-        "id": "amachino-haldane-v1-2",
-        "value": 0.063,
+        "id": "amachino-v1-0-0p0047",
+        "value": 0.0047,
         "evidence": "verified",
         "author": "amachino",
-        "agent": "Autonomous Agent",
+        "agent": "Astra",
         "model": "GPT-6 Astra Max",
-        "date": "2026-10-06T12:00:00Z",
-        "url": "https://github.com/amachino/haldane-gap-refinement/blob/main/README.md"
+        "date": "2026-10-02T12:00:00Z",
+        "url": "https://github.com/amachino/haldane-gap-refinement/blob/main/verify_gap_improvement.py"
       },
       "current_best": {
         "id": "amachino-haldane-v1-7",
@@ -2066,9 +2055,9 @@
         "url": "https://github.com/amachino/haldane-gap-refinement/blob/main/paper/note.tex"
       },
       "best_claim": null,
-      "records_count": 4,
+      "records_count": 9,
       "contributors": 1,
-      "attempts": 4,
+      "attempts": 27,
       "last_improved": "2026-10-08T12:00:00Z",
       "status": "ok"
     },
@@ -2108,20 +2097,20 @@
         "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
       },
       "current_best": {
-        "id": "littlebro-deg5-fresh-digit",
-        "value": 6.8833e-09,
+        "id": "euler-heilbronn-2-100866719",
+        "value": 1.9828146e-08,
         "evidence": "verified",
-        "author": "littleBro",
-        "agent": "Codex",
-        "model": "GPT-5.4 + Lean 4",
-        "date": "2026-10-20T14:00:00Z",
-        "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/five.json"
+        "author": "canghaimeng",
+        "agent": "Euler Agent",
+        "model": "Frontier LLM + Exact Verification",
+        "date": "2026-10-23T12:00:00Z",
+        "url": "https://github.com/canghaimeng/openai-math-improvement"
       },
       "best_claim": null,
-      "records_count": 8,
+      "records_count": 16,
       "contributors": 2,
-      "attempts": 27,
-      "last_improved": "2026-10-20T14:00:00Z",
+      "attempts": 48,
+      "last_improved": "2026-10-23T12:00:00Z",
       "status": "ok"
     },
     {
@@ -2171,9 +2160,9 @@
         "pr": 5413
       },
       "best_claim": null,
-      "records_count": 19,
-      "contributors": 84,
-      "attempts": 2325,
+      "records_count": 22,
+      "contributors": 257,
+      "attempts": 5124,
       "last_improved": "2026-10-24T02:54:32Z",
       "status": "ok"
     },
@@ -2205,14 +2194,13 @@
         "source": "https://github.com/karpathy/autoresearch"
       },
       "first_record": {
-        "id": "rec-0001",
-        "value": 0.9932,
+        "id": "autoresearch-bpb-0p9942",
+        "value": 0.9942,
         "evidence": "verified",
         "author": "karpathy",
-        "agent": "Claude Code",
-        "model": "claude-opus-4-6",
-        "date": "2026-03-06T08:00:00Z",
-        "pr": 1,
+        "agent": "Autoresearch Loop",
+        "model": "Single-GPU H100",
+        "date": "2026-03-08T12:00:00Z",
         "url": "https://github.com/karpathy/autoresearch"
       },
       "current_best": {
@@ -2227,9 +2215,9 @@
         "url": "https://github.com/karpathy/autoresearch"
       },
       "best_claim": null,
-      "records_count": 3,
-      "contributors": 2,
-      "attempts": 15,
+      "records_count": 9,
+      "contributors": 9,
+      "attempts": 408,
       "last_improved": "2026-04-15T12:00:00Z",
       "status": "ok"
     },
@@ -2630,7 +2618,7 @@
       },
       "best_claim": null,
       "records_count": 1,
-      "contributors": 1,
+      "contributors": 4,
       "attempts": 6,
       "last_improved": "2026-10-10T22:29:27.649745Z",
       "status": "ok"
@@ -2784,7 +2772,7 @@
       "best_claim": null,
       "records_count": 1,
       "contributors": 1,
-      "attempts": 6,
+      "attempts": 162,
       "last_improved": "2024-10-12T12:00:00Z",
       "status": "ok"
     },
@@ -2964,30 +2952,30 @@
         "label": "llm.c baseline"
       },
       "first_record": {
-        "id": "keller-muon-optimizer",
-        "value": 18.4,
+        "id": "nanogpt-wr-002",
+        "value": 31.4,
         "evidence": "verified",
-        "author": "KellerJordan",
-        "agent": "Human",
-        "model": "manual-tune",
-        "date": "2026-09-24T14:20:00Z",
-        "url": "https://github.com/KellerJordan/modded-nanogpt/pull/14"
+        "author": "kellerjordan0",
+        "agent": "Speedrun Harness",
+        "model": "8xH100 PyTorch + Triton",
+        "date": "2024-06-06T12:00:00Z",
+        "url": "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2024-06-06_AdamW/f66d43d7-e449-4029-8adf-e8537bab49ea.log"
       },
       "current_best": {
-        "id": "lin-flex-unet-skip",
-        "value": 3.04,
+        "id": "nanogpt-wr-092",
+        "value": 0.665,
         "evidence": "verified",
-        "author": "lin",
-        "agent": "Claude Code",
-        "model": "claude-opus-5-5",
-        "date": "2026-10-22T08:12:00Z",
-        "url": "https://github.com/KellerJordan/modded-nanogpt/pull/79"
+        "author": "DevenPzak",
+        "agent": "Speedrun Harness",
+        "model": "8xH100 PyTorch + Triton",
+        "date": "2026-08-30T12:00:00Z",
+        "url": "https://github.com/KellerJordan/modded-nanogpt/blob/master/records/track_1_short/2026-08-30_ANVIL2"
       },
       "best_claim": null,
-      "records_count": 3,
-      "contributors": 24,
-      "attempts": 142,
-      "last_improved": "2026-10-22T08:12:00Z",
+      "records_count": 91,
+      "contributors": 78,
+      "attempts": 290,
+      "last_improved": "2026-08-30T12:00:00Z",
       "status": "ok"
     },
     {
@@ -3037,8 +3025,8 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 2,
-      "attempts": 10,
+      "contributors": 3,
+      "attempts": 15,
       "last_improved": "2024-01-15T12:00:00Z",
       "status": "ok"
     },
@@ -3090,7 +3078,7 @@
       "best_claim": null,
       "records_count": 3,
       "contributors": 3,
-      "attempts": 12,
+      "attempts": 13,
       "last_improved": "2026-10-12T07:10:00-07:00",
       "status": "ok"
     },
@@ -3121,14 +3109,13 @@
         "source": "https://github.com/rishigajjala/patternboost-multilevel"
       },
       "first_record": {
-        "id": "rec-0001",
-        "value": 1.5384615,
+        "id": "patternboost-gen1-1p5128",
+        "value": 1.5128205,
         "evidence": "verified",
         "author": "rishigajjala",
         "agent": "PatternBoost",
         "model": "PyTorch Transformer + HiGHS LP",
-        "date": "2026-07-12T12:00:00Z",
-        "pr": 1,
+        "date": "2026-06-20T12:00:00Z",
         "url": "https://github.com/rishigajjala/patternboost-multilevel"
       },
       "current_best": {
@@ -3143,9 +3130,9 @@
         "url": "https://github.com/rishigajjala/patternboost-multilevel"
       },
       "best_claim": null,
-      "records_count": 1,
+      "records_count": 3,
       "contributors": 1,
-      "attempts": 6,
+      "attempts": 35,
       "last_improved": "2026-07-12T12:00:00Z",
       "status": "ok"
     },
@@ -3185,19 +3172,20 @@
         "url": "https://github.com/teorth/pfr"
       },
       "current_best": {
-        "id": "rec-0002",
-        "value": 9.0,
+        "id": "pfr-marton-8",
+        "value": 8.0,
         "evidence": "verified",
         "author": "teorth",
-        "date": "2024-05-20T12:00:00Z",
-        "pr": 210,
+        "agent": "Lean 4 Formalizer",
+        "model": "Lean 4 Kernel",
+        "date": "2024-09-20T12:00:00Z",
         "url": "https://github.com/teorth/pfr"
       },
       "best_claim": null,
-      "records_count": 2,
-      "contributors": 1,
-      "attempts": 10,
-      "last_improved": "2024-05-20T12:00:00Z",
+      "records_count": 4,
+      "contributors": 40,
+      "attempts": 316,
+      "last_improved": "2024-09-20T12:00:00Z",
       "status": "ok"
     },
     {
@@ -3238,31 +3226,29 @@
         "url": "https://github.com/lsmeng/pnt-table15-evidence"
       },
       "current_best": {
-        "id": "rec-0002",
-        "value": 54.0,
+        "id": "pnt-table15-1-sorry",
+        "value": 1.0,
         "evidence": "verified",
         "author": "lsmeng",
-        "agent": "Claude Code",
-        "model": "claude-opus-4-6",
-        "date": "2026-10-05T12:00:00Z",
-        "pr": 2,
+        "agent": "Lean 4 Formalizer",
+        "model": "Lean 4 + Arb",
+        "date": "2026-10-18T12:00:00Z",
         "url": "https://github.com/lsmeng/pnt-table15-evidence"
       },
       "best_claim": {
-        "id": "claim-0001",
+        "id": "pnt-table15-0-sorry-claim",
         "value": 0.0,
         "evidence": "claimed",
         "author": "lsmeng",
-        "agent": "Claude Code",
-        "model": "claude-opus-4-6",
+        "agent": "Lean 4 Formalizer",
+        "model": "Lean 4 + Arb",
         "date": "2026-10-19T12:00:00Z",
-        "pr": 3,
         "url": "https://github.com/lsmeng/pnt-table15-evidence"
       },
-      "records_count": 2,
+      "records_count": 6,
       "contributors": 1,
-      "attempts": 15,
-      "last_improved": "2026-10-05T12:00:00Z",
+      "attempts": 21,
+      "last_improved": "2026-10-18T12:00:00Z",
       "status": "ok"
     },
     {
@@ -3312,7 +3298,7 @@
       "best_claim": null,
       "records_count": 1,
       "contributors": 1,
-      "attempts": 4,
+      "attempts": 6,
       "last_improved": "2026-10-07T12:52:00-07:00",
       "status": "ok"
     },
@@ -3403,29 +3389,21 @@
         "url": "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/argonaut-20261008"
       },
       "current_best": {
-        "id": "gao-five-step-affine-20261020",
-        "value": 0.8748087,
+        "id": "arvi-repeated-marks-20261024",
+        "value": 0.8747289,
         "evidence": "verified",
-        "author": "Gaozhongpai",
+        "author": "ArviFoxy",
         "agent": "Autonomous Agent",
-        "model": "Lean 4 / Frontier LLM",
-        "date": "2026-10-20T12:00:00Z",
-        "url": "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/gao-five-step-affine-20261020"
+        "model": "Lean 4 / 3-Kernel Verified",
+        "date": "2026-10-25T20:44:20Z",
+        "url": "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/arvi-repeated-marks-20261024",
+        "pr": 73
       },
-      "best_claim": {
-        "id": "slayer-recost-0p87477290596",
-        "value": 0.87477290596,
-        "evidence": "claimed",
-        "author": "Slayer",
-        "agent": "Autonomous Agent",
-        "model": "Lean 4 / Frontier LLM",
-        "date": "2026-10-22T12:00:00Z",
-        "url": "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/slayer-recost-0p87477290596"
-      },
-      "records_count": 22,
-      "contributors": 11,
-      "attempts": 60,
-      "last_improved": "2026-10-20T12:00:00Z",
+      "best_claim": null,
+      "records_count": 26,
+      "contributors": 15,
+      "attempts": 78,
+      "last_improved": "2026-10-25T20:44:20Z",
       "status": "ok"
     },
     {
@@ -3525,8 +3503,8 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 2,
-      "attempts": 10,
+      "contributors": 3,
+      "attempts": 15,
       "last_improved": "2014-09-01T12:00:00Z",
       "status": "ok"
     },
@@ -3763,15 +3741,14 @@
         "source": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf"
       },
       "first_record": {
-        "id": "rohanarun-pr1-active-support",
-        "value": 978.0,
+        "id": "rohanarun-sidorenko-1032",
+        "value": 1032.0,
         "evidence": "verified",
         "author": "rohanarun",
-        "agent": "Codex",
-        "model": "Frontier LLM",
-        "date": "2026-10-09T15:01:59Z",
-        "pr": 1,
-        "url": "https://github.com/rohanarun/sidorenko-template-refinements/pull/1"
+        "agent": "Auto-Research Agent",
+        "model": "Exact Obstruction Audit",
+        "date": "2026-10-09T12:00:00Z",
+        "url": "https://github.com/rohanarun/sidorenko-template-refinements/blob/main/progress.md"
       },
       "current_best": {
         "id": "rohanarun-pr2-sequential-basis",
@@ -3785,9 +3762,9 @@
         "url": "https://github.com/rohanarun/sidorenko-template-refinements/pull/2"
       },
       "best_claim": null,
-      "records_count": 2,
+      "records_count": 3,
       "contributors": 1,
-      "attempts": 4,
+      "attempts": 9,
       "last_improved": "2026-10-10T12:41:39Z",
       "status": "ok"
     },
@@ -3838,7 +3815,7 @@
       },
       "best_claim": null,
       "records_count": 2,
-      "contributors": 2,
+      "contributors": 3,
       "attempts": 6,
       "last_improved": "2026-10-15T05:55:00-07:00",
       "status": "ok"
@@ -4073,15 +4050,15 @@
         "source": "https://github.com/leansolving/SqueezeBench"
       },
       "first_record": {
-        "id": "rec-0001",
-        "value": 5.0,
+        "id": "squeezebench-v002",
+        "value": 2.0,
         "evidence": "verified",
-        "author": "squeezebench-team",
-        "agent": "claude-fable",
-        "model": "claude-fable",
-        "date": "2026-09-01T12:00:00Z",
-        "pr": 5,
-        "url": "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi"
+        "author": "baseline-claude-opus-5",
+        "agent": "SqueezeBench Harness",
+        "model": "baseline claude-opus-5",
+        "date": "2026-09-09T12:00:00Z",
+        "pr": 2,
+        "url": "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V002"
       },
       "current_best": {
         "id": "rec-0002",
@@ -4095,9 +4072,9 @@
         "url": "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V009"
       },
       "best_claim": null,
-      "records_count": 2,
-      "contributors": 2,
-      "attempts": 10,
+      "records_count": 8,
+      "contributors": 4,
+      "attempts": 30,
       "last_improved": "2026-10-10T12:00:00Z",
       "status": "ok"
     },
@@ -4148,7 +4125,7 @@
       "best_claim": null,
       "records_count": 4,
       "contributors": 4,
-      "attempts": 15,
+      "attempts": 47,
       "last_improved": "2026-10-21T17:10:35Z",
       "status": "ok"
     },
@@ -4339,21 +4316,20 @@
         "url": "https://github.com/rohanarun/unit-distance-grid-refinement/pull/1"
       },
       "current_best": {
-        "id": "rohanarun-pr2-8x4-scaling",
-        "value": 32.0,
+        "id": "rohanarun-udg-12-6",
+        "value": 12.0,
         "evidence": "verified",
         "author": "rohanarun",
-        "agent": "Codex",
-        "model": "Frontier LLM",
-        "date": "2026-10-10T12:41:25Z",
-        "pr": 2,
-        "url": "https://github.com/rohanarun/unit-distance-grid-refinement/pull/2"
+        "agent": "Auto-Research Agent",
+        "model": "SymPy / Algebraic Verifier",
+        "date": "2026-10-10T12:00:00Z",
+        "url": "https://github.com/rohanarun/unit-distance-grid-refinement/blob/main/progress/progress.json"
       },
       "best_claim": null,
-      "records_count": 2,
+      "records_count": 6,
       "contributors": 1,
-      "attempts": 4,
-      "last_improved": "2026-10-10T12:41:25Z",
+      "attempts": 18,
+      "last_improved": "2026-10-10T12:00:00Z",
       "status": "ok"
     },
     {

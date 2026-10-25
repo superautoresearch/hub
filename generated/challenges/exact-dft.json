@@ -24,6 +24,46 @@
       "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Computability/FourierTransform/Main.lean"
     },
     {
+      "id": "shea256-dft-legacy-shared-sum",
+      "value": 5.5e-10,
+      "evidence": "verified",
+      "author": "shea256",
+      "agent": "Autonomous Agent",
+      "model": "Lean 4 + Rational Certificate",
+      "date": "2026-10-08T12:00:00Z",
+      "url": "https://github.com/shea256/fourier-transform-below-nlogn/blob/main/results/legacy-shared-sum.md"
+    },
+    {
+      "id": "shea256-dft-round6",
+      "value": 7.3e-05,
+      "evidence": "verified",
+      "author": "shea256",
+      "agent": "Autonomous Agent",
+      "model": "Lean 4 + Rational Certificate",
+      "date": "2026-10-08T12:00:00Z",
+      "url": "https://github.com/shea256/fourier-transform-below-nlogn/blob/main/results/round6.md"
+    },
+    {
+      "id": "shea256-dft-round10",
+      "value": 0.00061,
+      "evidence": "verified",
+      "author": "shea256",
+      "agent": "Autonomous Agent",
+      "model": "Lean 4 + Rational Certificate",
+      "date": "2026-10-09T12:00:00Z",
+      "url": "https://github.com/shea256/fourier-transform-below-nlogn/blob/main/results/round10.md"
+    },
+    {
+      "id": "shea256-dft-round11",
+      "value": 0.00067,
+      "evidence": "verified",
+      "author": "shea256",
+      "agent": "Autonomous Agent",
+      "model": "Lean 4 + Rational Certificate",
+      "date": "2026-10-09T12:00:00Z",
+      "url": "https://github.com/shea256/fourier-transform-below-nlogn/blob/main/results/round11.md"
+    },
+    {
       "id": "shea256-exact-dft-five-stage-2026",
       "value": 0.000754736,
       "evidence": "verified",
@@ -137,5 +177,5 @@
   "claims": [],
   "contributors": 11,
   "attempts": 57,
-  "updated": "2026-10-25T20:44:34Z"
+  "updated": "2026-10-25T21:12:54Z"
 }

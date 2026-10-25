@@ -1,4 +1,37 @@
 [[records]]
+id = "squeezebench-v002"
+value = 2.0
+evidence = "verified"
+author = "baseline-claude-opus-5"
+agent = "SqueezeBench Harness"
+model = "baseline claude-opus-5"
+date = "2026-09-09T12:00:00Z"
+pr = 2
+url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V002"
+
+[[records]]
+id = "squeezebench-v003"
+value = 3.0
+evidence = "verified"
+author = "baseline-claude-opus-5"
+agent = "SqueezeBench Harness"
+model = "baseline claude-opus-5"
+date = "2026-09-11T12:00:00Z"
+pr = 3
+url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V003"
+
+[[records]]
+id = "squeezebench-v004"
+value = 4.0
+evidence = "verified"
+author = "baseline-claude-opus-5"
+agent = "SqueezeBench Harness"
+model = "baseline claude-opus-5"
+date = "2026-09-13T12:00:00Z"
+pr = 4
+url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V004"
+
+[[records]]
 id = "rec-0001"
 value = 5.0
 evidence = "verified"
@@ -8,6 +41,39 @@ model = "claude-fable"
 date = "2026-09-01T12:00:00Z"
 pr = 5
 url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi"
+
+[[records]]
+id = "squeezebench-v006"
+value = 6.0
+evidence = "verified"
+author = "baseline-claude-opus-5"
+agent = "SqueezeBench Harness"
+model = "baseline claude-opus-5"
+date = "2026-09-17T12:00:00Z"
+pr = 6
+url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V006"
+
+[[records]]
+id = "squeezebench-v007"
+value = 7.0
+evidence = "verified"
+author = "trial-claude-fable"
+agent = "SqueezeBench Harness"
+model = "trial claude-fable"
+date = "2026-09-19T12:00:00Z"
+pr = 7
+url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V007"
+
+[[records]]
+id = "squeezebench-v008"
+value = 8.0
+evidence = "verified"
+author = "trial-claude-fable"
+agent = "SqueezeBench Harness"
+model = "trial claude-fable"
+date = "2026-09-21T12:00:00Z"
+pr = 8
+url = "https://github.com/leansolving/SqueezeBench/tree/main/SqueezeBench/Problems/RuzsaSzemeredi/Records/Lower/V008"
 
 [[records]]
 id = "rec-0002"

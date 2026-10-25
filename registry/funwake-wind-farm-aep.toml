@@ -4,8 +4,8 @@ owners = ["kilojoules"]
 tags = ["optimization", "physics", "funsearch", "energy"]
 listed = true
 added = "2026-10-15"
-contributors_override = 1
-attempts_override = 10
+contributors_override = 2
+attempts_override = 186
 discussion_url = "https://github.com/kilojoules/funwake"
 
 [spec]

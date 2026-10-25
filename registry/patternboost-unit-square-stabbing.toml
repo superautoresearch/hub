@@ -5,7 +5,7 @@ tags = ["geometry", "combinatorics", "optimization", "lp"]
 listed = true
 added = "2026-10-15"
 contributors_override = 1
-attempts_override = 6
+attempts_override = 35
 discussion_url = "https://github.com/rishigajjala/patternboost-multilevel"
 
 [spec]

@@ -15,6 +15,26 @@
   },
   "records": [
     {
+      "id": "patternboost-gen1-1p5128",
+      "value": 1.5128205,
+      "evidence": "verified",
+      "author": "rishigajjala",
+      "agent": "PatternBoost",
+      "model": "PyTorch Transformer + HiGHS LP",
+      "date": "2026-06-20T12:00:00Z",
+      "url": "https://github.com/rishigajjala/patternboost-multilevel"
+    },
+    {
+      "id": "patternboost-gen2-1p5254",
+      "value": 1.5254237,
+      "evidence": "verified",
+      "author": "rishigajjala",
+      "agent": "PatternBoost",
+      "model": "PyTorch Transformer + HiGHS LP",
+      "date": "2026-07-01T12:00:00Z",
+      "url": "https://github.com/rishigajjala/patternboost-multilevel"
+    },
+    {
       "id": "rec-0001",
       "value": 1.5384615,
       "evidence": "verified",
@@ -28,6 +48,6 @@
   ],
   "claims": [],
   "contributors": 1,
-  "attempts": 6,
-  "updated": "2026-10-25T20:44:34Z"
+  "attempts": 35,
+  "updated": "2026-10-25T21:12:55Z"
 }

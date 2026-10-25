@@ -4,8 +4,8 @@ owners = ["teorth", "google-deepmind"]
 tags = ["analytic-bounds", "number-theory", "fourier-analysis", "alphaevolve"]
 listed = true
 added = "2026-10-15"
-contributors_override = 2
-attempts_override = 10
+contributors_override = 69
+attempts_override = 1231
 discussion_url = "https://github.com/google-deepmind/alphaevolve-results"
 
 [spec]

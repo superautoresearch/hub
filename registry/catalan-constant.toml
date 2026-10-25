@@ -4,7 +4,7 @@ owners = ["slitsey"]
 tags = ["lean", "number-theory", "irrationality"]
 listed = true
 added = "2026-10-08"
-contributors_override = 3
+contributors_override = 4
 attempts_override = 54
 discussion_url = "https://github.com/slitsey/catalan-irrationality-measure/issues"
 

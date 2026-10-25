@@ -24,6 +24,16 @@
       "url": "https://github.com/teorth/pfr"
     },
     {
+      "id": "pfr-marton-10",
+      "value": 10.0,
+      "evidence": "verified",
+      "author": "teorth",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 Kernel",
+      "date": "2023-12-05T12:00:00Z",
+      "url": "https://github.com/teorth/pfr"
+    },
+    {
       "id": "rec-0002",
       "value": 9.0,
       "evidence": "verified",
@@ -31,10 +41,20 @@
       "date": "2024-05-20T12:00:00Z",
       "pr": 210,
       "url": "https://github.com/teorth/pfr"
+    },
+    {
+      "id": "pfr-marton-8",
+      "value": 8.0,
+      "evidence": "verified",
+      "author": "teorth",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 Kernel",
+      "date": "2024-09-20T12:00:00Z",
+      "url": "https://github.com/teorth/pfr"
     }
   ],
   "claims": [],
-  "contributors": 1,
-  "attempts": 10,
-  "updated": "2026-10-25T20:44:34Z"
+  "contributors": 40,
+  "attempts": 316,
+  "updated": "2026-10-25T21:12:55Z"
 }

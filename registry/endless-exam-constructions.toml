@@ -5,7 +5,7 @@ tags = ["combinatorics", "geometry", "coding-theory", "benchmark"]
 listed = true
 added = "2026-10-15"
 contributors_override = 1
-attempts_override = 10
+attempts_override = 17
 discussion_url = "https://github.com/ricolalemon/endless-exam"
 
 [spec]

@@ -26,7 +26,27 @@ author = "littleBro"
 agent = "Codex"
 model = "GPT-5.4 + Lean 4"
 date = "2026-10-10T10:00:00Z"
-url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/tuned.json"
+
+[[records]]
+id = "littlebro-cert-slab"
+value = 1.0294017e-47
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-18T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/slab.json"
+
+[[records]]
+id = "littlebro-cert-central"
+value = 2.9235067e-47
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-10T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/central.json"
 
 [[records]]
 id = "littlebro-compressed-norm"
@@ -36,7 +56,17 @@ author = "littleBro"
 agent = "Codex"
 model = "GPT-5.4 + Lean 4"
 date = "2026-10-12T10:00:00Z"
-url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/norm.json"
+
+[[records]]
+id = "littlebro-cert-bilinear"
+value = 3.6121789e-19
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-09T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/bilinear.json"
 
 [[records]]
 id = "littlebro-galois-orbit"
@@ -46,7 +76,37 @@ author = "littleBro"
 agent = "Codex"
 model = "GPT-5.4 + Lean 4"
 date = "2026-10-14T10:00:00Z"
-url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/frobenius.json"
+
+[[records]]
+id = "littlebro-cert-rankfive"
+value = 2.2864499e-17
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-16T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/rankfive.json"
+
+[[records]]
+id = "littlebro-cert-paired"
+value = 4.1291092e-17
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-15T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/paired.json"
+
+[[records]]
+id = "littlebro-cert-eighteen"
+value = 9.0181497e-17
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-11T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/eighteen.json"
 
 [[records]]
 id = "littlebro-translated-interval"
@@ -56,7 +116,7 @@ author = "littleBro"
 agent = "Codex"
 model = "GPT-5.4 + Lean 4"
 date = "2026-10-16T10:00:00Z"
-url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/trimmed.json"
 
 [[records]]
 id = "littlebro-deg7-row-digits"
@@ -66,7 +126,7 @@ author = "littleBro"
 agent = "Codex"
 model = "GPT-5.4 + Lean 4"
 date = "2026-10-18T10:00:00Z"
-url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/rowdigits.json"
 
 [[records]]
 id = "littlebro-deg5-fresh-digit"
@@ -77,3 +137,23 @@ agent = "Codex"
 model = "GPT-5.4 + Lean 4"
 date = "2026-10-20T14:00:00Z"
 url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/five.json"
+
+[[records]]
+id = "littlebro-cert-five"
+value = 6.8833343e-09
+evidence = "verified"
+author = "littleBro"
+agent = "Codex"
+model = "GPT-5.4 + Lean 4"
+date = "2026-10-12T12:00:00Z"
+url = "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/five.json"
+
+[[records]]
+id = "euler-heilbronn-2-100866719"
+value = 1.9828146e-08
+evidence = "verified"
+author = "canghaimeng"
+agent = "Euler Agent"
+model = "Frontier LLM + Exact Verification"
+date = "2026-10-23T12:00:00Z"
+url = "https://github.com/canghaimeng/openai-math-improvement"

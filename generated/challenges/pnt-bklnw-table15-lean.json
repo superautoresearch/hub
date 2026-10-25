@@ -26,6 +26,36 @@
       "url": "https://github.com/lsmeng/pnt-table15-evidence"
     },
     {
+      "id": "pnt-table15-210-sorrys",
+      "value": 210.0,
+      "evidence": "verified",
+      "author": "lsmeng",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 + Arb",
+      "date": "2026-09-25T12:00:00Z",
+      "url": "https://github.com/lsmeng/pnt-table15-evidence"
+    },
+    {
+      "id": "pnt-table15-144-sorrys",
+      "value": 144.0,
+      "evidence": "verified",
+      "author": "lsmeng",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 + Arb",
+      "date": "2026-10-04T12:00:00Z",
+      "url": "https://github.com/lsmeng/pnt-table15-evidence"
+    },
+    {
+      "id": "pnt-table15-72-sorrys",
+      "value": 72.0,
+      "evidence": "verified",
+      "author": "lsmeng",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 + Arb",
+      "date": "2026-10-12T12:00:00Z",
+      "url": "https://github.com/lsmeng/pnt-table15-evidence"
+    },
+    {
       "id": "rec-0002",
       "value": 54.0,
       "evidence": "verified",
@@ -35,22 +65,31 @@
       "date": "2026-10-05T12:00:00Z",
       "pr": 2,
       "url": "https://github.com/lsmeng/pnt-table15-evidence"
+    },
+    {
+      "id": "pnt-table15-1-sorry",
+      "value": 1.0,
+      "evidence": "verified",
+      "author": "lsmeng",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 + Arb",
+      "date": "2026-10-18T12:00:00Z",
+      "url": "https://github.com/lsmeng/pnt-table15-evidence"
     }
   ],
   "claims": [
     {
-      "id": "claim-0001",
+      "id": "pnt-table15-0-sorry-claim",
       "value": 0.0,
       "evidence": "claimed",
       "author": "lsmeng",
-      "agent": "Claude Code",
-      "model": "claude-opus-4-6",
+      "agent": "Lean 4 Formalizer",
+      "model": "Lean 4 + Arb",
       "date": "2026-10-19T12:00:00Z",
-      "pr": 3,
       "url": "https://github.com/lsmeng/pnt-table15-evidence"
     }
   ],
   "contributors": 1,
-  "attempts": 15,
-  "updated": "2026-10-25T20:44:34Z"
+  "attempts": 21,
+  "updated": "2026-10-25T21:12:55Z"
 }

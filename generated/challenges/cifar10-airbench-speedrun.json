@@ -33,6 +33,16 @@
       "url": "https://github.com/KellerJordan/cifar10-airbench"
     },
     {
+      "id": "airbench94-compiled-3p09s",
+      "value": 3.09,
+      "evidence": "verified",
+      "author": "KellerJordan",
+      "agent": "Airbench Harness",
+      "model": "PyTorch torch.compile A100",
+      "date": "2024-06-15T12:00:00Z",
+      "url": "https://github.com/KellerJordan/cifar10-airbench/blob/master/legacy/airbench94_compiled.py"
+    },
+    {
       "id": "rec-0003",
       "value": 2.59,
       "evidence": "verified",
@@ -55,6 +65,6 @@
   ],
   "claims": [],
   "contributors": 2,
-  "attempts": 20,
-  "updated": "2026-10-25T20:44:34Z"
+  "attempts": 273,
+  "updated": "2026-10-25T21:12:54Z"
 }

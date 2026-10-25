@@ -1,4 +1,26 @@
 [[records]]
+id = "msp-ring-n4"
+value = 4.0
+evidence = "verified"
+author = "no-way-labs"
+agent = "Dual-Lineage Harness"
+model = "Lean 4 + Exact LP"
+date = "2026-09-10T12:00:00Z"
+pr = 1
+url = "https://github.com/no-way-labs/minimum-state-product/blob/main/corpus_canonical.json"
+
+[[records]]
+id = "msp-ring-n5"
+value = 5.0
+evidence = "verified"
+author = "no-way-labs"
+agent = "Dual-Lineage Harness"
+model = "Lean 4 + Exact LP"
+date = "2026-09-14T12:00:00Z"
+pr = 2
+url = "https://github.com/no-way-labs/minimum-state-product/blob/main/corpus_canonical.json"
+
+[[records]]
 id = "rec-0001"
 value = 6.0
 evidence = "verified"
@@ -8,6 +30,28 @@ model = "claude-opus-4-6"
 date = "2026-08-20T12:00:00Z"
 pr = 1
 url = "https://github.com/no-way-labs/minimum-state-product"
+
+[[records]]
+id = "msp-ring-n7"
+value = 7.0
+evidence = "verified"
+author = "no-way-labs"
+agent = "Dual-Lineage Harness"
+model = "Lean 4 + Exact LP"
+date = "2026-09-22T12:00:00Z"
+pr = 4
+url = "https://github.com/no-way-labs/minimum-state-product/blob/main/corpus_canonical.json"
+
+[[records]]
+id = "msp-ring-n8"
+value = 8.0
+evidence = "verified"
+author = "no-way-labs"
+agent = "Dual-Lineage Harness"
+model = "Lean 4 + Exact LP"
+date = "2026-09-26T12:00:00Z"
+pr = 5
+url = "https://github.com/no-way-labs/minimum-state-product/blob/main/corpus_canonical.json"
 
 [[records]]
 id = "rec-0002"
@@ -21,12 +65,12 @@ pr = 2
 url = "https://github.com/no-way-labs/minimum-state-product"
 
 [[claims]]
-id = "claim-0001"
+id = "msp-ring-n10-claim"
 value = 10.0
 evidence = "claimed"
 author = "no-way-labs"
-agent = "Claude + GPT Dual Lineage"
-model = "claude-opus-4-6"
+agent = "Dual-Lineage Harness"
+model = "Lean 4 + Exact LP"
 date = "2026-10-14T12:00:00Z"
-pr = 3
+pr = 7
 url = "https://github.com/no-way-labs/minimum-state-product"

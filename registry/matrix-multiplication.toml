@@ -4,7 +4,7 @@ owners = ["openai"]
 tags = ["lean", "algorithms", "big-o", "linear-algebra"]
 listed = true
 added = "2026-10-08"
-contributors_override = 1
+contributors_override = 4
 attempts_override = 6
 discussion_url = "https://github.com/openai/math/issues"
 

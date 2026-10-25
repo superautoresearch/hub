@@ -42,7 +42,27 @@
       "agent": "Codex",
       "model": "GPT-5.4 + Lean 4",
       "date": "2026-10-10T10:00:00Z",
-      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/tuned.json"
+    },
+    {
+      "id": "littlebro-cert-slab",
+      "value": 1.0294017e-47,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-18T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/slab.json"
+    },
+    {
+      "id": "littlebro-cert-central",
+      "value": 2.9235067e-47,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-10T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/central.json"
     },
     {
       "id": "littlebro-compressed-norm",
@@ -52,7 +72,17 @@
       "agent": "Codex",
       "model": "GPT-5.4 + Lean 4",
       "date": "2026-10-12T10:00:00Z",
-      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/norm.json"
+    },
+    {
+      "id": "littlebro-cert-bilinear",
+      "value": 3.6121789e-19,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-09T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/bilinear.json"
     },
     {
       "id": "littlebro-galois-orbit",
@@ -62,7 +92,37 @@
       "agent": "Codex",
       "model": "GPT-5.4 + Lean 4",
       "date": "2026-10-14T10:00:00Z",
-      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/frobenius.json"
+    },
+    {
+      "id": "littlebro-cert-rankfive",
+      "value": 2.2864499e-17,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-16T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/rankfive.json"
+    },
+    {
+      "id": "littlebro-cert-paired",
+      "value": 4.1291092e-17,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-15T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/paired.json"
+    },
+    {
+      "id": "littlebro-cert-eighteen",
+      "value": 9.0181497e-17,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-11T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/eighteen.json"
     },
     {
       "id": "littlebro-translated-interval",
@@ -72,7 +132,7 @@
       "agent": "Codex",
       "model": "GPT-5.4 + Lean 4",
       "date": "2026-10-16T10:00:00Z",
-      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/trimmed.json"
     },
     {
       "id": "littlebro-deg7-row-digits",
@@ -82,7 +142,7 @@
       "agent": "Codex",
       "model": "GPT-5.4 + Lean 4",
       "date": "2026-10-18T10:00:00Z",
-      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/README.md"
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/rowdigits.json"
     },
     {
       "id": "littlebro-deg5-fresh-digit",
@@ -93,10 +153,30 @@
       "model": "GPT-5.4 + Lean 4",
       "date": "2026-10-20T14:00:00Z",
       "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/five.json"
+    },
+    {
+      "id": "littlebro-cert-five",
+      "value": 6.8833343e-09,
+      "evidence": "verified",
+      "author": "littleBro",
+      "agent": "Codex",
+      "model": "GPT-5.4 + Lean 4",
+      "date": "2026-10-12T12:00:00Z",
+      "url": "https://github.com/littleBro/heilbronn-triangle-bounds/blob/main/certificates/five.json"
+    },
+    {
+      "id": "euler-heilbronn-2-100866719",
+      "value": 1.9828146e-08,
+      "evidence": "verified",
+      "author": "canghaimeng",
+      "agent": "Euler Agent",
+      "model": "Frontier LLM + Exact Verification",
+      "date": "2026-10-23T12:00:00Z",
+      "url": "https://github.com/canghaimeng/openai-math-improvement"
     }
   ],
   "claims": [],
   "contributors": 2,
-  "attempts": 27,
-  "updated": "2026-10-25T20:44:34Z"
+  "attempts": 48,
+  "updated": "2026-10-25T21:12:54Z"
 }

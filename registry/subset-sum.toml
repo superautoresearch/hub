@@ -5,7 +5,7 @@ tags = ["algorithms", "big-o", "fine-grained-complexity"]
 listed = true
 added = "2026-10-08"
 contributors_override = 4
-attempts_override = 15
+attempts_override = 47
 discussion_url = "https://github.com/JoshuaQFEX/subset-sum-bound/issues"
 
 [spec]

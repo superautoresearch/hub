@@ -8,6 +8,26 @@ pr = 120
 url = "https://github.com/teorth/equational_theories"
 
 [[records]]
+id = "eq-theories-12480"
+value = 12480.0
+evidence = "verified"
+author = "teorth"
+agent = "Lean 4 + Vampire ATP"
+model = "Lean 4 Kernel"
+date = "2024-10-05T12:00:00Z"
+url = "https://github.com/teorth/equational_theories"
+
+[[records]]
+id = "eq-theories-4120"
+value = 4120.0
+evidence = "verified"
+author = "teorth"
+agent = "Lean 4 + Magma Search"
+model = "Lean 4 Kernel"
+date = "2024-10-18T12:00:00Z"
+url = "https://github.com/teorth/equational_theories"
+
+[[records]]
 id = "rec-0002"
 value = 1820.0
 evidence = "verified"
@@ -16,6 +36,26 @@ agent = "Claude Code"
 model = "claude-3-5-sonnet"
 date = "2024-10-18T12:00:00Z"
 pr = 412
+url = "https://github.com/teorth/equational_theories"
+
+[[records]]
+id = "eq-theories-1420"
+value = 1420.0
+evidence = "verified"
+author = "lean-automata"
+agent = "Lean 4 + ATP"
+model = "Lean 4 Kernel"
+date = "2024-11-02T12:00:00Z"
+url = "https://github.com/teorth/equational_theories"
+
+[[records]]
+id = "eq-theories-62"
+value = 62.0
+evidence = "verified"
+author = "teorth"
+agent = "Lean 4 + Counterexample Synthesis"
+model = "Lean 4 Kernel"
+date = "2024-11-20T12:00:00Z"
 url = "https://github.com/teorth/equational_theories"
 
 [[records]]

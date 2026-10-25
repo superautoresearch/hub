@@ -4,8 +4,8 @@ owners = ["no-way-labs"]
 tags = ["lean", "distributed-systems", "combinatorics", "formal-verification"]
 listed = true
 added = "2026-10-15"
-contributors_override = 1
-attempts_override = 15
+contributors_override = 2
+attempts_override = 21
 discussion_url = "https://github.com/no-way-labs/minimum-state-product"
 
 [spec]

@@ -1,4 +1,24 @@
 [[records]]
+id = "ecodatalab-123p6"
+value = 123.6
+evidence = "verified"
+author = "EcoDataLab"
+agent = "Autonomous Agent"
+model = "Lean 4"
+date = "2026-10-14T12:00:00Z"
+url = "https://github.com/EcoDataLab/contingency-tables/blob/main/claims.json"
+
+[[records]]
+id = "ecodatalab-115"
+value = 115.0
+evidence = "verified"
+author = "EcoDataLab"
+agent = "Autonomous Agent"
+model = "Lean 4"
+date = "2026-10-18T12:00:00Z"
+url = "https://github.com/EcoDataLab/contingency-tables/tree/main/115"
+
+[[records]]
 id = "ecodatalab-1"
 value = 17.0
 evidence = "verified"

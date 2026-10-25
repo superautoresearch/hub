@@ -5,7 +5,7 @@ tags = ["mathematical-physics", "spectral-gap"]
 listed = true
 added = "2026-10-08"
 contributors_override = 1
-attempts_override = 4
+attempts_override = 27
 discussion_url = "https://github.com/amachino/haldane-gap-refinement/issues"
 
 [spec]

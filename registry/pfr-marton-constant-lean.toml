@@ -4,8 +4,8 @@ owners = ["teorth", "YaelDillies"]
 tags = ["lean", "additive-combinatorics", "formal-verification", "number-theory"]
 listed = true
 added = "2026-10-15"
-contributors_override = 1
-attempts_override = 10
+contributors_override = 40
+attempts_override = 316
 discussion_url = "https://github.com/teorth/pfr"
 
 [spec]

@@ -5,7 +5,7 @@ tags = ["lean", "geometry", "extremal-bounds"]
 listed = true
 added = "2026-10-08"
 contributors_override = 2
-attempts_override = 27
+attempts_override = 48
 discussion_url = "https://github.com/littleBro/heilbronn-triangle-bounds/issues"
 
 [spec]

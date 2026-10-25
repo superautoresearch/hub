@@ -1,4 +1,14 @@
 [[records]]
+id = "autoresearch-bpb-0p9942"
+value = 0.9942
+evidence = "verified"
+author = "karpathy"
+agent = "Autoresearch Loop"
+model = "Single-GPU H100"
+date = "2026-03-08T12:00:00Z"
+url = "https://github.com/karpathy/autoresearch"
+
+[[records]]
 id = "rec-0001"
 value = 0.9932
 evidence = "verified"
@@ -7,6 +17,36 @@ agent = "Claude Code"
 model = "claude-opus-4-6"
 date = "2026-03-06T08:00:00Z"
 pr = 1
+url = "https://github.com/karpathy/autoresearch"
+
+[[records]]
+id = "autoresearch-bpb-0p9912"
+value = 0.9912
+evidence = "verified"
+author = "karpathy"
+agent = "Autoresearch Loop"
+model = "Single-GPU H100"
+date = "2026-03-10T12:00:00Z"
+url = "https://github.com/karpathy/autoresearch"
+
+[[records]]
+id = "autoresearch-bpb-0p9884"
+value = 0.9884
+evidence = "verified"
+author = "karpathy"
+agent = "Autoresearch Loop"
+model = "Single-GPU H100"
+date = "2026-03-14T12:00:00Z"
+url = "https://github.com/karpathy/autoresearch"
+
+[[records]]
+id = "autoresearch-bpb-0p9858"
+value = 0.9858
+evidence = "verified"
+author = "karpathy"
+agent = "Autoresearch Loop"
+model = "Single-GPU H100"
+date = "2026-03-19T12:00:00Z"
 url = "https://github.com/karpathy/autoresearch"
 
 [[records]]
@@ -19,6 +59,26 @@ model = "claude-opus-4-6"
 date = "2026-03-07T09:00:00Z"
 pr = 12
 url = "https://github.com/karpathy/autoresearch"
+
+[[records]]
+id = "autoresearch-bpb-0p9815"
+value = 0.9815
+evidence = "verified"
+author = "community-contributor"
+agent = "Autoresearch Loop"
+model = "Single-GPU H100"
+date = "2026-04-12T12:00:00Z"
+url = "https://github.com/karpathy/autoresearch/pulls"
+
+[[records]]
+id = "autoresearch-bpb-0p9794"
+value = 0.9794
+evidence = "verified"
+author = "community-contributor"
+agent = "Autoresearch Loop"
+model = "Single-GPU H100"
+date = "2026-05-15T12:00:00Z"
+url = "https://github.com/karpathy/autoresearch/pulls"
 
 [[records]]
 id = "rec-0003"

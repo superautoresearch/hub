@@ -36,7 +36,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python3 -m sar check-frontier --hub .
+          python3 scripts/sync_record_history.py --hub .
           python3 -m sar sync --hub .
 
       - name: Commit updated frontier records and generated index

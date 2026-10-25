@@ -15,6 +15,16 @@
   },
   "records": [
     {
+      "id": "autoresearch-bpb-0p9942",
+      "value": 0.9942,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "Autoresearch Loop",
+      "model": "Single-GPU H100",
+      "date": "2026-03-08T12:00:00Z",
+      "url": "https://github.com/karpathy/autoresearch"
+    },
+    {
       "id": "rec-0001",
       "value": 0.9932,
       "evidence": "verified",
@@ -23,6 +33,36 @@
       "model": "claude-opus-4-6",
       "date": "2026-03-06T08:00:00Z",
       "pr": 1,
+      "url": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "id": "autoresearch-bpb-0p9912",
+      "value": 0.9912,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "Autoresearch Loop",
+      "model": "Single-GPU H100",
+      "date": "2026-03-10T12:00:00Z",
+      "url": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "id": "autoresearch-bpb-0p9884",
+      "value": 0.9884,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "Autoresearch Loop",
+      "model": "Single-GPU H100",
+      "date": "2026-03-14T12:00:00Z",
+      "url": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "id": "autoresearch-bpb-0p9858",
+      "value": 0.9858,
+      "evidence": "verified",
+      "author": "karpathy",
+      "agent": "Autoresearch Loop",
+      "model": "Single-GPU H100",
+      "date": "2026-03-19T12:00:00Z",
       "url": "https://github.com/karpathy/autoresearch"
     },
     {
@@ -37,6 +77,26 @@
       "url": "https://github.com/karpathy/autoresearch"
     },
     {
+      "id": "autoresearch-bpb-0p9815",
+      "value": 0.9815,
+      "evidence": "verified",
+      "author": "community-contributor",
+      "agent": "Autoresearch Loop",
+      "model": "Single-GPU H100",
+      "date": "2026-04-12T12:00:00Z",
+      "url": "https://github.com/karpathy/autoresearch/pulls"
+    },
+    {
+      "id": "autoresearch-bpb-0p9794",
+      "value": 0.9794,
+      "evidence": "verified",
+      "author": "community-contributor",
+      "agent": "Autoresearch Loop",
+      "model": "Single-GPU H100",
+      "date": "2026-05-15T12:00:00Z",
+      "url": "https://github.com/karpathy/autoresearch/pulls"
+    },
+    {
       "id": "rec-0003",
       "value": 0.9695,
       "evidence": "verified",
@@ -49,7 +109,7 @@
     }
   ],
   "claims": [],
-  "contributors": 2,
-  "attempts": 15,
-  "updated": "2026-10-25T20:44:34Z"
+  "contributors": 9,
+  "attempts": 408,
+  "updated": "2026-10-25T21:12:54Z"
 }

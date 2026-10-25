@@ -5,7 +5,7 @@ tags = ["number-theory", "gpu", "primes"]
 listed = true
 added = "2026-10-15"
 contributors_override = 1
-attempts_override = 6
+attempts_override = 162
 discussion_url = "https://www.mersenne.org/"
 
 [spec]

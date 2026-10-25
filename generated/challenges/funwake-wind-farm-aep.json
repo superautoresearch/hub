@@ -15,6 +15,16 @@
   },
   "records": [
     {
+      "id": "funwake-iter-042",
+      "value": 6.4,
+      "evidence": "verified",
+      "author": "kilojoules",
+      "agent": "FunWake Agent",
+      "model": "4-Parameter Schedule Search",
+      "date": "2026-09-12T12:00:00Z",
+      "url": "https://github.com/kilojoules/funwake"
+    },
+    {
       "id": "rec-0001",
       "value": 14.2,
       "evidence": "verified",
@@ -23,6 +33,16 @@
       "model": "claude-opus-4-6",
       "date": "2026-09-18T12:00:00Z",
       "pr": 1,
+      "url": "https://github.com/kilojoules/funwake"
+    },
+    {
+      "id": "funwake-iter-145",
+      "value": 19.5,
+      "evidence": "verified",
+      "author": "kilojoules",
+      "agent": "FunWake Agent",
+      "model": "4-Parameter Schedule Search",
+      "date": "2026-09-28T12:00:00Z",
       "url": "https://github.com/kilojoules/funwake"
     },
     {
@@ -38,7 +58,7 @@
     }
   ],
   "claims": [],
-  "contributors": 1,
-  "attempts": 10,
-  "updated": "2026-10-25T20:44:34Z"
+  "contributors": 2,
+  "attempts": 186,
+  "updated": "2026-10-25T21:12:54Z"
 }

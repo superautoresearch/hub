@@ -57,6 +57,7 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-10T07:47:35Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/single-prime-29-33-20261010"
+pr = 8
 
 [[records]]
 id = "akashlevy-20261009-weighted-numerator"
@@ -127,6 +128,7 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-14T04:00:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/gao-cycle61-plane-20261013"
+pr = 43
 
 [[records]]
 id = "marked-high-count-20261014"
@@ -137,6 +139,7 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-14T12:00:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/marked-high-count-20261014"
+pr = 48
 
 [[records]]
 id = "detector-affine-c0125154"
@@ -177,6 +180,7 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-17T10:00:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/no-hardcoding-20261017"
+pr = 64
 
 [[records]]
 id = "gao-balanced-marked-20261017"
@@ -187,6 +191,7 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-17T18:00:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/gao-balanced-marked-20261017"
+pr = 63
 
 [[records]]
 id = "sil-uneven-normalization-20261019"
@@ -197,6 +202,7 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-19T10:00:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/sil-uneven-normalization-20261019"
+pr = 66
 
 [[records]]
 id = "two-level-affine-20261019"
@@ -217,23 +223,48 @@ agent = "Autonomous Agent"
 model = "Lean 4 / Frontier LLM"
 date = "2026-10-20T12:00:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/gao-five-step-affine-20261020"
+pr = 68
 
-[[claims]]
+[[records]]
+id = "hailey-collet-1252270103"
+value = 0.8747729897
+evidence = "verified"
+author = "Hailey"
+agent = "Autonomous Agent"
+model = "Lean 4 / 3-Kernel Verified"
+date = "2026-10-22T22:13:39Z"
+url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/hailey-collet-1252270103"
+pr = 69
+
+[[records]]
 id = "lewko-acyclic-bootstrap-874772906"
 value = 0.874772906
-evidence = "claimed"
+evidence = "verified"
 author = "Mark"
 agent = "Autonomous Agent"
-model = "Lean 4 / Frontier LLM"
-date = "2026-10-21T12:00:00Z"
+model = "Lean 4 / 3-Kernel Verified"
+date = "2026-10-23T10:21:00Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/lewko-acyclic-bootstrap-874772906"
+pr = 70
 
-[[claims]]
+[[records]]
 id = "slayer-recost-0p87477290596"
 value = 0.87477290596
-evidence = "claimed"
+evidence = "verified"
 author = "Slayer"
 agent = "Autonomous Agent"
-model = "Lean 4 / Frontier LLM"
-date = "2026-10-22T12:00:00Z"
+model = "Lean 4 / 3-Kernel Verified"
+date = "2026-10-24T21:41:24Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/slayer-recost-0p87477290596"
+pr = 71
+
+[[records]]
+id = "arvi-repeated-marks-20261024"
+value = 0.8747289
+evidence = "verified"
+author = "ArviFoxy"
+agent = "Autonomous Agent"
+model = "Lean 4 / 3-Kernel Verified"
+date = "2026-10-25T20:44:20Z"
+url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/arvi-repeated-marks-20261024"
+pr = 73
