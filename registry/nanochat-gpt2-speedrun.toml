@@ -5,7 +5,7 @@ tags = ["speedrun", "autoresearch", "kernels", "llm", "optimization"]
 listed = true
 added = "2026-10-15"
 contributors_override = 57
-attempts_override = 544
+attempts_override = 545
 discussion_url = "https://github.com/karpathy/nanochat/pulls"
 
 [spec]
