@@ -137,7 +137,7 @@
   "claims": [],
   "contributors": 11,
   "attempts": 51,
-  "updated": "2026-10-26T01:03:20Z",
+  "updated": "2026-10-26T06:16:15Z",
   "title": "3SUM exponent",
   "summary": "Lower the exponent of the best provable 3SUM algorithm in the word-RAM model.",
   "verifier": {

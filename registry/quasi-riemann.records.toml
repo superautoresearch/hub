@@ -268,3 +268,14 @@ model = "Lean 4 / 3-Kernel Verified"
 date = "2026-10-25T20:44:20Z"
 url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/arvi-repeated-marks-20261024"
 pr = 73
+
+[[records]]
+id = "arvi-repeated-marks-on-sil-face-20261025"
+value = 0.8746075
+evidence = "verified"
+author = "Arvi"
+agent = "Autonomous Agent"
+model = "Lean 4 / 3-Kernel Verified"
+date = "2026-10-26T01:21:30Z"
+url = "https://github.com/GTimG/QuasiRiemannTracker/tree/main/submissions/arvi-repeated-marks-on-sil-face-20261025"
+pr = 76
