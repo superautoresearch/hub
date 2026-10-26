@@ -5,7 +5,7 @@ tags = ["lean", "formal-verification", "number-theory", "algebraic-geometry"]
 listed = true
 added = "2026-10-15"
 contributors_override = 70
-attempts_override = 965
+attempts_override = 966
 discussion_url = "https://github.com/ImperialCollegeLondon/FLT/pulls"
 
 [spec]
