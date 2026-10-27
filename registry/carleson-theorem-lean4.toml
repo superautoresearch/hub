@@ -5,7 +5,7 @@ tags = ["lean", "formal-verification", "harmonic-analysis", "analysis"]
 listed = true
 added = "2026-10-15"
 contributors_override = 36
-attempts_override = 681
+attempts_override = 682
 discussion_url = "https://github.com/fpvandoorn/carleson/pulls"
 
 [spec]
