@@ -5,7 +5,7 @@ tags = ["manual", "ml-systems", "training-speedrun"]
 listed = true
 added = 2026-09-20
 contributors_override = 78
-attempts_override = 290
+attempts_override = 291
 discussion_url = "https://github.com/superautoresearch/hub/discussions/2"
 
 [spec]

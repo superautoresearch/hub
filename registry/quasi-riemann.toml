@@ -5,7 +5,7 @@ tags = ["lean", "number-theory", "analytic-bounds"]
 listed = true
 added = "2026-10-08"
 contributors_override = 18
-attempts_override = 82
+attempts_override = 85
 discussion_url = "https://github.com/GTimG/QuasiRiemannTracker/issues"
 
 [spec]
