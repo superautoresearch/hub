@@ -4,8 +4,8 @@ owners = ["GTimG", "nielstron"]
 tags = ["lean", "number-theory", "analytic-bounds"]
 listed = true
 added = "2026-10-08"
-contributors_override = 17
-attempts_override = 81
+contributors_override = 18
+attempts_override = 82
 discussion_url = "https://github.com/GTimG/QuasiRiemannTracker/issues"
 
 [spec]

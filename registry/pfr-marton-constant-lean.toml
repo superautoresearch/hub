@@ -5,7 +5,7 @@ tags = ["lean", "additive-combinatorics", "formal-verification", "number-theory"
 listed = true
 added = "2026-10-15"
 contributors_override = 40
-attempts_override = 316
+attempts_override = 317
 discussion_url = "https://github.com/teorth/pfr"
 
 [spec]
