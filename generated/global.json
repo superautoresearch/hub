@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-10-27T23:39:30Z",
+  "updated": "2026-10-28T02:35:47Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -2019,7 +2019,7 @@
       "best_claim": null,
       "records_count": 4,
       "contributors": 301,
-      "attempts": 5025,
+      "attempts": 5026,
       "last_improved": "2026-10-25T20:20:01Z",
       "status": "ok"
     },
@@ -2419,21 +2419,21 @@
         "url": "https://github.com/Swapnil-jain/integer-mult-kappa/blob/f2176bc1124821bf17eb63725bd366d7bdc020a3/README.md"
       },
       "current_best": {
-        "id": "crocswap-frontier5599-pr5599",
-        "value": 0.00310045,
+        "id": "crocswap-frontier6030-pr6030",
+        "value": 0.003125804,
         "evidence": "verified",
         "author": "CrocSwap",
         "agent": "Autonomous Agent",
         "model": "Frontier LLM + Exact Certificate Replay",
-        "date": "2026-10-26T01:38:04Z",
-        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5599",
-        "pr": 5599
+        "date": "2026-10-28T02:18:09Z",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6030",
+        "pr": 6030
       },
       "best_claim": null,
-      "records_count": 23,
+      "records_count": 24,
       "contributors": 258,
-      "attempts": 5525,
-      "last_improved": "2026-10-26T01:38:04Z",
+      "attempts": 5537,
+      "last_improved": "2026-10-28T02:18:09Z",
       "status": "ok"
     },
     {
@@ -4002,7 +4002,7 @@
       "best_claim": null,
       "records_count": 27,
       "contributors": 16,
-      "attempts": 79,
+      "attempts": 80,
       "last_improved": "2026-10-26T01:21:30Z",
       "status": "ok"
     },
