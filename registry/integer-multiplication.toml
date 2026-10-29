@@ -5,7 +5,7 @@ tags = ["lean", "algorithms", "big-o", "arithmetic"]
 listed = true
 added = "2026-10-08"
 contributors_override = 259
-attempts_override = 5653
+attempts_override = 5668
 discussion_url = "https://github.com/CrocSwap/integer-mult-bounds/discussions"
 
 [spec]
