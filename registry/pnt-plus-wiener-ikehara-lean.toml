@@ -5,7 +5,7 @@ tags = ["lean", "formal-verification", "number-theory", "analytic-number-theory"
 listed = true
 added = "2026-10-15"
 contributors_override = 73
-attempts_override = 1400
+attempts_override = 1401
 discussion_url = "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/pulls"
 
 [spec]
