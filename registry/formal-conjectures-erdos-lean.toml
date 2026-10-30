@@ -5,7 +5,7 @@ tags = ["lean", "formal-verification", "number-theory", "combinatorics", "erdos"
 listed = true
 added = "2026-10-15"
 contributors_override = 301
-attempts_override = 5075
+attempts_override = 5078
 discussion_url = "https://github.com/google-deepmind/formal-conjectures/pulls"
 
 [spec]

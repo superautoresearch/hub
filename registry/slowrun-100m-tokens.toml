@@ -5,7 +5,7 @@ tags = ["speedrun", "autoresearch", "kernels", "optimization", "llm"]
 listed = true
 added = "2026-10-15"
 contributors_override = 20
-attempts_override = 89
+attempts_override = 92
 discussion_url = "https://github.com/qlabs-eng/slowrun/pulls"
 
 [spec]
