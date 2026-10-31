@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-10-31T17:53:20Z",
+  "updated": "2026-10-31T21:10:10Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -3411,7 +3411,7 @@
       "best_claim": null,
       "records_count": 91,
       "contributors": 78,
-      "attempts": 291,
+      "attempts": 293,
       "last_improved": "2026-08-30T12:00:00Z",
       "status": "ok"
     },
