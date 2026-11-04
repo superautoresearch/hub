@@ -5,7 +5,7 @@ tags = ["gpu", "ml-training", "llm", "autoresearch", "pytorch"]
 listed = true
 added = "2026-10-15"
 contributors_override = 9
-attempts_override = 410
+attempts_override = 411
 discussion_url = "https://github.com/karpathy/autoresearch"
 
 [spec]
