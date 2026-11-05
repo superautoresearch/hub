@@ -5,7 +5,7 @@ tags = ["coq", "lean", "computability", "formal-verification"]
 listed = true
 added = "2026-10-15"
 contributors_override = 19
-attempts_override = 44
+attempts_override = 45
 discussion_url = "https://bbchallenge.org/"
 
 [spec]
