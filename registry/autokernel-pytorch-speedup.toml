@@ -5,7 +5,7 @@ tags = ["kernels", "autoresearch", "triton", "cuda", "speedrun"]
 listed = true
 added = "2026-10-15"
 contributors_override = 5
-attempts_override = 12
+attempts_override = 13
 discussion_url = "https://github.com/RightNow-AI/autokernel/pulls"
 
 [spec]
