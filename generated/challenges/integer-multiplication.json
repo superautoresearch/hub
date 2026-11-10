@@ -274,10 +274,21 @@
       "date": "2026-10-28T02:18:09Z",
       "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6030",
       "pr": 6030
+    },
+    {
+      "id": "crocswap-frontier7000-pr7000",
+      "value": 0.00363005817,
+      "evidence": "verified",
+      "author": "CrocSwap",
+      "agent": "Autonomous Agent",
+      "model": "Frontier LLM + Exact Certificate Replay",
+      "date": "2026-11-10T14:54:31Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7000",
+      "pr": 7000
     }
   ],
   "claims": [],
   "contributors": 263,
-  "attempts": 6571,
-  "updated": "2026-11-10T11:36:36Z"
+  "attempts": 6591,
+  "updated": "2026-11-10T18:08:56Z"
 }
