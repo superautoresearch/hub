@@ -19,6 +19,36 @@ date = "2026-09-30T12:00:00Z"
 url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
 
 [[records]]
+id = "protonanogpt-wr-15-112620s"
+value = 112620.0
+evidence = "verified"
+author = "ZHouyuhan"
+agent = "Protocol Learning Harness"
+model = "ReparamSSN K160 + int8 wire codec (per-token bf16 scale, RTN fwd / s"
+date = "2026-11-01T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-14-94334s"
+value = 94334.0
+evidence = "verified"
+author = "Dmitry-Abulkanou"
+agent = "Protocol Learning Harness"
+model = "SSN K=160 with int8 forward / stochastic int4 backward coordinate qu"
+date = "2026-10-26T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-13-87976s"
+value = 87976.0
+evidence = "verified"
+author = "Dmitry-Abulkanou"
+agent = "Protocol Learning Harness"
+model = "-"
+date = "2026-10-30T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
 id = "protonanogpt-wr-05-84813s"
 value = 84813.0
 evidence = "verified"
@@ -39,6 +69,26 @@ date = "2026-10-05T12:00:00Z"
 url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
 
 [[records]]
+id = "protonanogpt-wr-10-41826s"
+value = 41826.0
+evidence = "verified"
+author = "ZHouyuhan"
+agent = "Protocol Learning Harness"
+model = "ReparamSSN K160 + continuous 1F1B (weight stashing, staleness<=1) + "
+date = "2026-11-02T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-09-41099s"
+value = 41099.0
+evidence = "verified"
+author = "lusxvr"
+agent = "Protocol Learning Harness"
+model = "v1"
+date = "2026-11-07T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
 id = "protonanogpt-wr-03-17785s"
 value = 17785.0
 evidence = "verified"
@@ -46,6 +96,16 @@ author = "random_sequence"
 agent = "Protocol Learning Harness"
 model = "Optimized Pipeline-Parallel Activation Compression (87 B/token)"
 date = "2026-10-08T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-07-13903s"
+value = 13903.0
+evidence = "verified"
+author = "LOG-POSTECH"
+agent = "Protocol Learning Harness"
+model = "Additional compression with SSN"
+date = "2026-10-30T12:00:00Z"
 url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
 
 [[records]]
@@ -59,6 +119,36 @@ date = "2026-10-13T12:00:00Z"
 url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
 
 [[records]]
+id = "protonanogpt-wr-05-11639s"
+value = 11639.0
+evidence = "verified"
+author = "Kishore-Nori"
+agent = "Protocol Learning Harness"
+model = "Compressed subspace boundary with an overlapped async pipeline"
+date = "2026-11-12T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-04-7501s"
+value = 7501.0
+evidence = "verified"
+author = "LOG-POSTECH"
+agent = "Protocol Learning Harness"
+model = "v2"
+date = "2026-11-09T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-03-6298s"
+value = 6298.0
+evidence = "verified"
+author = "LOG-POSTECH"
+agent = "Protocol Learning Harness"
+model = "v3"
+date = "2026-11-12T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
 id = "protonanogpt-wr-01-5986s"
 value = 5986.0
 evidence = "verified"
@@ -66,4 +156,14 @@ author = "Xingyu_9"
 agent = "Protocol Learning Harness"
 model = "Compressed Pipeline Communication + Overlapped Schedule (57 B/token)"
 date = "2026-10-17T12:00:00Z"
+url = "https://github.com/PluralisResearch/ProtocolNanoGPT"
+
+[[records]]
+id = "protonanogpt-wr-01-5962s"
+value = 5962.0
+evidence = "verified"
+author = "LOG-POSTECH"
+agent = "Protocol Learning Harness"
+model = "v4"
+date = "2026-11-16T12:00:00Z"
 url = "https://github.com/PluralisResearch/ProtocolNanoGPT"

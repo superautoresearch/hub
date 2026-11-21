@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-11-21T12:18:13Z",
+  "updated": "2026-11-21T16:39:18Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -2019,7 +2019,7 @@
       "best_claim": null,
       "records_count": 4,
       "contributors": 313,
-      "attempts": 5394,
+      "attempts": 5398,
       "last_improved": "2026-10-25T20:20:01Z",
       "status": "ok"
     },
@@ -2432,7 +2432,7 @@
       "best_claim": null,
       "records_count": 25,
       "contributors": 263,
-      "attempts": 7484,
+      "attempts": 7489,
       "last_improved": "2026-11-10T14:54:31Z",
       "status": "ok"
     },
@@ -3886,20 +3886,20 @@
         "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
       },
       "current_best": {
-        "id": "protonanogpt-wr-01-5986s",
-        "value": 5986.0,
+        "id": "protonanogpt-wr-01-5962s",
+        "value": 5962.0,
         "evidence": "verified",
-        "author": "Xingyu_9",
+        "author": "LOG-POSTECH",
         "agent": "Protocol Learning Harness",
-        "model": "Compressed Pipeline Communication + Overlapped Schedule (57 B/token)",
-        "date": "2026-10-17T12:00:00Z",
+        "model": "v4",
+        "date": "2026-11-16T12:00:00Z",
         "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
       },
       "best_claim": null,
-      "records_count": 7,
-      "contributors": 5,
+      "records_count": 17,
+      "contributors": 10,
       "attempts": 25,
-      "last_improved": "2026-10-17T12:00:00Z",
+      "last_improved": "2026-11-16T12:00:00Z",
       "status": "ok"
     },
     {
