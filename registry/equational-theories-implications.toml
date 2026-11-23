@@ -4,7 +4,7 @@ owners = ["teorth"]
 tags = ["lean", "algebra", "automated-reasoning", "formal-verification"]
 listed = true
 added = "2026-10-15"
-contributors_override = 69
+contributors_override = 70
 attempts_override = 1242
 discussion_url = "https://github.com/teorth/equational_theories"
 
