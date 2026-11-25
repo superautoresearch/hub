@@ -4,7 +4,7 @@ owners = ["PluralisResearch"]
 tags = ["speedrun", "distributed", "compression", "kernels", "llm"]
 listed = true
 added = "2026-10-15"
-contributors_override = 10
+contributors_override = 11
 attempts_override = 25
 discussion_url = "https://github.com/PluralisResearch/ProtocolNanoGPT/pulls"
 

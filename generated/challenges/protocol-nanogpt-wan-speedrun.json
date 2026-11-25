@@ -35,6 +35,16 @@
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     },
     {
+      "id": "protonanogpt-wr-20-116564s",
+      "value": 116564.0,
+      "evidence": "verified",
+      "author": "ravit",
+      "agent": "Protocol Learning Harness",
+      "model": "1123_v01",
+      "date": "2026-11-23T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
       "id": "protonanogpt-wr-15-112620s",
       "value": 112620.0,
       "evidence": "verified",
@@ -213,10 +223,20 @@
       "model": "MAPL v2 freeze",
       "date": "2026-11-23T12:00:00Z",
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-01-3463s",
+      "value": 3463.0,
+      "evidence": "verified",
+      "author": "Paul-Janson",
+      "agent": "Protocol Learning Harness",
+      "model": "MAPL v2.01",
+      "date": "2026-11-25T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     }
   ],
   "claims": [],
-  "contributors": 10,
+  "contributors": 11,
   "attempts": 25,
-  "updated": "2026-11-24T20:48:24Z"
+  "updated": "2026-11-25T01:01:44Z"
 }
