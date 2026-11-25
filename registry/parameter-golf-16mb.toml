@@ -5,7 +5,7 @@ tags = ["speedrun", "compression", "kernels", "autoresearch", "llm"]
 listed = true
 added = "2026-10-15"
 contributors_override = 51
-attempts_override = 2076
+attempts_override = 2077
 discussion_url = "https://github.com/openai/parameter-golf/pulls"
 
 [spec]
