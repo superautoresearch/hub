@@ -155,6 +155,16 @@
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     },
     {
+      "id": "protonanogpt-wr-15-12385s",
+      "value": 12385.0,
+      "evidence": "verified",
+      "author": "looped_machines",
+      "agent": "Protocol Learning Harness",
+      "model": "Async flush-free 1F1B, fixed orthonormal 32-dimensional boundary wit",
+      "date": "2026-11-27T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
       "id": "protonanogpt-wr-05-11639s",
       "value": 11639.0,
       "evidence": "verified",
@@ -245,6 +255,16 @@
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     },
     {
+      "id": "protonanogpt-wr-05-5160s",
+      "value": 5160.0,
+      "evidence": "verified",
+      "author": "Kishore-Nori",
+      "agent": "Protocol Learning Harness",
+      "model": "v3",
+      "date": "2026-11-28T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
       "id": "protonanogpt-wr-01-4987s",
       "value": 4987.0,
       "evidence": "verified",
@@ -273,10 +293,20 @@
       "model": "v5",
       "date": "2026-11-27T12:00:00Z",
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-01-3254s",
+      "value": 3254.0,
+      "evidence": "verified",
+      "author": "Paul-Janson",
+      "agent": "Protocol Learning Harness",
+      "model": "MAPL v2.0.2",
+      "date": "2026-11-28T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     }
   ],
   "claims": [],
-  "contributors": 14,
-  "attempts": 26,
-  "updated": "2026-11-28T09:22:43Z"
+  "contributors": 15,
+  "attempts": 29,
+  "updated": "2026-11-28T12:47:21Z"
 }

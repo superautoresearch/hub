@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "hub": "superautoresearch/hub",
-  "updated": "2026-11-28T09:22:43Z",
+  "updated": "2026-11-28T12:47:21Z",
   "challenges": [
     {
       "slug": "3sum-exponent",
@@ -2019,7 +2019,7 @@
       "best_claim": null,
       "records_count": 4,
       "contributors": 316,
-      "attempts": 5719,
+      "attempts": 5736,
       "last_improved": "2026-10-25T20:20:01Z",
       "status": "ok"
     },
@@ -3886,20 +3886,20 @@
         "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
       },
       "current_best": {
-        "id": "protonanogpt-wr-01-3329s",
-        "value": 3329.0,
+        "id": "protonanogpt-wr-01-3254s",
+        "value": 3254.0,
         "evidence": "verified",
-        "author": "LOG-POSTECH",
+        "author": "Paul-Janson",
         "agent": "Protocol Learning Harness",
-        "model": "v5",
-        "date": "2026-11-27T12:00:00Z",
+        "model": "MAPL v2.0.2",
+        "date": "2026-11-28T12:00:00Z",
         "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
       },
       "best_claim": null,
-      "records_count": 26,
-      "contributors": 14,
-      "attempts": 26,
-      "last_improved": "2026-11-27T12:00:00Z",
+      "records_count": 29,
+      "contributors": 15,
+      "attempts": 29,
+      "last_improved": "2026-11-28T12:00:00Z",
       "status": "ok"
     },
     {
