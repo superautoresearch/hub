@@ -145,6 +145,16 @@
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     },
     {
+      "id": "protonanogpt-wr-13-12444s",
+      "value": 12444.0,
+      "evidence": "verified",
+      "author": "ReopenAI",
+      "agent": "Protocol Learning Harness",
+      "model": "K128 quantized boundaries with an asynchronous pipeline",
+      "date": "2026-11-26T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
       "id": "protonanogpt-wr-05-11639s",
       "value": 11639.0,
       "evidence": "verified",
@@ -165,6 +175,16 @@
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     },
     {
+      "id": "protonanogpt-wr-10-9071s",
+      "value": 9071.0,
+      "evidence": "verified",
+      "author": "vatsal",
+      "agent": "Protocol Learning Harness",
+      "model": "w4_05: frozen MAPL with mixed boundary ranks and late-stage loops",
+      "date": "2026-11-26T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
       "id": "protonanogpt-wr-04-7501s",
       "value": 7501.0,
       "evidence": "verified",
@@ -172,6 +192,16 @@
       "agent": "Protocol Learning Harness",
       "model": "v2",
       "date": "2026-11-09T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-08-7426s",
+      "value": 7426.0,
+      "evidence": "verified",
+      "author": "RNDTST",
+      "agent": "Protocol Learning Harness",
+      "model": "v0",
+      "date": "2026-11-25T12:00:00Z",
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     },
     {
@@ -233,10 +263,20 @@
       "model": "MAPL v2.01",
       "date": "2026-11-25T12:00:00Z",
       "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
+    },
+    {
+      "id": "protonanogpt-wr-01-3329s",
+      "value": 3329.0,
+      "evidence": "verified",
+      "author": "LOG-POSTECH",
+      "agent": "Protocol Learning Harness",
+      "model": "v5",
+      "date": "2026-11-27T12:00:00Z",
+      "url": "https://github.com/PluralisResearch/ProtocolNanoGPT"
     }
   ],
   "claims": [],
-  "contributors": 11,
-  "attempts": 25,
-  "updated": "2026-11-27T22:21:38Z"
+  "contributors": 14,
+  "attempts": 26,
+  "updated": "2026-11-28T01:28:37Z"
 }
